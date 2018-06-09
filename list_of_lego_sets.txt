@@ -1,0 +1,416 @@
+1761	Paradisa Motorboat	1995	17	Boat driver	
+1815	Paradisa Lifeguard	1996	56	Lifeguards (X2)	
+2870	Paradisa Barbecue	1997	18	Civilian	
+6401	Seaside Cabana	1992	42	Civilians (X2)	
+6402	Sidewalk Cafe	1994	43	Civilians (X2)	
+6403	Paradise Playground	1993	91	Civilians (X3)	
+6404	Carriage Ride	1996	60	Civilians (X2)	
+6405	Sunset Stables	1992	126	Civilian, Jockey	
+6409	Island Arcade	1993	140	Civilians (X5)	
+6410	Cabana Beach	1994	145	Attendant, Boat driver, Civilians (X2)	
+6411	Sand Dollar Cafe	1992	163	Lifeguard, Boat driver, Civilians (X3)	
+6414	Dolphin Point	1995	198	Boat Driver, Lifeguard, Civilians (X2)	
+6416	Poolside Paradise	1992	219	Butler, Civilians (X3)	
+6417	Jumping Course	1997	35	Jockey	
+6418	Country Club	1996	272	Butler, Civilians (X4)	
+6419	Rolling Acres Ranch	1992	348	Jockey, Civilians (X2)	
+6489	Seaside Holiday Cottage	1997	84	Boat driver, Civilian	
+6547
+1610	Police Car	1991		
+1702	Fire Fighter 4 X 4		Fireman	
+1710
+1730	Snow Scooter		Driver	
+1895	Police Jet and Motorcycle		Policeman, Pilot	
+6340	Hook & Ladder		Fireman (2X)	
+6344	Jet Speed Justice		Pilot, Boat driver	
+6348	Surveillance Squad		Police agent, Policeman, Driver	
+6398	Central Precinct HQ		Pilot, Policeman (3X), Crook	
+6483	Coastal Patrol		Boat driver, Policeman (2X)	
+6525	Blaze Commander		Fireman	
+6545	Search N' Rescue		Pilot, Policeman (2X)	
+6571	Flame Fighters		Pilot, Fireman (3X)	
+6598	Metro PD Station		Crook, Civilian (2X), Policeman (2X), Driver, Pilot, Boat Driver	
+6625	Speed Trackers		Policeman (2X)	
+6664
+7035
+6618
+1282
+1272	Turbo Racer		Pilot	
+6619
+1283
+1273	Rough Rider		Pilot	
+1284
+6707	Green Buggy		Pilot	
+1461	Turbo Force		Pilot	
+1477
+6509	Red Racer		Pilot	
+1496	Rally Car		Pilot	
+1497	Pitstop and Crew		Supplier, Pilot	
+1517	Race Car (I)		Pilot	
+1518	Race Car Repair		Operator (Two)	
+1528	Dragster		Pilot	
+1611	Dune Buggy			
+1631	Race Car (II)			
+1665	Dual FX Racers		Pilot (Two), Operator	
+1693	Race Car (III)			
+1750	Renault Race Car		Pilot	
+1762	Town Bag		Pilot	
+1821	Rally Racers		Pilot (Two), Operator	
+1890	Octan Racer		Pilot	
+1899	Race Car Number 1		Pilot	
+1966	Garage, Truck, and Carts		Mechanical, Supplier	
+1990	F1 Race Car		Pilot	
+1991	Racing Pickup		Pilot	
+1992	Dragsters		Pilot (Two)	
+5599	Radio Control Racer		Pilot	
+6334	Wave Jump Racers		Driver, Race boat drivers (Two), Operator	
+6335	Indy Transport		Pilot (Two), Operator	
+6337	Fast Track Finish		Pilot (Two), Operators (Three), Reporter	
+6400
+6406	Go-Cart		Pilot	
+6484	F1 Hauler		Pilot, Operators (Two)	
+6510	Mud Runner		Pilot	
+6513	Glade Runner		Boat race driver	
+6517	Water Jet		Boat race driver	
+6519	Turbo Tiger		Pilot	
+6537	Hydro Racer		Boat race driver	
+6538	Rebel Roadster		Operator	
+6539	Victory Cup Racers		Supplier, Operators (Two), Driver	
+6546	Slick Racer		Pilot	
+6551	Checkered Flag 500		Pilot (Two), Operators (Two), Civilian (Two)	
+6561	Hot Rod Club		Operators (Three)	
+6596	Wave Master		Boat race driver	
+6602	Scorpion Buggy		Pilot	
+6616	Rocket Dragster		Pilot	
+6617	Tough Truck Rally		Pilot (Two), Operators (Two)	
+6639	Raven Racer		Pilot	
+6646	Screaming Patriot		Pilot	
+6648	Mag Racer		Pilot	
+6663	Wave Rebel		Octan supplier	
+6670	Rescue Rig		Mechanical	
+6713	Grip-n-Go Challenge		Pilots (Two), Operator	
+6714	Speed Dragster		Pilot	
+6353	Coastal Cutter	1991	Boat Drivers (Two)	
+6540	Pier Police	1991	Policemen (Four)	
+6541	Intercoastal Seaport	1991	Policeman, Driver, Operators (Three), Civilian	
+6542	Launch & Load Seaport	1991	Policeman, Boat captains (Two), Operators (Four)	
+6679	Dark Shark	1991	Boat race driver (Two)	
+1475	Airport Security Squad		Pilot, Operator	
+6331	Patriot Jet		Pilot, Operator	
+6341	Gas N' Go Flyer		Supplier, Pilot	
+6342	Beach Rescue Chopper		Pilot, Rescueman, Boat driver	
+6345	Aerial Acrobats		Pilot (Two), Operator, Civilian (Two)	
+6346	Shuttle Launching Crew		Security Guards (Two), Drivers (Two), Pilot	
+6399	Airport Shuttle		Civilian (Five), Operator (Two), Pilot (Two)	
+6515	Stunt Copter		Pilot	
+6536	Aero Hawk		Pilot	
+6597	Century Skyway		Suppliers (Two), Civilian (Three), Aero attendant, Pilot (Two), Policeman, Operators (Three)	(reissued in 2004 as 10159 City Airport)
+6615	Eagle Stunt Flyer		Pilot	
+6687	Turbo Prop I		Operator, Pilot	
+1896	Trauma Team	1992	Pilot, Civilian, Paramedics (Three)	
+6389	Fire Control Center	1992	Pilot, Fireman (Three)	
+6511	Rescue Runabout	1992	Fireman	
+6531	Flame Chaser	1992	Pilot	
+6593	Blaze Battler	1992	Fireman	
+6336	Launch Response Unit		Pilot, Driver	
+6339	Shuttle Launch Pad		Operators (2X), Scientist, Astronaut	
+6516	Moon Walker		Astronaut	
+6544	Shuttle Transcon 2		Operators (2X), Astronaut	
+6614
+1782
+2536	Water Jet
+1998	Female Diver	Red Jet Ski	22 elements
+2871	Diver & Shark	1997	Diver, Great White Shark	Underwater Scooter	14 elements
+6441	Deep Reef Refuge	1997	Divers (3), Submersible Driver, Boat Captain, Great White Shark, Octopus, Stingray (2), Sawfish, Dolphin	Laboratory, Expedition Boat, Yellow Submersible	433 elements
+6442	Stingray Explorer	1997	Divers (2), Submersible Driver, Stingray	Yellow Submersible, Camera and Shipwreck	147 elements
+6555	Sea Hunter	1997	Diver, Sawfish	Reef, Raft	30 elements
+6556	Scuba Squad	1997	Diver, Driver	Truck, Trailer and Raft	72 elements
+6557	Treasure Hunters
+1997	Boat Captain, Submersible Driver, Diver, Stingray	Boat, Mini Sub and Shipwreck	139 elements
+6558	Shark Cage Cove	1997	Boat Captain, Divers (2), Basking Shark, Great White Shark, Sawfish	Boat, Shark Cage and Cave	185 elements
+6559	Deep Sea Bounty
+1997	Divers (2), Boat Captain (2), Submersible Driver, Basking Shark, Sawfish, Octopus, Stingray	Pontoon Boat, Shark Cage, Mini Sub, Raft, Whale Cave and Reef	344 elements
+6560	Diving Expedition Explorer
+1997	Divers (4), Boat Captain, Submersible Driver, Skeleton, Great White Shark, Sawfish, Stingray	Large Expedition Boat, Raft, Submersible and Reef	464 elements
+6599	Shark Attack
+1997	Diver, Submersible Driver, Great White Shark, Sawfish, Basking Shark	Mini Sub	55 elements
+6444	Outback Airstrip	1997	Supplier, Pilot, Cleaner	157 elements
+6487	Mountain Rescue	1997	Pilot	67 elements
+6490	Amazon Crossing	1997	Explorer	117 elements
+6550	Outback Racer	1997	Driver	48 elements
+6553	Crisis News Crew	1997	Pilot, Cameraman, Reporter	133 elements
+1068	Air Patrol		Pilot	
+1070	Stunt Flyer		Pilot	
+1088	Road Burner			
+1096	Race Buggy		Pilot	
+1098	Hang Glider		Sportsman	
+1188	Fire Formula		Pilot	
+1189	Rocket Boat		Driver	
+1190	Retro Buggy		Pilot	
+1191	Try Bird		Pilot	
+2963	Extreme Racer		Pilot	
+6567	Speed Splasher		Pilot	
+6568	Drag Race Rally		2 Drivers, Pilot, Supplier	
+6572	Wind Runners		Sportsman, Driver	
+6580	Land Jet 7		Pilot, Supplier	
+6582	Daredevil Flight Squad		Pilots (Two), Supplier	
+6584	Extreme Team Challenge		Sportsman (Four)	
+6585	Hang Glider		Sportsman	
+6589	Radical Racer		Driver	
+1180
+1265
+3068	Moon Buggy/Radar Buggy	1999	Astronaut	
+1181
+1266
+3069	Spacecraft/Space Probe/Cosmic Wing	1999	Astronaut	
+3066	Cosmo Glider	1999	Astronaut	
+3067	Test Shuttle X	1999	Scientist	
+6452	Mini Rocket Launcher	1999	Scientist	
+6453	Com-Link Cruiser	1999	Ground Control Technician	
+6454	Countdown Corner	1999	Astronaut	
+6455	Space Simulation Station	1999	Astronaut, Ground Control Technician, Scientist	
+6456	Mission Control	1999	Astronaut, Two (2) Ground Control Technicians, Scientist	
+6457	Astronaut Figure	1999	Astronaut	
+6458	Satellite with Astronaut	1999	Astronaut	
+6459	Fuel Truck	1999	Ground Control Technician, Firefighter	
+6460	Unknown	1999	Ground Control Technician	Unreleased
+6461	Surveillance Chopper	1999	Space Port Security Guard	
+6463	Lunar Rover	1999	Astronaut	
+6465	Space Port Jet	1999	Astronaut	
+1069	Speed Boat	1998	Swimmer	
+1097	RES-Q Runner	1998	Pilot	
+2962	Life Guard RES-Q	1998	Driver, Female Lifeguard	
+6431	Road Rescue	1998	Driver	
+6445	Emergency Evac	1998	Driver	
+6451	River Response	1998	Rescue (Two), Driver	
+6462	Aerial Recovery	1998	Pilot, Rescue (Two)	
+6473	RES-Q Cruiser	1998	Pilot, Driver, Rescue	
+6479	Emergency Response Center	1998	Rescue (Four), Pilot	
+7030	Squad Car		Policeman	
+7031	Helicopter		Police pilot	
+7032	Highway Patrol & Undercover Van		Undercover policeman, Policeman	
+7033	Armored Car Action		Policeman, Crook	
+7034	Surveillance Truck		Policeman, Police agent	
+7035	Police HQ		Policeman (Three), Police chief, Crook	
+7045	Hovercraft Hideout		Policeman, Crook	
+4511	High Speed Train	2003	Conductor, Passenger (Two)	Featured 2 car passenger train, circle of track and power adapter
+4512	Cargo Train	2003	Conductor, Works (Two)	Featured 3 freight cars, Switcher oval of track with siding and power adapter
+4513	Grand Central Station	2003	Chef, Worker, Skate driver, Conductor, Manager	
+4514	Cargo Crane	2003	Workers (Two)	Comes with small truck and standard 6x6 container.
+10027	Train Engine Shed	2003	Engineer, Worker	
+10128	Train Level Crossing	2003	Conductor, Worker	
+7042	Dune Patrol		Rescuer	
+7043	Firefighter		Fireman	
+7044	Rescue Chopper		Pilots (2X)	
+7046	Fire Command Craft		Fireman (3X)	
+7047	Coast Watch HQ		Scientist, Rescuer (2X), Heli pilot	
+3383	Chef			
+3384	Train Worker			
+3385	Conductor Charlie			
+4032	Passenger Plane		Pilot, Flight attendant, Passenger	
+7214	Seaplane		Pilot	
+7238	Fire Helicopter	2005	1 firefighter pilot	75 elements	
+7239	Fire Truck	2005	2 firefighters	214 elements	
+7240	Fire Station	2005	3 firefighters	260 elements	
+7241	Fire Car	2005	1 firefighter	46 elements	
+7906	Fire Boat	2007	3 firefighters	187 elements	
+7942	Off-road Fire Rescue	2007	1 firefighter	131 elements	
+7944	Fire Hovercraft	2007	3 firefighters	274 elements	
+7945	Fire Station	2007	4 firefighters	600 elements	
+5613	Firefighter	2008	1 firefighter	25 elements	
+7206	Fire Helicopter	2010	3 firefighters	342 elements	
+7207	Fire Boat	2010	4 firefighters	306 elements	
+7208	Fire Station	2010	4 firefighters	662 elements	
+7213	Off-Road Fire Truck & Fireboat	2010	3 firefighters	388 elements	
+60000	Fire Motorcycle	2013	1 firefighter	40 elements	
+60001	Fire Chief Car	2013	1 firefighter, 1 woman	80 elements	
+60002	Fire Truck	2013	2 firefighters	209 elements	
+60003	Fire Emergency	2013	3 firefighters	301 elements	
+60004	Fire Station	2013	5 firefighters, 1 dog	752 elements	
+60005	Fire Boat	2013	4 minifigures	222 elements	
+60010	Fire Helicopter	2013	1 firefighter, 1 pilot	232 elements	
+60088	Fire Starter Set	2015	3 firefighters, 1 mechanic	92 elements	
+60105	Fire ATV	2016	1 firefighter	64 elements	
+60106	Fire Starter Set	2016	3 firefighters, 1 mechanic	90 elements	
+60107	Fire Ladder Truck	2016	2 firefighters	214 elements	
+60108	Fire Response Unit	2016	2 firefighters, 1 worker	257 elements	
+60109	Fire Boat	2016	4 firefighters, 1 lighthouse operator	412 elements	
+60110	Fire Station	2016	5 firefighters, 1 hot-dog stand operator	919 elements	
+60111	Fire Utility Truck	2016	2 firefighters, 1 worker	368 elements	
+60112	Fire Engine	2016	3 firefighters	376 elements
+7242	Street Sweeper	2005	1 driver	63 elements
+7243	Construction Site	2005	3 construction workers.	298 elements
+7246	Mini Digger	2005	1 construction worker	36 elements
+7248	Digger	2005	1 construction worker	127 elements
+7249	XXL Mobile Crane	2005	2 construction workers	524 elements
+7344	Dump Truck	2005	1 construction worker	187 elements
+7900	Heavy Loader	2006	1 construction worker	347 elements
+7905	Building Crane	2006	3 construction workers	721 elements
+7998	Heavy Hauler	2007	1 driver	332 elements
+5610	Builder	2008	1 builder	23 elements
+5620	Street Cleaner	2008	1 minifigure	22 elements
+7630	Front End Loader	2009	1 minifigure	108 elements
+7631	Dump Truck	2009	1 minifigure	189 elements
+7632	Crawler Crane	2009	2 minifigures	481 elements
+7633	Construction Site	2009	5 minifigures	898 elements
+7685	Dozer	2009	1 minifigure	352 elements
+4434	Dump Truck	2012	2 minifigures	222 elements
+7890	Ambulance	2006	1 EMT	118 elements
+7892	Hospital	2006	2 doctors, patient, helicopter pilot	377 elements
+7902	Doctor's Car	2006	1 doctor	66 elements
+7903	Rescue Helicopter	2006	1 pilot/EMT, 1 EMT, 1 patient	245 elements
+4431	Ambulance	2012	2 paramedics and 1 biker	199 elements
+4429	Helicopter Rescue	2012	1 doctor, 1 paramedic, 1 pilot and 1 citizen	425 elements
+7891	Airport Firetruck	2006	1 firefighter	148 elements
+7893	Passenger Plane	2006	1 pilot, 1 baggage/runway crewman, 2 passengers	401 elements
+7894	Airport	2006	1 pilot, 1 air traffic controller/baggage worker, 1 runway crewman, 2 passengers	700 elements
+7901	Airplane Mechanic	2006	1 mechanic	26 elements
+3178	Seaplane	2010	1 Pilot	102 elements
+3181	Passenger Plane	2010	3 minifigures 1 pilot, 1 passenger, 1 airport worker	309 elements
+3182	Airport	2010	1 pilot 2 passengers 1 guider 1 cart driver	703 elements
+3222	Helicopter and Limousine	2010	2 very important people 1 pilot 1 driver	267 elements
+7567	Traveller	2010	1 passenger	21 elements
+60019	Stunt Plane	2013	1 pilot 1 mechanic	140 elements
+60100	Airport Starter Set	2016	1 pilot 1 post office lady 1 post office man 1 fuel man	81 elements
+60101	Airport Cargo Plane	2016	1 pilot 1 cargo man	157 elements
+60102	Airport VIP Service	2016	1 pilot 1 driver 1 VIP 1 guider	364 elements
+60103	Airport Air Show	2016	4 pilots 1 fuel man 1 airport worker	670 elements
+60104	Airport Passenger Terminal	2016	1 pilot 2 passengers 2 workers 1 security man	694 elements
+7895	Switch Tracks	2006		8 elements
+7896	Straight & Curved Rails	2006		16 elements
+7897	Passenger Train	2006	1 train engineer, 2 passengers	501 elements
+7898	Cargo Train Deluxe	2006	1 train engineer, 1 fork lift truck driver, 3 workers	856 elements
+7996	Train Rail Crossing for RC Trains	2007		4 elements
+7997	Train Station	2007	1 conductor, 1 handcar operator, 1 baggage clerk, 2 passengers	387 elements
+7936	Level Crossing	2010	1 worker	142 elements
+7937	Train Station	2010	4 minifigures	361 elements
+7938	Passenger Train	2010	3 minifigures	669 elements
+7939	Cargo Train	2010	4 minifigures	839 elements
+3677	Red Cargo Train	2011	4 minifigures	831 elements
+7499	Flexible and Straight Tracks	2011	none	24 elements
+60050	Train Station	2014	Chef, 4 minifigures (5 in total)	446 elements
+60051	High-Speed Passenger Train	2014	3 minifigures	625 elements
+60052	Cargo Train	2014	4 minifigures	949 elements
+60098	Heavy-Haul Train	2015	5 minifigures	1000 elements
+7990	Concrete Mixer (also known as Cement Mixer)	2007	1 construction worker	213 elements
+7991	Recycle Truck (also known as Garbage Truck)	2007	1 sanitation worker	206 elements
+7992	Container Stacker	2007	1 fork lift truck driver	218 elements
+7993	Service Station	2007	1 clerk, 2 customers	402 elements
+7994	LEGO City Harbor	2007	1 ship captain, 1 first mate, 1 Fisherman, 1 crane operator, 1 truck driver	661 elements
+5611	Public Works	2008	1 sanitation worker	31 elements
+7686	Helicopter Transporter	2009	1 Truck driver; 1 Pilot; 1 Motorcycle driver	377 elements
+7747	Wind Turbine Transport	2009	2 minifigures	444 elements
+4207	City Garage	2012	5 minifigures	933 elements
+4210	Coast Guard Platform	2008	4 minifigures	469 elements
+5621	Coast Guard Kayak	2008	1 minifigure	21 elements
+7726	Coast Guard Truck with Speed Boat	2008	2 minifigures	361 elements
+7736	Coast Guard Quad Bike	2008	1 minifigure	33 elements
+7737	Coast Guard 4WD & Jet Scooter	2008	1 minifigure	130 elements
+7738	Coast Guard Helicopter and Life Raft	2008	4 minifigures and shark	445 elements
+7739	Coast Guard Patrol Boat & Tower	2008	4 minifigures	445 elements
+7731	Mail Van	2008	1 postal carrier and mailbox	66 elements
+7732	Air Mail	2008	1 pilot	88 elements
+7733	Truck and Forklift	2008	1 forklift truck operator, 1 truck driver	343 elements
+7734	Cargo Plane	2008	1 pilot, 1 cargo cart driver, 1 cargo worker	463 elements
+60020	Cargo Truck	2013	1 driver, 1 cargo workers	321 elements
+60021	Cargo Heliplane	2013	1 pilot, 2 cargo workers	393 elements
+60022	Cargo Terminal	2013	1 pilot, 1 controller, 3 cargo workers	658 elements
+7634	Tractor	2009	1 minifigure	79 elements
+7635	4WD with Horse Trailer	2009	2 minifigures, plus horse animal figure	176 elements
+7636	Combine Harvester	2009	1 minifigure	360 elements
+7637	Farm	2009	3 minifigures, plus 2 cows, and 1 each dog, cat and mouse animal figures.	609 elements
+7684	Pig Farm and Tractor	2010	2 minifigures, plus 4 pigs	256 elements
+7566	Farmer	2010	1 minifigure plus a dog and a pig	16 elements
+7638	Tow Truck	2009	1	129 elements	
+7639	Camper	2009	2 minifigures	165 elements	Accessories include surfboard, bicycle, cooking pan, fish & TV.
+7641	City Corner	2009	5 minifigures	483 elements	Buildings include a pizza restaurant inside a three-story building, and a bicycle shop with fix-it area. Includes a city bus. Accessories include a bus stop, bicycle and skateboard. Rereleased in 2013 as set 60031.
+7642	Garage	2009	4 minifigures	953 elements	Includes garage area with working hoists, a customer service area and enclosed area to park vehicles. Vehicles include a large tow truck, a semitrailer truck cab and a car.
+8402	Sports Car	2009	1 minifigure	68 elements	
+7747	Wind Turbine Transport	2009	2 minifigures	444 elements	Publicly-released version of the Vestas Windmill.[1]
+4641	Speed Boat	2011	1 minifigure	34 elements
+4642	Fishing Boat	2011	2 minifigures	64 elements
+4643	Power Boat Transporter	2011	2 minifigures	254 elements
+4644	Marina	2011	5 minifigures	294 elements
+4645	Harbor	2011	4 elements	551 elements
+3365	Moon Buggy	2011	1 astronaut	37 elements
+3366	Satellite Launcher	2011	1 technician	165 elements
+3367	Space Shuttle	2011	1 astronaut	231 elements
+3368	Space Center	2011	2 astronauts, 1 technician, 1 Flight Director	494 elements
+4208	4x4 Fire Truck	2012	1 minifigure	243 elements
+4209	Fire Plane	2012	3 minifigures	522 elements
+4427	Fire ATV	2012	1 minifigure	50 elements
+4430	Fire Transporter	2012	3 minifigures	522 elements. Toys R Us Exclusive.
+4436	Patrol Car	2012	2 minifigures	97 elements
+4437	Police Pursuit	2012	2 minifigures	129 elements
+4438	Robbers Hideout	2012	4 minifigures	317 elements
+4439	Heavy-Duty Helicopter	2012	2 police helicopter pilots, 1 forest police officer	393 elements
+4440	Forest Police Station	2012	5 minifigures	633 elements
+4441	Police Dog Van	2012	2 minifigures	312 elements
+4205	Off-Road Command Centre	2012	3 minifigures	403 elements. Target Exclusive.
+4431	Ambulance	2012	2 paramedics and 1 biker	199 elements
+4432	Garbage Truck	2012	2 sanitation workers	208 elements
+4433	Dirt Bike Transporter	2012	2 minifigures	201 elements
+60061	airport fire truck	2014	2 minifigures	326 elements
+60113	Rally Car	2016	1 minifigure	103 elements
+60114	Race Boat	2016	1 minifigure	95 elements
+60115	4 X 4 Off Roader	2016	2 minifigures	182 elements
+60116	Ambulance Plane	2016	3 minifigures	184 elements
+60117	Van & Caravan	2016	2 minifigures	249 elements
+60118	Garbage Truck	2016	2 minifigures	247 elements
+60119	Ferry	2016	2 minifigures	300 elements
+4200	Mining 4x4	2012	1 miner	102 elements
+4201	Loader and Tipper	2012	2 miners	139 elements
+4202	Mining Truck	2012	1 miner	269 elements
+4203	Excavator Transporter	2012	2 miners	305 elements
+4204	The Mine	2012	4 minifigures	748 elements
+30315	Space Utility Vehicle	2015	1 astronaut	37 elements
+60077	Space Starter Set	2015	2 astronauts, 1 technician, 1 scientist	107 elements
+60078	Utility Shuttle	2015	2 astronauts	155 elements
+60079	Training Jet Transporter	2015	1 astronaut, 1 driver, 1 technician	448 elements
+60080	Spaceport	2015	2 astronauts, 2 technicians, 1 scientist	586 elements
+5611	Public Works	2008	1 sanitation worker	31 elements
+9247	Community Workers	2005	31	202 elements (consumer version); 235 elements (DACTA version)
+2064	Air Ambulance	2007	1 EMT/pilot, 1 patient	116 elements
+2928	City In-Flight 2006	2005	2	141 elements. Promotional set.
+4912	Police Boat	2005	1 police officer	22 elements. Promotional set.
+4914	Fireman's Car	2005	1 firefighter	32 elements. Promotional set.
+4937	Life Guard Tower	2007	1 lifeguard	38 elements.
+4938	Fireman's Car	2007	1 firefighter	28 elements. Promotional set.
+4991	Police Helicopter	2007	1 police officer	26 elements. Promotional set.
+7906	Fire Boat	2007	1 firefighter	187 elements. Promotional set.
+7266	Fireman	2005	1 firefighter	19 elements. Promotional set.
+7267	Paramedic	2005	1 EMT	15 elements. Promotional set.
+7280	Straight & Crossroad Plates	2005	0	2 elements.
+7281	T-Junction & Curved Road Plates	2005	0	2 elements.
+7643	Air Show Plane	2009	2 minifigures	115 elements
+8398	BBQ Stand	2009	1 minifigure	22 elements
+8401	City Minifigure Collection	2009	4 minifigures	60 elements. Accessory items include 3 road signs, a stereo, a park bench, a hand truck, a suitcase and stoplight.
+7848	Toys R Us Delivery Truck	2010	3 minifigures	356 elements. Similar to City Truck (3221), but with addition of a Toys R Us store.
+8403	Family House	2010	3 minifigures	383 elements
+8404	Public Transport	2010	6 minifigures	864 elements
+7324	LEGO City Advent Calendar 2005	2005	9	203 elements
+7904	LEGO City Advent Calendar 2006	2006	9	257 elements
+7907	LEGO City Advent Calendar 2007	2007	8	232 elements
+7724	LEGO City Advent Calendar 2008	2008	10	196 elements
+7687	LEGO City Advent Calendar 2009	2009	9	257 elements
+2824	LEGO City Advent Calendar 2010	2010	6	271 elements
+7553	LEGO City Advent Calendar 2011	2011	6	232 elements
+4428	LEGO City Advent Calendar 2012	2012	7	248 elements
+60024
+7620	Indiana Jones, Henry Jones, Sr., German Motorcycler	2008	Indiana Jones and the Last Crusade	79
+7621	Indiana Jones, Marion Ravenwood, Skeleton	2008	Raiders of the Lost Ark	277
+7622	Indiana Jones, Guards (Three), Horse	2008	Raiders of the Lost Ark	272
+7623	Indiana Jones, René Belloq, Satipo, Jock, Skeleton (Two)	2008	Raiders of the Lost Ark	552
+7624	Indiana Jones, Irina Spalko, Mutt Williams	2008	Indiana Jones and the Kingdom of the Crystal Skull	90
+7625	Indiana Jones, Russian Guards (Two), Marion Ravenwood	2008	Indiana Jones and the Kingdom of the Crystal Skull	234
+7626	Indiana Jones, Colonel Dovchenko, Russian Guards (Two)	2008	Indiana Jones and the Kingdom of the Crystal Skull	511
+7627	Indiana Jones, Mutt Williams, Irina Spalko, Russian Guard, Ugha Warriors (two), Crystal Skull Skeletons (three), Conquistador Skeleton	2008	Indiana Jones and the Kingdom of the Crystal Skull	929
+7628	Indiana Jones, Mutt Williams, Irina Spalko, Russian Guard, Pilot, Colonel Dovchenko	2008	Indiana Jones and the Kingdom of the Crystal Skull	625
+20004	Indiana Jones (no bag)	2008	Indiana Jones and the Kingdom of the Crystal Skull	83
+7682	Indiana Jones (tuxedo), Willie Scott, Short Round, Lao Che, Kao Kan	2009	Indiana Jones and the Temple of Doom	244
+7683	Indiana Jones, Marion Ravenwood, German Mechanic, German Pilot	2009	Raiders of the Lost Ark	376
+7195	Indiana Jones (Cairo), Swordsman, Cairo Bandit, Marion Ravenwood	2009	Raiders of the Lost Ark	79
+7196	Indiana Jones, Mutt Williams, Cemetery Warriors (two), conquistador skeleton	2009	Indiana Jones and the Kingdom of the Crystal Skull	189
+7197	Indiana Jones (professor), Elsa Schneider, Kazim, Brotherhood of the Cruciform Sword guard	2009	Indiana Jones and the Last Crusade	420
+7198	Indiana Jones, Henry Jones Sr., German pilot	2009	Indiana Jones and the Last Crusade	339
+7199	Indiana Jones (Kali), Willie Scott (Kali), Short Round, Thuggee,Chief Thugee, Mola Ram	2009	Indiana Jones and the Temple of Doom	654
