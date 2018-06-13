@@ -1,0 +1,3889 @@
+[
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1255.jpg", 
+    "rects": [
+      {
+        "score": 0.9973256587982178, 
+        "x1": 48.125, 
+        "x2": 1028.125, 
+        "y1": 1624.5833333333333, 
+        "y2": 2598.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1256.jpg", 
+    "rects": [
+      {
+        "score": 0.9977816939353943, 
+        "x1": 570.9375, 
+        "x2": 2342.8125, 
+        "y1": 2104.375, 
+        "y2": 3863.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1257.jpg", 
+    "rects": [
+      {
+        "score": 0.9517406821250916, 
+        "x1": 1143.75, 
+        "x2": 1308.75, 
+        "y1": 152.5, 
+        "y2": 317.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1258.jpg", 
+    "rects": [
+      {
+        "score": 0.9520906805992126, 
+        "x1": 790.3125, 
+        "x2": 1122.1875, 
+        "y1": 2647.5, 
+        "y2": 2977.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1259.jpg", 
+    "rects": [
+      {
+        "score": 0.9977415800094604, 
+        "x1": 999.375, 
+        "x2": 1625.625, 
+        "y1": 1697.5, 
+        "y2": 2312.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1260.jpg", 
+    "rects": [
+      {
+        "score": 0.9567129015922546, 
+        "x1": 601.875, 
+        "x2": 815.625, 
+        "y1": 1310.0, 
+        "y2": 1520.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1261.jpg", 
+    "rects": [
+      {
+        "score": 0.8148751854896545, 
+        "x1": 2728.125, 
+        "x2": 2919.375, 
+        "y1": 3063.75, 
+        "y2": 3251.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1262.jpg", 
+    "rects": [
+      {
+        "score": 0.9246251583099365, 
+        "x1": 1686.5625, 
+        "x2": 1865.9375, 
+        "y1": 1703.3333333333333, 
+        "y2": 1878.3333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1263.jpg", 
+    "rects": [
+      {
+        "score": 0.9742481708526611, 
+        "x1": 2467.5, 
+        "x2": 2913.75, 
+        "y1": 1566.25, 
+        "y2": 2003.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1264.jpg", 
+    "rects": [
+      {
+        "score": 0.9979104399681091, 
+        "x1": 181.5625, 
+        "x2": 1332.1875, 
+        "y1": 796.25, 
+        "y2": 1945.4166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1265.jpg", 
+    "rects": [
+      {
+        "score": 0.975346028804779, 
+        "x1": 1110.15625, 
+        "x2": 1482.03125, 
+        "y1": 2938.541666666667, 
+        "y2": 3303.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1266.jpg", 
+    "rects": [
+      {
+        "score": 0.9984546899795532, 
+        "x1": 879.375, 
+        "x2": 1518.125, 
+        "y1": 1312.5, 
+        "y2": 1942.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1267.jpg", 
+    "rects": [
+      {
+        "score": 0.9538434743881226, 
+        "x1": 2572.5, 
+        "x2": 2979.375, 
+        "y1": 1758.75, 
+        "y2": 2161.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1268.jpg", 
+    "rects": [
+      {
+        "score": 0.8648158311843872, 
+        "x1": 2421.5625, 
+        "x2": 2609.6875, 
+        "y1": 425.8333333333333, 
+        "y2": 612.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1269.jpg", 
+    "rects": [
+      {
+        "score": 0.9914336204528809, 
+        "x1": 2800.0, 
+        "x2": 3401.5625, 
+        "y1": 1531.25, 
+        "y2": 2129.166666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1270.jpg", 
+    "rects": [
+      {
+        "score": 0.9915148019790649, 
+        "x1": 1011.71875, 
+        "x2": 1558.59375, 
+        "y1": 1206.7708333333335, 
+        "y2": 1739.0625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1271.jpg", 
+    "rects": [
+      {
+        "score": 0.929092526435852, 
+        "x1": 2310.0, 
+        "x2": 2611.875, 
+        "y1": 568.75, 
+        "y2": 866.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1272.jpg", 
+    "rects": [
+      {
+        "score": 0.9939775466918945, 
+        "x1": 213.28125, 
+        "x2": 902.34375, 
+        "y1": 2646.875, 
+        "y2": 3320.625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1273.jpg", 
+    "rects": [
+      {
+        "score": 0.7850316762924194, 
+        "x1": 2570.3125, 
+        "x2": 2732.1875, 
+        "y1": 93.33333333333333, 
+        "y2": 256.66666666666663
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1274.jpg", 
+    "rects": [
+      {
+        "score": 0.9805419445037842, 
+        "x1": 1835.3125, 
+        "x2": 2198.4375, 
+        "y1": 212.91666666666666, 
+        "y2": 568.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1275.jpg", 
+    "rects": [
+      {
+        "score": 0.923033595085144, 
+        "x1": 2089.0625, 
+        "x2": 2242.1875, 
+        "y1": 1271.6666666666665, 
+        "y2": 1423.3333333333333
+      }, 
+      {
+        "score": 0.43953415751457214, 
+        "x1": 2025.625, 
+        "x2": 2331.875, 
+        "y1": 1192.9166666666665, 
+        "y2": 1502.0833333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1276.jpg", 
+    "rects": [
+      {
+        "score": 0.9985823631286621, 
+        "x1": 205.078125, 
+        "x2": 1862.109375, 
+        "y1": 335.4166666666667, 
+        "y2": 1983.3333333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1277.jpg", 
+    "rects": [
+      {
+        "score": 0.8337026834487915, 
+        "x1": 894.0, 
+        "x2": 1066.0, 
+        "y1": 794.6666666666666, 
+        "y2": 965.3333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1278.jpg", 
+    "rects": [
+      {
+        "score": 0.8931053280830383, 
+        "x1": 1902.5, 
+        "x2": 2097.5, 
+        "y1": 970.0, 
+        "y2": 1163.3333333333335
+      }, 
+      {
+        "score": 0.2076573669910431, 
+        "x1": 1792.5, 
+        "x2": 2247.5, 
+        "y1": 833.3333333333334, 
+        "y2": 1286.6666666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1279.jpg", 
+    "rects": [
+      {
+        "score": 0.8341881632804871, 
+        "x1": 2658.0, 
+        "x2": 3054.0, 
+        "y1": 3220.0, 
+        "y2": 3612.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1280.jpg", 
+    "rects": [
+      {
+        "score": 0.9892609119415283, 
+        "x1": 960.0, 
+        "x2": 2460.0, 
+        "y1": 360.0, 
+        "y2": 1848.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1281.jpg", 
+    "rects": [
+      {
+        "score": 0.8406554460525513, 
+        "x1": 104.0, 
+        "x2": 920.0, 
+        "y1": 944.0, 
+        "y2": 1754.6666666666665
+      }, 
+      {
+        "score": 0.7478511929512024, 
+        "x1": 760.0, 
+        "x2": 1448.0, 
+        "y1": 1013.3333333333333, 
+        "y2": 1696.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1282.jpg", 
+    "rects": [
+      {
+        "score": 0.9588457942008972, 
+        "x1": 2150.3125, 
+        "x2": 2399.6875, 
+        "y1": 2347.9166666666665, 
+        "y2": 2598.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1283.jpg", 
+    "rects": [
+      {
+        "score": 0.9471898674964905, 
+        "x1": 830.15625, 
+        "x2": 1164.84375, 
+        "y1": 1837.5, 
+        "y2": 2170.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1284.jpg", 
+    "rects": [
+      {
+        "score": 0.9439127445220947, 
+        "x1": 2862.890625, 
+        "x2": 3130.859375, 
+        "y1": 346.3541666666667, 
+        "y2": 616.1458333333334
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1285.jpg", 
+    "rects": [
+      {
+        "score": 0.9974849224090576, 
+        "x1": 986.5625, 
+        "x2": 2067.1875, 
+        "y1": 498.75, 
+        "y2": 1577.9166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1286.jpg", 
+    "rects": [
+      {
+        "score": 0.9975036978721619, 
+        "x1": 155.3125, 
+        "x2": 1384.6875, 
+        "y1": 46.666666666666664, 
+        "y2": 1271.6666666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1287.jpg", 
+    "rects": [
+      {
+        "score": 0.8387811183929443, 
+        "x1": 532.5, 
+        "x2": 589.5, 
+        "y1": 668.0, 
+        "y2": 724.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1288.jpg", 
+    "rects": [
+      {
+        "score": 0.9924794435501099, 
+        "x1": 393.0, 
+        "x2": 519.0, 
+        "y1": 32.0, 
+        "y2": 156.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1289.jpg", 
+    "rects": [
+      {
+        "score": 0.9585681557655334, 
+        "x1": 612.6, 
+        "x2": 688.1999999999999, 
+        "y1": 223.20000000000002, 
+        "y2": 298.40000000000003
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1290.jpg", 
+    "rects": [
+      {
+        "score": 0.917648434638977, 
+        "x1": 167.4, 
+        "x2": 243.0, 
+        "y1": 666.0, 
+        "y2": 740.4
+      }, 
+      {
+        "score": 0.24899998307228088, 
+        "x1": 127.8, 
+        "x2": 289.8, 
+        "y1": 621.6, 
+        "y2": 784.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1291.jpg", 
+    "rects": [
+      {
+        "score": 0.8753029108047485, 
+        "x1": 305.1, 
+        "x2": 375.3, 
+        "y1": 826.8, 
+        "y2": 896.4
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1292.jpg", 
+    "rects": [
+      {
+        "score": 0.9987897276878357, 
+        "x1": 118.125, 
+        "x2": 1369.375, 
+        "y1": 1041.25, 
+        "y2": 2283.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1293.jpg", 
+    "rects": [
+      {
+        "score": 0.9982715845108032, 
+        "x1": 1544.375, 
+        "x2": 2463.125, 
+        "y1": 1248.3333333333333, 
+        "y2": 2158.333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1294.jpg", 
+    "rects": [
+      {
+        "score": 0.9971734285354614, 
+        "x1": 1996.09375, 
+        "x2": 3297.65625, 
+        "y1": 557.8125, 
+        "y2": 1848.4375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1295.jpg", 
+    "rects": [
+      {
+        "score": 0.9970197081565857, 
+        "x1": 1660.3125, 
+        "x2": 2697.1875, 
+        "y1": 2690.625, 
+        "y2": 3714.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1296.jpg", 
+    "rects": [
+      {
+        "score": 0.9965740442276001, 
+        "x1": 1548.75, 
+        "x2": 2152.5, 
+        "y1": 1006.25, 
+        "y2": 1607.0833333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1297.jpg", 
+    "rects": [
+      {
+        "score": 0.9501467347145081, 
+        "x1": 2508.975, 
+        "x2": 2765.625, 
+        "y1": 341.47499999999997, 
+        "y2": 679.025
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1298.jpg", 
+    "rects": [
+      {
+        "score": 0.9477523565292358, 
+        "x1": 895.78125, 
+        "x2": 1269.84375, 
+        "y1": 2563.75, 
+        "y2": 2931.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1299.jpg", 
+    "rects": [
+      {
+        "score": 0.9395648837089539, 
+        "x1": 1529.0625, 
+        "x2": 1760.9375, 
+        "y1": 230.41666666666666, 
+        "y2": 457.91666666666663
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1300.jpg", 
+    "rects": [
+      {
+        "score": 0.9537525177001953, 
+        "x1": 938.4375, 
+        "x2": 1152.8125, 
+        "y1": 945.0, 
+        "y2": 1155.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1301.jpg", 
+    "rects": [
+      {
+        "score": 0.9983624815940857, 
+        "x1": 1699.6875, 
+        "x2": 2920.3125, 
+        "y1": 371.875, 
+        "y2": 1588.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1302.jpg", 
+    "rects": [
+      {
+        "score": 0.9875345230102539, 
+        "x1": 718.59375, 
+        "x2": 1342.03125, 
+        "y1": 2563.75, 
+        "y2": 3176.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1303.jpg", 
+    "rects": [
+      {
+        "score": 0.9493441581726074, 
+        "x1": 2008.125, 
+        "x2": 2349.375, 
+        "y1": 1242.5, 
+        "y2": 1575.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1304.jpg", 
+    "rects": [
+      {
+        "score": 0.9576728343963623, 
+        "x1": 2259.6875, 
+        "x2": 2544.0625, 
+        "y1": 805.0, 
+        "y2": 1085.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1305.jpg", 
+    "rects": [
+      {
+        "score": 0.9574670195579529, 
+        "x1": 765.625, 
+        "x2": 984.375, 
+        "y1": 1268.75, 
+        "y2": 1484.5833333333333
+      }, 
+      {
+        "score": 0.22352370619773865, 
+        "x1": 638.75, 
+        "x2": 1076.25, 
+        "y1": 1140.4166666666665, 
+        "y2": 1577.9166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1306.jpg", 
+    "rects": [
+      {
+        "score": 0.998310923576355, 
+        "x1": 875.0, 
+        "x2": 1732.5, 
+        "y1": 1402.9166666666665, 
+        "y2": 2248.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1307.jpg", 
+    "rects": [
+      {
+        "score": 0.975219190120697, 
+        "x1": 1326.171875, 
+        "x2": 1736.328125, 
+        "y1": 2358.854166666667, 
+        "y2": 2759.8958333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1308.jpg", 
+    "rects": [
+      {
+        "score": 0.9348321557044983, 
+        "x1": 3681.5625, 
+        "x2": 3983.4375, 
+        "y1": 420.0, 
+        "y2": 717.5
+      }, 
+      {
+        "score": 0.27837562561035156, 
+        "x1": 3560.15625, 
+        "x2": 4117.96875, 
+        "y1": 280.0, 
+        "y2": 840.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1309.jpg", 
+    "rects": [
+      {
+        "score": 0.9792937636375427, 
+        "x1": 1933.75, 
+        "x2": 2275.0, 
+        "y1": 971.25, 
+        "y2": 1303.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1310.jpg", 
+    "rects": [
+      {
+        "score": 0.9961844086647034, 
+        "x1": 385.0, 
+        "x2": 1828.75, 
+        "y1": 1169.5833333333333, 
+        "y2": 2610.4166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1311.jpg", 
+    "rects": [
+      {
+        "score": 0.9971610307693481, 
+        "x1": 1184.53125, 
+        "x2": 2962.96875, 
+        "y1": 2244.375, 
+        "y2": 4003.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1312.jpg", 
+    "rects": [
+      {
+        "score": 0.9972770810127258, 
+        "x1": 794.0625, 
+        "x2": 1314.6875, 
+        "y1": 889.5833333333333, 
+        "y2": 1397.0833333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1313.jpg", 
+    "rects": [
+      {
+        "score": 0.9970358610153198, 
+        "x1": 1500.625, 
+        "x2": 2620.625, 
+        "y1": 148.75, 
+        "y2": 1262.9166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1314.jpg", 
+    "rects": [
+      {
+        "score": 0.9981204867362976, 
+        "x1": 1470.0, 
+        "x2": 2480.625, 
+        "y1": 1649.375, 
+        "y2": 2655.625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1315.jpg", 
+    "rects": [
+      {
+        "score": 0.9955763816833496, 
+        "x1": 1942.5, 
+        "x2": 2581.25, 
+        "y1": 1834.5833333333333, 
+        "y2": 2470.4166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1316.jpg", 
+    "rects": [
+      {
+        "score": 0.8309798836708069, 
+        "x1": 1036.328125, 
+        "x2": 1271.484375, 
+        "y1": 1341.6666666666667, 
+        "y2": 1575.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1317.jpg", 
+    "rects": [
+      {
+        "score": 0.9738535284996033, 
+        "x1": 864.0625, 
+        "x2": 1279.6875, 
+        "y1": 1312.5, 
+        "y2": 1720.8333333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1318.jpg", 
+    "rects": [
+      {
+        "score": 0.9980008006095886, 
+        "x1": 187.125, 
+        "x2": 418.875, 
+        "y1": 409.89166666666665, 
+        "y2": 798.7416666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1319.jpg", 
+    "rects": [
+      {
+        "score": 0.913653552532196, 
+        "x1": 260.4375, 
+        "x2": 304.3125, 
+        "y1": 650.1875, 
+        "y2": 723.4125
+      }, 
+      {
+        "score": 0.25916385650634766, 
+        "x1": 246.9375, 
+        "x2": 333.5625, 
+        "y1": 613.5749999999999, 
+        "y2": 760.025
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1320.jpg", 
+    "rects": [
+      {
+        "score": 0.8943146467208862, 
+        "x1": 507.9375, 
+        "x2": 554.0625, 
+        "y1": 249.975, 
+        "y2": 325.72499999999997
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1321.jpg", 
+    "rects": [
+      {
+        "score": 0.9982386827468872, 
+        "x1": 281.625, 
+        "x2": 424.875, 
+        "y1": 521.8333333333334, 
+        "y2": 760.8666666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1322.jpg", 
+    "rects": [
+      {
+        "score": 0.9573431015014648, 
+        "x1": 213.0, 
+        "x2": 249.0, 
+        "y1": 98.475, 
+        "y2": 157.39166666666668
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1323.jpg", 
+    "rects": [
+      {
+        "score": 0.9983174800872803, 
+        "x1": 2102.734375, 
+        "x2": 3617.578125, 
+        "y1": 65.625, 
+        "y2": 1567.7083333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1324.jpg", 
+    "rects": [
+      {
+        "score": 0.9703477621078491, 
+        "x1": 1223.90625, 
+        "x2": 1689.84375, 
+        "y1": 1045.625, 
+        "y2": 1509.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1325.jpg", 
+    "rects": [
+      {
+        "score": 0.9985700845718384, 
+        "x1": 918.75, 
+        "x2": 1942.5, 
+        "y1": 1181.25, 
+        "y2": 2190.4166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1326.jpg", 
+    "rects": [
+      {
+        "score": 0.9392572641372681, 
+        "x1": 840.0, 
+        "x2": 1141.875, 
+        "y1": 332.5, 
+        "y2": 630.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1327.jpg", 
+    "rects": [
+      {
+        "score": 0.9981400966644287, 
+        "x1": 2027.8125, 
+        "x2": 3642.1875, 
+        "y1": 678.125, 
+        "y2": 2279.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1328.jpg", 
+    "rects": [
+      {
+        "score": 0.7685374021530151, 
+        "x1": 62.34375, 
+        "x2": 331.40625, 
+        "y1": 188.125, 
+        "y2": 459.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1329.jpg", 
+    "rects": [
+      {
+        "score": 0.9981787204742432, 
+        "x1": 1466.71875, 
+        "x2": 2628.28125, 
+        "y1": 1098.125, 
+        "y2": 2244.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1330.jpg", 
+    "rects": [
+      {
+        "score": 0.9982088804244995, 
+        "x1": 166.796875, 
+        "x2": 1834.765625, 
+        "y1": 1742.7083333333335, 
+        "y2": 3405.2083333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1331.jpg", 
+    "rects": [
+      {
+        "score": 0.9528440833091736, 
+        "x1": 2619.53125, 
+        "x2": 2936.71875, 
+        "y1": 1461.9791666666667, 
+        "y2": 1775.5208333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1332.jpg", 
+    "rects": [
+      {
+        "score": 0.9958688020706177, 
+        "x1": -146.5625, 
+        "x2": 1012.8125, 
+        "y1": 434.5833333333333, 
+        "y2": 1583.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1333.jpg", 
+    "rects": [
+      {
+        "score": 0.9581676125526428, 
+        "x1": 302.8125, 
+        "x2": 369.3125, 
+        "y1": 635.7083333333333, 
+        "y2": 700.625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1334.jpg", 
+    "rects": [
+      {
+        "score": 0.9529820084571838, 
+        "x1": 242.6953125, 
+        "x2": 330.2734375, 
+        "y1": 124.6875, 
+        "y2": 211.77083333333334
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1335.jpg", 
+    "rects": [
+      {
+        "score": 0.8715091943740845, 
+        "x1": 189.40625, 
+        "x2": 235.71875, 
+        "y1": 13.458333333333332, 
+        "y2": 59.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1336.jpg", 
+    "rects": [
+      {
+        "score": 0.9797855019569397, 
+        "x1": 99.453125, 
+        "x2": 230.078125, 
+        "y1": 238.48958333333334, 
+        "y2": 367.1354166666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1337.jpg", 
+    "rects": [
+      {
+        "score": 0.8665311932563782, 
+        "x1": 492.515625, 
+        "x2": 551.296875, 
+        "y1": 442.9375, 
+        "y2": 502.3125
+      }, 
+      {
+        "score": 0.2921794354915619, 
+        "x1": 429.28125, 
+        "x2": 561.09375, 
+        "y1": 402.5625, 
+        "y2": 533.1875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1338.jpg", 
+    "rects": [
+      {
+        "score": 0.9985803365707397, 
+        "x1": 2682.421875, 
+        "x2": 3926.953125, 
+        "y1": 4243.75, 
+        "y2": 5881.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1339.jpg", 
+    "rects": [
+      {
+        "score": 0.9359970688819885, 
+        "x1": 534.375, 
+        "x2": 900.0, 
+        "y1": 1262.5, 
+        "y2": 1737.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1340.jpg", 
+    "rects": [
+      {
+        "score": 0.997428834438324, 
+        "x1": -118.125, 
+        "x2": 1290.625, 
+        "y1": 1277.5, 
+        "y2": 2677.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1341.jpg", 
+    "rects": [
+      {
+        "score": 0.9980313181877136, 
+        "x1": 1529.0625, 
+        "x2": 2425.9375, 
+        "y1": 790.4166666666666, 
+        "y2": 1682.9166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1342.jpg", 
+    "rects": [
+      {
+        "score": 0.96101975440979, 
+        "x1": 203.4375, 
+        "x2": 623.4375, 
+        "y1": 3198.125, 
+        "y2": 3609.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1343.jpg", 
+    "rects": [
+      {
+        "score": 0.9987447261810303, 
+        "x1": 1473.828125, 
+        "x2": 3262.109375, 
+        "y1": 1319.7916666666667, 
+        "y2": 3098.9583333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1344.jpg", 
+    "rects": [
+      {
+        "score": 0.9987431168556213, 
+        "x1": 1523.046875, 
+        "x2": 3048.828125, 
+        "y1": 904.1666666666667, 
+        "y2": 2420.8333333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1345.jpg", 
+    "rects": [
+      {
+        "score": 0.9858515858650208, 
+        "x1": 673.3125, 
+        "x2": 901.6875, 
+        "y1": 749.0, 
+        "y2": 973.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1346.jpg", 
+    "rects": [
+      {
+        "score": 0.8596766591072083, 
+        "x1": 1194.375, 
+        "x2": 1294.125, 
+        "y1": 1302.0, 
+        "y2": 1400.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1347.jpg", 
+    "rects": [
+      {
+        "score": 0.8883559703826904, 
+        "x1": 1130.0625, 
+        "x2": 1287.5625, 
+        "y1": 1903.125, 
+        "y2": 2055.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1348.jpg", 
+    "rects": [
+      {
+        "score": 0.9823886752128601, 
+        "x1": 905.625, 
+        "x2": 1194.375, 
+        "y1": 916.5625, 
+        "y2": 1200.9375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1349.jpg", 
+    "rects": [
+      {
+        "score": 0.8468566536903381, 
+        "x1": 2067.1875, 
+        "x2": 2216.8125, 
+        "y1": 1359.75, 
+        "y2": 1506.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1350.jpg", 
+    "rects": [
+      {
+        "score": 0.9798496961593628, 
+        "x1": 1626.953125, 
+        "x2": 2091.796875, 
+        "y1": 2293.229166666667, 
+        "y2": 2752.604166666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1351.jpg", 
+    "rects": [
+      {
+        "score": 0.9887477159500122, 
+        "x1": 2657.8125, 
+        "x2": 3171.875, 
+        "y1": 2169.2708333333335, 
+        "y2": 2672.3958333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1352.jpg", 
+    "rects": [
+      {
+        "score": 0.9976111650466919, 
+        "x1": 704.375, 
+        "x2": 1518.125, 
+        "y1": 399.5833333333333, 
+        "y2": 1210.4166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1353.jpg", 
+    "rects": [
+      {
+        "score": 0.9755733609199524, 
+        "x1": 1235.9375, 
+        "x2": 1555.3125, 
+        "y1": 1575.0, 
+        "y2": 1890.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1354.jpg", 
+    "rects": [
+      {
+        "score": 0.8743011355400085, 
+        "x1": 2057.34375, 
+        "x2": 2313.28125, 
+        "y1": 3749.375, 
+        "y2": 4003.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1355.jpg", 
+    "rects": [
+      {
+        "score": 0.9395509958267212, 
+        "x1": 1223.4375, 
+        "x2": 1448.4375, 
+        "y1": 881.25, 
+        "y2": 1106.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1356.jpg", 
+    "rects": [
+      {
+        "score": 0.9018049836158752, 
+        "x1": 1750.78125, 
+        "x2": 1924.21875, 
+        "y1": 909.375, 
+        "y2": 1078.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1357.jpg", 
+    "rects": [
+      {
+        "score": 0.9975506663322449, 
+        "x1": 532.5, 
+        "x2": 1642.5, 
+        "y1": 862.5, 
+        "y2": 1967.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1358.jpg", 
+    "rects": [
+      {
+        "score": 0.991449773311615, 
+        "x1": 2143.125, 
+        "x2": 2716.875, 
+        "y1": 2456.25, 
+        "y2": 3018.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1359.jpg", 
+    "rects": [
+      {
+        "score": 0.9965658783912659, 
+        "x1": 742.5, 
+        "x2": 1627.5, 
+        "y1": 730.0, 
+        "y2": 1610.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1360.jpg", 
+    "rects": [
+      {
+        "score": 0.9654219150543213, 
+        "x1": 1793.75, 
+        "x2": 2154.6875, 
+        "y1": 1283.3333333333335, 
+        "y2": 1633.3333333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1361.jpg", 
+    "rects": [
+      {
+        "score": 0.9749089479446411, 
+        "x1": 1033.59375, 
+        "x2": 1473.28125, 
+        "y1": 245.0, 
+        "y2": 682.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1362.jpg", 
+    "rects": [
+      {
+        "score": 0.997817873954773, 
+        "x1": 630.0, 
+        "x2": 2034.375, 
+        "y1": 1124.375, 
+        "y2": 2515.625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1363.jpg", 
+    "rects": [
+      {
+        "score": 0.9956861734390259, 
+        "x1": 1319.0625, 
+        "x2": 2880.9375, 
+        "y1": 1780.625, 
+        "y2": 3329.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1364.jpg", 
+    "rects": [
+      {
+        "score": 0.990625262260437, 
+        "x1": 1255.078125, 
+        "x2": 1818.359375, 
+        "y1": 2785.416666666667, 
+        "y2": 3339.5833333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1365.jpg", 
+    "rects": [
+      {
+        "score": 0.9987584352493286, 
+        "x1": 1483.125, 
+        "x2": 2229.375, 
+        "y1": 395.0, 
+        "y2": 1135.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1366.jpg", 
+    "rects": [
+      {
+        "score": 0.9246933460235596, 
+        "x1": 1917.1875, 
+        "x2": 2095.3125, 
+        "y1": 1518.75, 
+        "y2": 1693.75
+      }, 
+      {
+        "score": 0.2255832850933075, 
+        "x1": 1830.46875, 
+        "x2": 2219.53125, 
+        "y1": 1403.125, 
+        "y2": 1796.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1367.jpg", 
+    "rects": [
+      {
+        "score": 0.9621503353118896, 
+        "x1": 2427.1875, 
+        "x2": 2804.0625, 
+        "y1": 397.5, 
+        "y2": 772.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1368.jpg", 
+    "rects": [
+      {
+        "score": 0.9765959978103638, 
+        "x1": 746.25, 
+        "x2": 1016.25, 
+        "y1": 105.0, 
+        "y2": 375.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1369.jpg", 
+    "rects": [
+      {
+        "score": 0.9975324869155884, 
+        "x1": 1490.625, 
+        "x2": 2683.125, 
+        "y1": 1290.0, 
+        "y2": 2475.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1370.jpg", 
+    "rects": [
+      {
+        "score": 0.932940661907196, 
+        "x1": 288.0, 
+        "x2": 388.8, 
+        "y1": 178.79999999999998, 
+        "y2": 277.2
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1371.jpg", 
+    "rects": [
+      {
+        "score": 0.9965858459472656, 
+        "x1": 320.4, 
+        "x2": 488.4, 
+        "y1": 116.80000000000001, 
+        "y2": 283.2
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1372.jpg", 
+    "rects": [
+      {
+        "score": 0.8913934826850891, 
+        "x1": 888.3000000000001, 
+        "x2": 962.1, 
+        "y1": 622.8, 
+        "y2": 697.1999999999999
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1373.jpg", 
+    "rects": [
+      {
+        "score": 0.8341647982597351, 
+        "x1": 807.75, 
+        "x2": 854.25, 
+        "y1": 729.0, 
+        "y2": 775.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1374.jpg", 
+    "rects": [
+      {
+        "score": 0.9890881776809692, 
+        "x1": 318.0, 
+        "x2": 435.59999999999997, 
+        "y1": 284.0, 
+        "y2": 400.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1375.jpg", 
+    "rects": [
+      {
+        "score": 0.9722064137458801, 
+        "x1": 409.2, 
+        "x2": 498.0, 
+        "y1": 141.6, 
+        "y2": 229.60000000000002
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1376.jpg", 
+    "rects": [
+      {
+        "score": 0.902885377407074, 
+        "x1": 608.25, 
+        "x2": 672.75, 
+        "y1": 274.0, 
+        "y2": 338.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1377.jpg", 
+    "rects": [
+      {
+        "score": 0.9675140380859375, 
+        "x1": 685.8000000000001, 
+        "x2": 801.0, 
+        "y1": 596.4, 
+        "y2": 709.1999999999999
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1378.jpg", 
+    "rects": [
+      {
+        "score": 0.9973505735397339, 
+        "x1": 90.0, 
+        "x2": 284.4, 
+        "y1": 433.6, 
+        "y2": 625.6
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1379.jpg", 
+    "rects": [
+      {
+        "score": 0.9472386240959167, 
+        "x1": 364.5, 
+        "x2": 430.5, 
+        "y1": 447.0, 
+        "y2": 513.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1380.jpg", 
+    "rects": [
+      {
+        "score": 0.9469059109687805, 
+        "x1": 370.5, 
+        "x2": 422.75, 
+        "y1": 237.5, 
+        "y2": 288.16666666666663
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1381.jpg", 
+    "rects": [
+      {
+        "score": 0.9247187376022339, 
+        "x1": 797.109375, 
+        "x2": 873.703125, 
+        "y1": 125.875, 
+        "y2": 201.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1382.jpg", 
+    "rects": [
+      {
+        "score": 0.9971168041229248, 
+        "x1": 60.5625, 
+        "x2": 427.5, 
+        "y1": 288.5625, 
+        "y2": 651.9375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1383.jpg", 
+    "rects": [
+      {
+        "score": 0.9972923398017883, 
+        "x1": 305.1875, 
+        "x2": 621.0625, 
+        "y1": 455.2083333333333, 
+        "y2": 770.2916666666666
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1384.jpg", 
+    "rects": [
+      {
+        "score": 0.9961806535720825, 
+        "x1": 331.3125, 
+        "x2": 812.25, 
+        "y1": 268.375, 
+        "y2": 748.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1385.jpg", 
+    "rects": [
+      {
+        "score": 0.9970870614051819, 
+        "x1": 2375.625, 
+        "x2": 3504.375, 
+        "y1": 953.75, 
+        "y2": 2073.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1386.jpg", 
+    "rects": [
+      {
+        "score": 0.9284003973007202, 
+        "x1": 1397.8125, 
+        "x2": 1612.1875, 
+        "y1": 1353.3333333333333, 
+        "y2": 1563.3333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1387.jpg", 
+    "rects": [
+      {
+        "score": 0.9890594482421875, 
+        "x1": 896.875, 
+        "x2": 1421.875, 
+        "y1": 2770.8333333333335, 
+        "y2": 3281.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1388.jpg", 
+    "rects": [
+      {
+        "score": 0.9978128671646118, 
+        "x1": 1570.625, 
+        "x2": 2769.375, 
+        "y1": 105.0, 
+        "y2": 1295.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1389.jpg", 
+    "rects": [
+      {
+        "score": 0.9984819293022156, 
+        "x1": 1372.65625, 
+        "x2": 2882.03125, 
+        "y1": 918.75, 
+        "y2": 2420.8333333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1390.jpg", 
+    "rects": [
+      {
+        "score": 0.9976845979690552, 
+        "x1": 166.5, 
+        "x2": 657.0, 
+        "y1": 650.0, 
+        "y2": 1302.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1391.jpg", 
+    "rects": [
+      {
+        "score": 0.9256142973899841, 
+        "x1": 1092.15, 
+        "x2": 1229.8500000000001, 
+        "y1": 1423.2, 
+        "y2": 1600.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1392.jpg", 
+    "rects": [
+      {
+        "score": 0.8110031485557556, 
+        "x1": 449.55, 
+        "x2": 549.45, 
+        "y1": 1020.0, 
+        "y2": 1149.6
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1393.jpg", 
+    "rects": [
+      {
+        "score": 0.9973543882369995, 
+        "x1": 442.8, 
+        "x2": 824.4, 
+        "y1": 969.6, 
+        "y2": 1475.2
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1394.jpg", 
+    "rects": [
+      {
+        "score": 0.998066246509552, 
+        "x1": 1229.375, 
+        "x2": 1938.125, 
+        "y1": 297.5, 
+        "y2": 997.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1395.jpg", 
+    "rects": [
+      {
+        "score": 0.9972686767578125, 
+        "x1": 616.875, 
+        "x2": 2205.0, 
+        "y1": 993.125, 
+        "y2": 2576.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1396.jpg", 
+    "rects": [
+      {
+        "score": 0.9947933554649353, 
+        "x1": 2091.25, 
+        "x2": 2660.0, 
+        "y1": 1688.75, 
+        "y2": 2242.9166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1397.jpg", 
+    "rects": [
+      {
+        "score": 0.9887556433677673, 
+        "x1": 231.875, 
+        "x2": 686.875, 
+        "y1": 586.25, 
+        "y2": 1035.4166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1398.jpg", 
+    "rects": [
+      {
+        "score": 0.8961884379386902, 
+        "x1": 727.34375, 
+        "x2": 946.09375, 
+        "y1": 1647.9166666666667, 
+        "y2": 1866.6666666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1399.jpg", 
+    "rects": [
+      {
+        "score": 0.9967164397239685, 
+        "x1": 2025.625, 
+        "x2": 2699.375, 
+        "y1": 1930.8333333333333, 
+        "y2": 2595.833333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1400.jpg", 
+    "rects": [
+      {
+        "score": 0.9962833523750305, 
+        "x1": 333.59375, 
+        "x2": 1722.65625, 
+        "y1": 889.5833333333334, 
+        "y2": 2275.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1401.jpg", 
+    "rects": [
+      {
+        "score": 0.9975469708442688, 
+        "x1": 264.6875, 
+        "x2": 1616.5625, 
+        "y1": 1432.0833333333333, 
+        "y2": 2779.583333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1402.jpg", 
+    "rects": [
+      {
+        "score": 0.9977951049804688, 
+        "x1": 1378.125, 
+        "x2": 2760.625, 
+        "y1": 513.3333333333333, 
+        "y2": 1890.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1403.jpg", 
+    "rects": [
+      {
+        "score": 0.988460898399353, 
+        "x1": 1055.46875, 
+        "x2": 1569.53125, 
+        "y1": 2617.7083333333335, 
+        "y2": 3113.541666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1404.jpg", 
+    "rects": [
+      {
+        "score": 0.9963929057121277, 
+        "x1": 842.4, 
+        "x2": 1090.8, 
+        "y1": 174.0, 
+        "y2": 421.2
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1405.jpg", 
+    "rects": [
+      {
+        "score": 0.9969214797019958, 
+        "x1": 194.25, 
+        "x2": 597.75, 
+        "y1": 113.0, 
+        "y2": 515.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1406.jpg", 
+    "rects": [
+      {
+        "score": 0.9925468564033508, 
+        "x1": 828.0, 
+        "x2": 1011.6, 
+        "y1": 394.8, 
+        "y2": 574.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1407.jpg", 
+    "rects": [
+      {
+        "score": 0.9896165132522583, 
+        "x1": 552.0, 
+        "x2": 720.0, 
+        "y1": 219.0, 
+        "y2": 385.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1408.jpg", 
+    "rects": [
+      {
+        "score": 0.9989644289016724, 
+        "x1": 789.3000000000001, 
+        "x2": 1107.9, 
+        "y1": 517.1999999999999, 
+        "y2": 831.6
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1409.jpg", 
+    "rects": [
+      {
+        "score": 0.8181118369102478, 
+        "x1": 136.8, 
+        "x2": 259.2, 
+        "y1": 250.79999999999998, 
+        "y2": 373.2
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1410.jpg", 
+    "rects": [
+      {
+        "score": 0.9975883960723877, 
+        "x1": 445.5, 
+        "x2": 682.5, 
+        "y1": 131.0, 
+        "y2": 365.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1411.jpg", 
+    "rects": [
+      {
+        "score": 0.9977682828903198, 
+        "x1": 41.25, 
+        "x2": 321.75, 
+        "y1": 159.0, 
+        "y2": 437.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1412.jpg", 
+    "rects": [
+      {
+        "score": 0.9937375783920288, 
+        "x1": 229.79999999999998, 
+        "x2": 370.2, 
+        "y1": 468.8, 
+        "y2": 606.4
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1413.jpg", 
+    "rects": [
+      {
+        "score": 0.9252236485481262, 
+        "x1": 755.1, 
+        "x2": 828.9, 
+        "y1": 602.4, 
+        "y2": 674.4
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1414.jpg", 
+    "rects": [
+      {
+        "score": 0.9953981041908264, 
+        "x1": 3370.125, 
+        "x2": 4402.125, 
+        "y1": 684.0104166666667, 
+        "y2": 1814.1145833333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1415.jpg", 
+    "rects": [
+      {
+        "score": 0.9804583787918091, 
+        "x1": 1389.45, 
+        "x2": 1619.5500000000002, 
+        "y1": 2109.0333333333333, 
+        "y2": 2412.5666666666666
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1416.jpg", 
+    "rects": [
+      {
+        "score": 0.996673583984375, 
+        "x1": -26.4, 
+        "x2": 266.4, 
+        "y1": 84.80000000000001, 
+        "y2": 376.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1417.jpg", 
+    "rects": [
+      {
+        "score": 0.9883143901824951, 
+        "x1": 729.0, 
+        "x2": 870.0, 
+        "y1": 380.0, 
+        "y2": 520.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1418.jpg", 
+    "rects": [
+      {
+        "score": 0.9490224719047546, 
+        "x1": 410.25, 
+        "x2": 480.75, 
+        "y1": 371.0, 
+        "y2": 441.0
+      }, 
+      {
+        "score": 0.24596953392028809, 
+        "x1": 362.25, 
+        "x2": 507.75, 
+        "y1": 329.0, 
+        "y2": 475.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1419.jpg", 
+    "rects": [
+      {
+        "score": 0.968316376209259, 
+        "x1": 796.5, 
+        "x2": 909.9, 
+        "y1": 433.2, 
+        "y2": 546.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1420.jpg", 
+    "rects": [
+      {
+        "score": 0.9977349042892456, 
+        "x1": 433.8, 
+        "x2": 786.6, 
+        "y1": 710.4, 
+        "y2": 1060.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1421.jpg", 
+    "rects": [
+      {
+        "score": 0.9524111747741699, 
+        "x1": 3245.15625, 
+        "x2": 3619.21875, 
+        "y1": 3080.0, 
+        "y2": 3447.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1422.jpg", 
+    "rects": [
+      {
+        "score": 0.8186092972755432, 
+        "x1": 2014.6875, 
+        "x2": 2264.0625, 
+        "y1": 1973.125, 
+        "y2": 2226.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1423.jpg", 
+    "rects": [
+      {
+        "score": 0.9978979825973511, 
+        "x1": 1848.4375, 
+        "x2": 2509.0625, 
+        "y1": 737.9166666666666, 
+        "y2": 1385.4166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1424.jpg", 
+    "rects": [
+      {
+        "score": 0.9975119829177856, 
+        "x1": 1908.59375, 
+        "x2": 3024.21875, 
+        "y1": 1108.3333333333335, 
+        "y2": 2216.666666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1425.jpg", 
+    "rects": [
+      {
+        "score": 0.9984172582626343, 
+        "x1": 637.109375, 
+        "x2": 2173.828125, 
+        "y1": 1720.8333333333335, 
+        "y2": 3252.0833333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1426.jpg", 
+    "rects": [
+      {
+        "score": 0.9982099533081055, 
+        "x1": 1982.421875, 
+        "x2": 3344.140625, 
+        "y1": 597.9166666666667, 
+        "y2": 1954.1666666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1427.jpg", 
+    "rects": [
+      {
+        "score": 0.9728725552558899, 
+        "x1": 1719.921875, 
+        "x2": 2108.203125, 
+        "y1": 1217.7083333333335, 
+        "y2": 1596.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1428.jpg", 
+    "rects": [
+      {
+        "score": 0.9983177185058594, 
+        "x1": 1063.671875, 
+        "x2": 2403.515625, 
+        "y1": 710.9375, 
+        "y2": 2045.3125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1429.jpg", 
+    "rects": [
+      {
+        "score": 0.997197151184082, 
+        "x1": 2136.09375, 
+        "x2": 3113.90625, 
+        "y1": 581.875, 
+        "y2": 1553.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1430.jpg", 
+    "rects": [
+      {
+        "score": 0.9983478784561157, 
+        "x1": 1077.34375, 
+        "x2": 1996.09375, 
+        "y1": 171.35416666666669, 
+        "y2": 1082.8125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1431.jpg", 
+    "rects": [
+      {
+        "score": 0.997063934803009, 
+        "x1": -51.75, 
+        "x2": 321.75, 
+        "y1": 172.0, 
+        "y2": 544.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1432.jpg", 
+    "rects": [
+      {
+        "score": 0.9556058049201965, 
+        "x1": 405.75, 
+        "x2": 485.25, 
+        "y1": 851.0, 
+        "y2": 929.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1433.jpg", 
+    "rects": [
+      {
+        "score": 0.9977315068244934, 
+        "x1": 252.0, 
+        "x2": 564.0, 
+        "y1": 424.0, 
+        "y2": 734.4000000000001
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1434.jpg", 
+    "rects": [
+      {
+        "score": 0.9977664947509766, 
+        "x1": 625.5, 
+        "x2": 856.5, 
+        "y1": 548.0, 
+        "y2": 776.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1435.jpg", 
+    "rects": [
+      {
+        "score": 0.9989374279975891, 
+        "x1": 244.79999999999998, 
+        "x2": 585.6, 
+        "y1": 259.2, 
+        "y2": 598.4
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1436.jpg", 
+    "rects": [
+      {
+        "score": 0.9665414094924927, 
+        "x1": 58.5, 
+        "x2": 171.9, 
+        "y1": 114.0, 
+        "y2": 226.79999999999998
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1437.jpg", 
+    "rects": [
+      {
+        "score": 0.95318603515625, 
+        "x1": 137.70000000000002, 
+        "x2": 236.70000000000002, 
+        "y1": 680.4, 
+        "y2": 778.8
+      }, 
+      {
+        "score": 0.30575108528137207, 
+        "x1": 60.300000000000004, 
+        "x2": 263.7, 
+        "y1": 627.6, 
+        "y2": 831.6
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1438.jpg", 
+    "rects": [
+      {
+        "score": 0.9948244094848633, 
+        "x1": 520.5, 
+        "x2": 700.5, 
+        "y1": 733.0, 
+        "y2": 911.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1439.jpg", 
+    "rects": [
+      {
+        "score": 0.9975409507751465, 
+        "x1": -16.5, 
+        "x2": 286.5, 
+        "y1": 492.0, 
+        "y2": 792.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1440.jpg", 
+    "rects": [
+      {
+        "score": 0.9708885550498962, 
+        "x1": 460.5, 
+        "x2": 568.5, 
+        "y1": 739.0, 
+        "y2": 845.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1441.jpg", 
+    "rects": [
+      {
+        "score": 0.9975186586380005, 
+        "x1": 437.5, 
+        "x2": 1585.9375, 
+        "y1": 2096.354166666667, 
+        "y2": 3241.1458333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1442.jpg", 
+    "rects": [
+      {
+        "score": 0.9973961114883423, 
+        "x1": 1531.25, 
+        "x2": 3029.6875, 
+        "y1": 58.333333333333336, 
+        "y2": 1545.8333333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1443.jpg", 
+    "rects": [
+      {
+        "score": 0.8932444453239441, 
+        "x1": 2794.53125, 
+        "x2": 2991.40625, 
+        "y1": 1921.3541666666667, 
+        "y2": 2118.229166666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1444.jpg", 
+    "rects": [
+      {
+        "score": 0.9758290648460388, 
+        "x1": 2861.25, 
+        "x2": 3360.0, 
+        "y1": 1465.625, 
+        "y2": 1946.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1445.jpg", 
+    "rects": [
+      {
+        "score": 0.9252389073371887, 
+        "x1": 916.5625, 
+        "x2": 1095.9375, 
+        "y1": 189.58333333333331, 
+        "y2": 370.41666666666663
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1446.jpg", 
+    "rects": [
+      {
+        "score": 0.9601817727088928, 
+        "x1": 2132.8125, 
+        "x2": 2434.6875, 
+        "y1": 2038.75, 
+        "y2": 2336.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1447.jpg", 
+    "rects": [
+      {
+        "score": 0.9701750874519348, 
+        "x1": 761.25, 
+        "x2": 1076.25, 
+        "y1": 2324.583333333333, 
+        "y2": 2633.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1448.jpg", 
+    "rects": [
+      {
+        "score": 0.9651257991790771, 
+        "x1": 812.109375, 
+        "x2": 1189.453125, 
+        "y1": 623.4375, 
+        "y2": 995.3125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1449.jpg", 
+    "rects": [
+      {
+        "score": 0.9978311657905579, 
+        "x1": 2782.5, 
+        "x2": 4003.125, 
+        "y1": 1137.5, 
+        "y2": 2345.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1450.jpg", 
+    "rects": [
+      {
+        "score": 0.9977859258651733, 
+        "x1": 2969.53125, 
+        "x2": 4144.21875, 
+        "y1": 2200.625, 
+        "y2": 3364.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1451.jpg", 
+    "rects": [
+      {
+        "score": 0.8628668189048767, 
+        "x1": 259.765625, 
+        "x2": 326.171875, 
+        "y1": 389.58333333333337, 
+        "y2": 493.75000000000006
+      }, 
+      {
+        "score": 0.3659249544143677, 
+        "x1": 213.8671875, 
+        "x2": 352.5390625, 
+        "y1": 352.08333333333337, 
+        "y2": 572.9166666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1452.jpg", 
+    "rects": [
+      {
+        "score": 0.9972002506256104, 
+        "x1": 260.15625, 
+        "x2": 625.78125, 
+        "y1": 1147.5, 
+        "y2": 1722.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1453.jpg", 
+    "rects": [
+      {
+        "score": 0.9727103114128113, 
+        "x1": 404.4, 
+        "x2": 488.4, 
+        "y1": 201.60000000000002, 
+        "y2": 284.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1454.jpg", 
+    "rects": [
+      {
+        "score": 0.9985871315002441, 
+        "x1": 99.75, 
+        "x2": 482.25, 
+        "y1": 570.0, 
+        "y2": 950.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1455.jpg", 
+    "rects": [
+      {
+        "score": 0.9975472092628479, 
+        "x1": 54.9, 
+        "x2": 513.9, 
+        "y1": 82.8, 
+        "y2": 536.4
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1456.jpg", 
+    "rects": [
+      {
+        "score": 0.9986611604690552, 
+        "x1": 533.7, 
+        "x2": 888.3000000000001, 
+        "y1": 478.79999999999995, 
+        "y2": 831.6
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1457.jpg", 
+    "rects": [
+      {
+        "score": 0.9126936197280884, 
+        "x1": 491.40000000000003, 
+        "x2": 567.0, 
+        "y1": 728.4, 
+        "y2": 802.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1458.jpg", 
+    "rects": [
+      {
+        "score": 0.8856605291366577, 
+        "x1": 3051.5625, 
+        "x2": 3615.9375, 
+        "y1": 840.0, 
+        "y2": 1400.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1459.jpg", 
+    "rects": [
+      {
+        "score": 0.9983566403388977, 
+        "x1": 1511.5625, 
+        "x2": 2600.9375, 
+        "y1": 1420.4166666666665, 
+        "y2": 2499.583333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1460.jpg", 
+    "rects": [
+      {
+        "score": 0.9976546168327332, 
+        "x1": 2253.125, 
+        "x2": 3117.1875, 
+        "y1": 802.0833333333334, 
+        "y2": 1662.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1461.jpg", 
+    "rects": [
+      {
+        "score": 0.9955299496650696, 
+        "x1": 2277.1875, 
+        "x2": 3104.0625, 
+        "y1": 161.875, 
+        "y2": 975.625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1462.jpg", 
+    "rects": [
+      {
+        "score": 0.8409050107002258, 
+        "x1": 3635.625, 
+        "x2": 3885.0, 
+        "y1": 3666.25, 
+        "y2": 3911.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1463.jpg", 
+    "rects": [
+      {
+        "score": 0.9960578680038452, 
+        "x1": 1171.875, 
+        "x2": 1743.75, 
+        "y1": 1781.25, 
+        "y2": 2343.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1464.jpg", 
+    "rects": [
+      {
+        "score": 0.9988523721694946, 
+        "x1": 2129.0625, 
+        "x2": 3169.6875, 
+        "y1": 2538.75, 
+        "y2": 3566.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1465.jpg", 
+    "rects": [
+      {
+        "score": 0.9964231848716736, 
+        "x1": 1567.96875, 
+        "x2": 2257.03125, 
+        "y1": 1493.75, 
+        "y2": 2168.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1466.jpg", 
+    "rects": [
+      {
+        "score": 0.8297685384750366, 
+        "x1": 208.125, 
+        "x2": 421.875, 
+        "y1": 2655.0, 
+        "y2": 2865.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1467.jpg", 
+    "rects": [
+      {
+        "score": 0.9983283877372742, 
+        "x1": 611.71875, 
+        "x2": 1844.53125, 
+        "y1": 1343.75, 
+        "y2": 2568.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1468.jpg", 
+    "rects": [
+      {
+        "score": 0.9951753616333008, 
+        "x1": 1696.2281249999999, 
+        "x2": 3781.246875, 
+        "y1": -8.333333333333334, 
+        "y2": 1875.0000000000002
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1469.jpg", 
+    "rects": [
+      {
+        "score": 0.998140811920166, 
+        "x1": 856.7156249999999, 
+        "x2": 2184.796875, 
+        "y1": 287.5, 
+        "y2": 1479.1666666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1470.jpg", 
+    "rects": [
+      {
+        "score": 0.9970636963844299, 
+        "x1": 4097.784375, 
+        "x2": 6409.884375000001, 
+        "y1": 1662.5, 
+        "y2": 3762.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1471.jpg", 
+    "rects": [
+      {
+        "score": 0.9249997138977051, 
+        "x1": 1988.4375, 
+        "x2": 2177.8125, 
+        "y1": 2600.0, 
+        "y2": 2960.0
+      }, 
+      {
+        "score": 0.24068906903266907, 
+        "x1": 2004.21875, 
+        "x2": 2327.734375, 
+        "y1": 1625.0, 
+        "y2": 2235.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1472.jpg", 
+    "rects": [
+      {
+        "score": 0.9984685778617859, 
+        "x1": 614.0625, 
+        "x2": 1129.6875, 
+        "y1": 711.6666666666667, 
+        "y2": 1395.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1473.jpg", 
+    "rects": [
+      {
+        "score": 0.9884709119796753, 
+        "x1": 814.5, 
+        "x2": 971.1, 
+        "y1": 558.0, 
+        "y2": 709.1999999999999
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1474.jpg", 
+    "rects": [
+      {
+        "score": 0.958935022354126, 
+        "x1": 390.75, 
+        "x2": 473.25, 
+        "y1": 814.0, 
+        "y2": 894.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1475.jpg", 
+    "rects": [
+      {
+        "score": 0.9664450883865356, 
+        "x1": 125.25, 
+        "x2": 213.75, 
+        "y1": 501.0, 
+        "y2": 587.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1476.jpg", 
+    "rects": [
+      {
+        "score": 0.9945753812789917, 
+        "x1": 336.6, 
+        "x2": 574.2, 
+        "y1": 848.4, 
+        "y2": 1086.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1477.jpg", 
+    "rects": [
+      {
+        "score": 0.9569069743156433, 
+        "x1": 559.8000000000001, 
+        "x2": 657.0, 
+        "y1": 199.2, 
+        "y2": 295.2
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1478.jpg", 
+    "rects": [
+      {
+        "score": 0.9992771744728088, 
+        "x1": -163.125, 
+        "x2": 554.625, 
+        "y1": 274.0, 
+        "y2": 1222.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1479.jpg", 
+    "rects": [
+      {
+        "score": 0.9976678490638733, 
+        "x1": 971.25, 
+        "x2": 2187.5, 
+        "y1": 726.25, 
+        "y2": 1933.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1480.jpg", 
+    "rects": [
+      {
+        "score": 0.9974045157432556, 
+        "x1": -133.4375, 
+        "x2": 1305.9375, 
+        "y1": 889.5833333333333, 
+        "y2": 2318.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1481.jpg", 
+    "rects": [
+      {
+        "score": 0.9953283071517944, 
+        "x1": 1142.96875, 
+        "x2": 1777.34375, 
+        "y1": 229.6875, 
+        "y2": 849.4791666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1482.jpg", 
+    "rects": [
+      {
+        "score": 0.9972192049026489, 
+        "x1": 1594.6875, 
+        "x2": 2526.5625, 
+        "y1": 1478.75, 
+        "y2": 2406.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1483.jpg", 
+    "rects": [
+      {
+        "score": 0.9973480701446533, 
+        "x1": 284.375, 
+        "x2": 1194.375, 
+        "y1": 1321.25, 
+        "y2": 2225.4166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1484.jpg", 
+    "rects": [
+      {
+        "score": 0.9780938029289246, 
+        "x1": 240.734375, 
+        "x2": 420.453125, 
+        "y1": 178.97916666666669, 
+        "y2": 353.52083333333337
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1485.jpg", 
+    "rects": [
+      {
+        "score": 0.9694302678108215, 
+        "x1": 214.109375, 
+        "x2": 340.578125, 
+        "y1": 446.70833333333337, 
+        "y2": 570.9583333333334
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1486.jpg", 
+    "rects": [
+      {
+        "score": 0.9984473586082458, 
+        "x1": 459.28125, 
+        "x2": 1226.96875, 
+        "y1": 514.75, 
+        "y2": 1278.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1487.jpg", 
+    "rects": [
+      {
+        "score": 0.9549446105957031, 
+        "x1": 1288.26171875, 
+        "x2": 1440.80078125, 
+        "y1": 854.21875, 
+        "y2": 1002.1354166666666
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1488.jpg", 
+    "rects": [
+      {
+        "score": 0.9849855899810791, 
+        "x1": 392.71875, 
+        "x2": 592.40625, 
+        "y1": 828.3333333333334, 
+        "y2": 1023.5833333333334
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1489.jpg", 
+    "rects": [
+      {
+        "score": 0.9973310232162476, 
+        "x1": 1239.609375, 
+        "x2": 2488.828125, 
+        "y1": 1031.9166666666665, 
+        "y2": 2262.083333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1490.jpg", 
+    "rects": [
+      {
+        "score": 0.8747290372848511, 
+        "x1": 67.5, 
+        "x2": 157.5, 
+        "y1": 36.0, 
+        "y2": 156.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1491.jpg", 
+    "rects": [
+      {
+        "score": 0.9983356595039368, 
+        "x1": 1314.6875, 
+        "x2": 2281.5625, 
+        "y1": 1747.0833333333333, 
+        "y2": 2709.583333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1492.jpg", 
+    "rects": [
+      {
+        "score": 0.961954653263092, 
+        "x1": 2300.15625, 
+        "x2": 2700.46875, 
+        "y1": 2078.125, 
+        "y2": 2471.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1493.jpg", 
+    "rects": [
+      {
+        "score": 0.9981873631477356, 
+        "x1": 1340.9375, 
+        "x2": 2430.3125, 
+        "y1": -23.333333333333332, 
+        "y2": 1061.6666666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1494.jpg", 
+    "rects": [
+      {
+        "score": 0.9121190309524536, 
+        "x1": 308.4375, 
+        "x2": 584.0625, 
+        "y1": 2143.75, 
+        "y2": 2417.9166666666665
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1495.jpg", 
+    "rects": [
+      {
+        "score": 0.9805601835250854, 
+        "x1": 2056.25, 
+        "x2": 2526.5625, 
+        "y1": 2701.5625, 
+        "y2": 3160.9375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1496.jpg", 
+    "rects": [
+      {
+        "score": 0.9981897473335266, 
+        "x1": 2634.15625, 
+        "x2": 4101.28125, 
+        "y1": 4391.666666666667, 
+        "y2": 6575.000000000001
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1497.jpg", 
+    "rects": [
+      {
+        "score": 0.835176944732666, 
+        "x1": 450.14062500000006, 
+        "x2": 1250.390625, 
+        "y1": 7560.0, 
+        "y2": 8760.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1498.jpg", 
+    "rects": [
+      {
+        "score": 0.9986383318901062, 
+        "x1": 280.08750000000003, 
+        "x2": 1720.5375000000001, 
+        "y1": 3526.666666666667, 
+        "y2": 5673.333333333334
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1499.jpg", 
+    "rects": [
+      {
+        "score": 0.9985823631286621, 
+        "x1": 335.5859375, 
+        "x2": 812.6171875, 
+        "y1": 90.59895833333333, 
+        "y2": 560.234375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1500.jpg", 
+    "rects": [
+      {
+        "score": 0.9977460503578186, 
+        "x1": 645.65625, 
+        "x2": 1249.15625, 
+        "y1": 320.9791666666667, 
+        "y2": 921.5208333333334
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1501.jpg", 
+    "rects": [
+      {
+        "score": 0.9987128973007202, 
+        "x1": 555.796875, 
+        "x2": 1245.828125, 
+        "y1": 641.9583333333334, 
+        "y2": 1328.2916666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1502.jpg", 
+    "rects": [
+      {
+        "score": 0.8938140869140625, 
+        "x1": 454.2890625, 
+        "x2": 604.0546875, 
+        "y1": 1697.34375, 
+        "y2": 1843.78125
+      }, 
+      {
+        "score": 0.38403457403182983, 
+        "x1": 434.3203125, 
+        "x2": 670.6171875, 
+        "y1": 1652.96875, 
+        "y2": 1888.15625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1503.jpg", 
+    "rects": [
+      {
+        "score": 0.997217059135437, 
+        "x1": 49.921875, 
+        "x2": 432.65625, 
+        "y1": 700.7552083333333, 
+        "y2": 1081.640625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1504.jpg", 
+    "rects": [
+      {
+        "score": 0.9960654377937317, 
+        "x1": 1758.75, 
+        "x2": 2826.25, 
+        "y1": -96.25, 
+        "y2": 971.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1505.jpg", 
+    "rects": [
+      {
+        "score": 0.9970282912254333, 
+        "x1": 2595.46875, 
+        "x2": 3691.40625, 
+        "y1": 253.75, 
+        "y2": 1338.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1506.jpg", 
+    "rects": [
+      {
+        "score": 0.9977383613586426, 
+        "x1": 199.0625, 
+        "x2": 1664.6875, 
+        "y1": 64.16666666666666, 
+        "y2": 1522.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1507.jpg", 
+    "rects": [
+      {
+        "score": 0.9981124401092529, 
+        "x1": -89.6875, 
+        "x2": 1340.9375, 
+        "y1": 1061.6666666666665, 
+        "y2": 2485.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1508.jpg", 
+    "rects": [
+      {
+        "score": 0.9984910488128662, 
+        "x1": 1453.59375, 
+        "x2": 2798.90625, 
+        "y1": 2533.125, 
+        "y2": 3871.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1509.jpg", 
+    "rects": [
+      {
+        "score": 0.9980713725090027, 
+        "x1": 240.703125, 
+        "x2": 625.828125, 
+        "y1": 460.390625, 
+        "y2": 1033.5677083333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1510.jpg", 
+    "rects": [
+      {
+        "score": 0.9844657182693481, 
+        "x1": 1074.2765625, 
+        "x2": 1245.3609374999999, 
+        "y1": 75.4375, 
+        "y2": 323.9375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1511.jpg", 
+    "rects": [
+      {
+        "score": 0.9961827397346497, 
+        "x1": 790.234375, 
+        "x2": 2239.453125, 
+        "y1": 328.125, 
+        "y2": 1771.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1512.jpg", 
+    "rects": [
+      {
+        "score": 0.9968637228012085, 
+        "x1": 637.109375, 
+        "x2": 1473.828125, 
+        "y1": 2460.9375, 
+        "y2": 3284.8958333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1513.jpg", 
+    "rects": [
+      {
+        "score": 0.9979981780052185, 
+        "x1": 1424.609375, 
+        "x2": 3005.078125, 
+        "y1": -142.1875, 
+        "y2": 1425.5208333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1514.jpg", 
+    "rects": [
+      {
+        "score": 0.9968010187149048, 
+        "x1": 30.078125, 
+        "x2": 1676.171875, 
+        "y1": 298.95833333333337, 
+        "y2": 1932.2916666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1515.jpg", 
+    "rects": [
+      {
+        "score": 0.9866632223129272, 
+        "x1": 794.0625, 
+        "x2": 1227.1875, 
+        "y1": 921.6666666666666, 
+        "y2": 1353.3333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1516.jpg", 
+    "rects": [
+      {
+        "score": 0.9914854168891907, 
+        "x1": 1044.346875, 
+        "x2": 1340.7468749999998, 
+        "y1": 2106.25, 
+        "y2": 2693.75
+      }, 
+      {
+        "score": 0.3418651819229126, 
+        "x1": 1204.125, 
+        "x2": 1394.00625, 
+        "y1": 2337.5, 
+        "y2": 2725.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1517.jpg", 
+    "rects": [
+      {
+        "score": 0.8719929456710815, 
+        "x1": 54.75, 
+        "x2": 113.25, 
+        "y1": 777.0, 
+        "y2": 835.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1518.jpg", 
+    "rects": [
+      {
+        "score": 0.9882166981697083, 
+        "x1": 293.25, 
+        "x2": 435.75, 
+        "y1": 235.0, 
+        "y2": 377.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1519.jpg", 
+    "rects": [
+      {
+        "score": 0.9225661754608154, 
+        "x1": 237.75, 
+        "x2": 305.25, 
+        "y1": 83.0, 
+        "y2": 149.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1520.jpg", 
+    "rects": [
+      {
+        "score": 0.9958498477935791, 
+        "x1": 880.2, 
+        "x2": 1121.4, 
+        "y1": 676.8, 
+        "y2": 916.8
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1521.jpg", 
+    "rects": [
+      {
+        "score": 0.9982184767723083, 
+        "x1": 349.8, 
+        "x2": 766.1999999999999, 
+        "y1": 258.40000000000003, 
+        "y2": 672.8000000000001
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1522.jpg", 
+    "rects": [
+      {
+        "score": 0.9978824257850647, 
+        "x1": 117.578125, 
+        "x2": 1424.609375, 
+        "y1": 2045.3125, 
+        "y2": 3350.5208333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1523.jpg", 
+    "rects": [
+      {
+        "score": 0.9962823987007141, 
+        "x1": 301.875, 
+        "x2": 1701.875, 
+        "y1": 1070.4166666666665, 
+        "y2": 2464.583333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1524.jpg", 
+    "rects": [
+      {
+        "score": 0.997685432434082, 
+        "x1": 2145.9375, 
+        "x2": 3878.4375, 
+        "y1": 1251.25, 
+        "y2": 2966.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1525.jpg", 
+    "rects": [
+      {
+        "score": 0.9651529788970947, 
+        "x1": 1538.90625, 
+        "x2": 1965.46875, 
+        "y1": 1645.0, 
+        "y2": 2065.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1526.jpg", 
+    "rects": [
+      {
+        "score": 0.9789459109306335, 
+        "x1": 1015.0, 
+        "x2": 1382.5, 
+        "y1": 2018.3333333333333, 
+        "y2": 2380.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1527.jpg", 
+    "rects": [
+      {
+        "score": 0.9965000152587891, 
+        "x1": 1260.0984375, 
+        "x2": 1972.9828125, 
+        "y1": 1245.5437499999998, 
+        "y2": 1967.00625
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1528.jpg", 
+    "rects": [
+      {
+        "score": 0.9957143664360046, 
+        "x1": 594.6281250000001, 
+        "x2": 1190.371875, 
+        "y1": 617.1, 
+        "y2": 1222.1
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1529.jpg", 
+    "rects": [
+      {
+        "score": 0.9983127117156982, 
+        "x1": 2371.57421875, 
+        "x2": 4313.84765625, 
+        "y1": 2116.666666666667, 
+        "y2": 5016.666666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1530.jpg", 
+    "rects": [
+      {
+        "score": 0.989204466342926, 
+        "x1": 53.65625, 
+        "x2": 208.3125, 
+        "y1": 262.96875, 
+        "y2": 468.28125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1531.jpg", 
+    "rects": [
+      {
+        "score": 0.978182315826416, 
+        "x1": 667.8625, 
+        "x2": 766.3375, 
+        "y1": 639.0, 
+        "y2": 769.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1532.jpg", 
+    "rects": [
+      {
+        "score": 0.998004138469696, 
+        "x1": 211.5, 
+        "x2": 702.9, 
+        "y1": 386.4, 
+        "y2": 876.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1533.jpg", 
+    "rects": [
+      {
+        "score": 0.9419787526130676, 
+        "x1": 561.0, 
+        "x2": 621.0, 
+        "y1": 182.0, 
+        "y2": 242.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1534.jpg", 
+    "rects": [
+      {
+        "score": 0.9983237385749817, 
+        "x1": 229.79999999999998, 
+        "x2": 459.0, 
+        "y1": 134.4, 
+        "y2": 361.6
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1535.jpg", 
+    "rects": [
+      {
+        "score": 0.9622823596000671, 
+        "x1": 235.8, 
+        "x2": 329.40000000000003, 
+        "y1": 675.6, 
+        "y2": 769.1999999999999
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1536.jpg", 
+    "rects": [
+      {
+        "score": 0.9236950874328613, 
+        "x1": 403.2, 
+        "x2": 478.8, 
+        "y1": 142.79999999999998, 
+        "y2": 217.2
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1537.jpg", 
+    "rects": [
+      {
+        "score": 0.9975576400756836, 
+        "x1": -139.453125, 
+        "x2": 1616.015625, 
+        "y1": 211.45833333333334, 
+        "y2": 1961.4583333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1538.jpg", 
+    "rects": [
+      {
+        "score": 0.9956424236297607, 
+        "x1": 213.28125, 
+        "x2": 1503.90625, 
+        "y1": -29.166666666666668, 
+        "y2": 1254.1666666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1539.jpg", 
+    "rects": [
+      {
+        "score": 0.9973421692848206, 
+        "x1": 511.875, 
+        "x2": 2441.25, 
+        "y1": -70.0, 
+        "y2": 1837.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1540.jpg", 
+    "rects": [
+      {
+        "score": 0.9970360994338989, 
+        "x1": 925.3125, 
+        "x2": 2154.6875, 
+        "y1": 752.5, 
+        "y2": 1977.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1541.jpg", 
+    "rects": [
+      {
+        "score": 0.9980438947677612, 
+        "x1": 1873.59375, 
+        "x2": 3035.15625, 
+        "y1": 1995.0, 
+        "y2": 3150.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1542.jpg", 
+    "rects": [
+      {
+        "score": 0.8718786835670471, 
+        "x1": 25.78125, 
+        "x2": 136.71875, 
+        "y1": 536.4583333333334, 
+        "y2": 646.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1543.jpg", 
+    "rects": [
+      {
+        "score": 0.9975722432136536, 
+        "x1": 463.125, 
+        "x2": 894.375, 
+        "y1": 63.75, 
+        "y2": 491.25
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1544.jpg", 
+    "rects": [
+      {
+        "score": 0.9100607633590698, 
+        "x1": 480.9375, 
+        "x2": 565.3125, 
+        "y1": 986.25, 
+        "y2": 1068.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1545.jpg", 
+    "rects": [
+      {
+        "score": 0.9990611672401428, 
+        "x1": 87.5, 
+        "x2": 596.875, 
+        "y1": 413.5416666666667, 
+        "y2": 919.7916666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1546.jpg", 
+    "rects": [
+      {
+        "score": 0.9985960125923157, 
+        "x1": 232.5, 
+        "x2": 587.5, 
+        "y1": 251.66666666666669, 
+        "y2": 605.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1547.jpg", 
+    "rects": [
+      {
+        "score": 0.9984513521194458, 
+        "x1": 1334.375, 
+        "x2": 2594.375, 
+        "y1": 589.1666666666666, 
+        "y2": 1837.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1548.jpg", 
+    "rects": [
+      {
+        "score": 0.9790509939193726, 
+        "x1": 345.625, 
+        "x2": 695.625, 
+        "y1": 107.91666666666666, 
+        "y2": 452.0833333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1549.jpg", 
+    "rects": [
+      {
+        "score": 0.9979286193847656, 
+        "x1": 1851.171875, 
+        "x2": 3541.015625, 
+        "y1": 1688.0208333333335, 
+        "y2": 3372.3958333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1550.jpg", 
+    "rects": [
+      {
+        "score": 0.9971280694007874, 
+        "x1": 1185.625, 
+        "x2": 2113.125, 
+        "y1": 1461.25, 
+        "y2": 2388.75
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1551.jpg", 
+    "rects": [
+      {
+        "score": 0.9972623586654663, 
+        "x1": 2257.5, 
+        "x2": 3215.625, 
+        "y1": 1316.875, 
+        "y2": 2253.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1552.jpg", 
+    "rects": [
+      {
+        "score": 0.9929956793785095, 
+        "x1": 1212.3000000000002, 
+        "x2": 1547.1000000000001, 
+        "y1": 345.59999999999997, 
+        "y2": 787.1999999999999
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1553.jpg", 
+    "rects": [
+      {
+        "score": 0.969816267490387, 
+        "x1": 1520.3125, 
+        "x2": 1957.8125, 
+        "y1": 966.1458333333334, 
+        "y2": 1396.3541666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1554.jpg", 
+    "rects": [
+      {
+        "score": 0.9697402119636536, 
+        "x1": 3146.71875, 
+        "x2": 3612.65625, 
+        "y1": 3058.125, 
+        "y2": 3521.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1555.jpg", 
+    "rects": [
+      {
+        "score": 0.9863514304161072, 
+        "x1": 437.5, 
+        "x2": 883.75, 
+        "y1": 767.0833333333333, 
+        "y2": 1204.5833333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1556.jpg", 
+    "rects": [
+      {
+        "score": 0.9648796916007996, 
+        "x1": 1747.8125, 
+        "x2": 2067.1875, 
+        "y1": 793.3333333333333, 
+        "y2": 1108.3333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1557.jpg", 
+    "rects": [
+      {
+        "score": 0.9207140207290649, 
+        "x1": 1785.0, 
+        "x2": 1942.5, 
+        "y1": 1239.5833333333333, 
+        "y2": 1397.0833333333333
+      }, 
+      {
+        "score": 0.23160336911678314, 
+        "x1": 1701.875, 
+        "x2": 2051.875, 
+        "y1": 1143.3333333333333, 
+        "y2": 1493.3333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1558.jpg", 
+    "rects": [
+      {
+        "score": 0.9525657296180725, 
+        "x1": 3386.25, 
+        "x2": 3806.25, 
+        "y1": 1203.125, 
+        "y2": 1614.375
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1559.jpg", 
+    "rects": [
+      {
+        "score": 0.9966278672218323, 
+        "x1": 890.3125, 
+        "x2": 1979.6875, 
+        "y1": 1318.3333333333333, 
+        "y2": 2403.333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1560.jpg", 
+    "rects": [
+      {
+        "score": 0.9371650815010071, 
+        "x1": 633.28125, 
+        "x2": 954.84375, 
+        "y1": 1986.25, 
+        "y2": 2301.25
+      }, 
+      {
+        "score": 0.3945661783218384, 
+        "x1": 413.4375, 
+        "x2": 1069.6875, 
+        "y1": 1806.875, 
+        "y2": 2463.125
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1561.jpg", 
+    "rects": [
+      {
+        "score": 0.9769414067268372, 
+        "x1": 400.3125, 
+        "x2": 763.4375, 
+        "y1": 2135.0, 
+        "y2": 2485.0
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1562.jpg", 
+    "rects": [
+      {
+        "score": 0.984157919883728, 
+        "x1": 1260.546875, 
+        "x2": 1725.390625, 
+        "y1": 2180.2083333333335, 
+        "y2": 2632.291666666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1563.jpg", 
+    "rects": [
+      {
+        "score": 0.9980365633964539, 
+        "x1": 1216.796875, 
+        "x2": 2206.640625, 
+        "y1": 2205.729166666667, 
+        "y2": 3190.104166666667
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1564.jpg", 
+    "rects": [
+      {
+        "score": 0.9981188178062439, 
+        "x1": -46.484375, 
+        "x2": 1457.421875, 
+        "y1": 105.72916666666667, 
+        "y2": 1600.5208333333335
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1565.jpg", 
+    "rects": [
+      {
+        "score": 0.997715950012207, 
+        "x1": 1748.90625, 
+        "x2": 2687.34375, 
+        "y1": 2008.125, 
+        "y2": 2926.875
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1566.jpg", 
+    "rects": [
+      {
+        "score": 0.9978752136230469, 
+        "x1": 2634.84375, 
+        "x2": 4150.78125, 
+        "y1": 1802.5, 
+        "y2": 3307.5
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1567.jpg", 
+    "rects": [
+      {
+        "score": 0.9977524876594543, 
+        "x1": 15.3125, 
+        "x2": 815.9375, 
+        "y1": 1365.0, 
+        "y2": 2158.333333333333
+      }
+    ]
+  }, 
+  {
+    "image_path": "/home/sean/Desktop/lego_images_bounding_box/1568.jpg", 
+    "rects": [
+      {
+        "score": 0.9975479245185852, 
+        "x1": 3571.2, 
+        "x2": 10099.199999999999, 
+        "y1": 5870.933333333333, 
+        "y2": 14540.8
+      }
+    ]
+  }
+]

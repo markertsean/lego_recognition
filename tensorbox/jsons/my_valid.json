@@ -1,0 +1,3193 @@
+[
+{
+"rects": [
+  {
+   "y1": 3834.5,
+   "x2": 3534.6,
+   "x1": 1183.1,
+   "y2": 7361.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1250.jpg"
+},{
+"rects": [
+  {
+   "y1": 1769.1,
+   "x2": 4681.1,
+   "x1": 2883.0,
+   "y2": 4466.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1251.jpg"
+},{
+"rects": [
+  {
+   "y1": 3349.7,
+   "x2": 5243.4,
+   "x1": 3085.7,
+   "y2": 6586.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1252.jpg"
+},{
+"rects": [
+  {
+   "y1": 2339.7,
+   "x2": 3317.0,
+   "x1": 2230.9,
+   "y2": 3968.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1253.jpg"
+},{
+"rects": [
+  {
+   "y1": 2745.6,
+   "x2": 5147.4,
+   "x1": 3072.0,
+   "y2": 5858.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1254.jpg"
+},{
+"rects": [
+  {
+   "y1": 5928.0,
+   "x2": 2201.1,
+   "x1":  420.6,
+   "y2": 8598.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1255.jpg"
+},{
+"rects": [
+  {
+   "y1": 5293.7,
+   "x2": 3352.4,
+   "x1": 1331.8,
+   "y2": 8324.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1256.jpg"
+},{
+"rects": [
+  {
+   "y1":  428.0,
+   "x2": 3656.0,
+   "x1": 2976.0,
+   "y2": 1448.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1257.jpg"
+},{
+"rects": [
+  {
+   "y1": 6821.3,
+   "x2": 2188.4,
+   "x1": 1214.2,
+   "y2": 8282.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1258.jpg"
+},{
+"rects": [
+  {
+   "y1": 6844.0,
+   "x2": 4360.0,
+   "x1": 2768.0,
+   "y2": 9232.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1259.jpg"
+},{
+"rects": [
+  {
+   "y1": 4972.0,
+   "x2": 2413.3,
+   "x1": 1549.3,
+   "y2": 6268.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1260.jpg"
+},{
+"rects": [
+  {
+   "y1": 8285.3,
+   "x2": 5223.1,
+   "x1": 4938.7,
+   "y2": 8712.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1261.jpg"
+},{
+"rects": [
+  {
+   "y1": 5849.1,
+   "x2": 4345.1,
+   "x1": 3892.6,
+   "y2": 6528.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1262.jpg"
+},{
+"rects": [
+  {
+   "y1": 3451.4,
+   "x2": 4598.9,
+   "x1": 3715.0,
+   "y2": 4777.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1263.jpg"
+},{
+"rects": [
+  {
+   "y1": 3291.4,
+   "x2": 2772.6,
+   "x1":  722.3,
+   "y2": 6366.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1264.jpg"
+},{
+"rects": [
+  {
+   "y1": 7893.9,
+   "x2": 2894.6,
+   "x1": 1958.4,
+   "y2": 9298.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1265.jpg"
+},{
+"rects": [
+  {
+   "y1": 4590.9,
+   "x2": 3451.4,
+   "x1": 2116.6,
+   "y2": 6593.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1266.jpg"
+},{
+"rects": [
+  {
+   "y1": 3808.0,
+   "x2": 4758.9,
+   "x1": 3841.5,
+   "y2": 5184.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1267.jpg"
+},{
+"rects": [
+  {
+   "y1": 1464.0,
+   "x2": 6089.1,
+   "x1": 5515.4,
+   "y2": 2324.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1268.jpg"
+},{
+"rects": [
+  {
+   "y1": 3968.9,
+   "x2": 6368.9,
+   "x1": 4997.5,
+   "y2": 6026.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1269.jpg"
+},{
+"rects": [
+  {
+   "y1": 3192.7,
+   "x2": 3117.7,
+   "x1": 1806.6,
+   "y2": 5159.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1270.jpg"
+},{
+"rects": [
+  {
+   "y1": 1163.4,
+   "x2": 4143.2,
+   "x1": 3481.9,
+   "y2": 2155.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1271.jpg"
+},{
+"rects": [
+  {
+   "y1": 5924.6,
+   "x2": 1520.8,
+   "x1":  265.1,
+   "y2": 7808.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1272.jpg"
+},{
+"rects": [
+  {
+   "y1":  336.0,
+   "x2": 6377.1,
+   "x1": 5977.1,
+   "y2":  936.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1273.jpg"
+},{
+"rects": [
+  {
+   "y1":  500.6,
+   "x2": 5325.7,
+   "x1": 4089.1,
+   "y2": 2355.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1274.jpg"
+},{
+"rects": [
+  {
+   "y1": 4388.6,
+   "x2": 5174.9,
+   "x1": 4763.4,
+   "y2": 5005.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1275.jpg"
+},{
+"rects": [
+  {
+   "y1": 1470.2,
+   "x2": 3192.7,
+   "x1":  804.6,
+   "y2": 5052.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1276.jpg"
+},{
+"rects": [
+  {
+   "y1": 3030.0,
+   "x2": 2732.5,
+   "x1": 2185.0,
+   "y2": 3851.2
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1277.jpg"
+},{
+"rects": [
+  {
+   "y1": 3021.0,
+   "x2": 4244.0,
+   "x1": 3820.0,
+   "y2": 3657.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1278.jpg"
+},{
+"rects": [
+  {
+   "y1": 8080.0,
+   "x2": 5338.3,
+   "x1": 4390.0,
+   "y2": 9502.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1279.jpg"
+},{
+"rects": [
+  {
+   "y1": 1547.5,
+   "x2": 4403.3,
+   "x1": 2285.0,
+   "y2": 4725.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1280.jpg"
+},{
+"rects": [
+  {
+   "y1": 1927.5,
+   "x2": 3517.5,
+   "x1":  567.5,
+   "y2": 6352.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1281.jpg"
+},{
+"rects": [
+  {
+   "y1": 7632.0,
+   "x2": 5792.0,
+   "x1": 4672.0,
+   "y2": 9312.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1282.jpg"
+},{
+"rects": [
+  {
+   "y1": 4004.6,
+   "x2": 1967.2,
+   "x1": 1158.1,
+   "y2": 5218.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1283.jpg"
+},{
+"rects": [
+  {
+   "y1":  693.9,
+   "x2": 5926.4,
+   "x1": 5046.9,
+   "y2": 2013.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1284.jpg"
+},{
+"rects": [
+  {
+   "y1": 1765.7,
+   "x2": 4838.9,
+   "x1": 2336.0,
+   "y2": 5520.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1285.jpg"
+},{
+"rects": [
+  {
+   "y1":   68.6,
+   "x2": 3387.4,
+   "x1":  363.4,
+   "y2": 4604.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1286.jpg"
+},{
+"rects": [
+  {
+   "y1": 6810.0,
+   "x2": 3980.0,
+   "x1": 3660.0,
+   "y2": 7290.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1287.jpg"
+},{
+"rects": [
+  {
+   "y1":  412.5,
+   "x2": 4391.7,
+   "x1": 3291.7,
+   "y2": 2062.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1288.jpg"
+},{
+"rects": [
+  {
+   "y1": 2712.5,
+   "x2": 5883.3,
+   "x1": 5116.7,
+   "y2": 3862.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1289.jpg"
+},{
+"rects": [
+  {
+   "y1": 5550.0,
+   "x2": 1422.2,
+   "x1":  950.0,
+   "y2": 6258.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1290.jpg"
+},{
+"rects": [
+  {
+   "y1": 6966.7,
+   "x2": 2144.4,
+   "x1": 1727.8,
+   "y2": 7591.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1291.jpg"
+},{
+"rects": [
+  {
+   "y1": 4014.9,
+   "x2": 2900.6,
+   "x1":  692.6,
+   "y2": 7326.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1292.jpg"
+},{
+"rects": [
+  {
+   "y1": 4453.7,
+   "x2": 5588.6,
+   "x1": 3705.1,
+   "y2": 7278.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1293.jpg"
+},{
+"rects": [
+  {
+   "y1": 1736.2,
+   "x2": 6010.5,
+   "x1": 3893.0,
+   "y2": 4912.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1294.jpg"
+},{
+"rects": [
+  {
+   "y1": 6180.6,
+   "x2": 4170.7,
+   "x1": 2584.4,
+   "y2": 8560.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1295.jpg"
+},{
+"rects": [
+  {
+   "y1": 3414.9,
+   "x2": 5028.6,
+   "x1": 3547.4,
+   "y2": 5636.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1296.jpg"
+},{
+"rects": [
+  {
+   "y1":  772.0,
+   "x2": 6345.8,
+   "x1": 5638.4,
+   "y2": 1834.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1297.jpg"
+},{
+"rects": [
+  {
+   "y1": 5698.3,
+   "x2": 2105.9,
+   "x1": 1307.4,
+   "y2": 6896.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1298.jpg"
+},{
+"rects": [
+  {
+   "y1":  617.1,
+   "x2": 4221.7,
+   "x1": 3387.4,
+   "y2": 1868.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1299.jpg"
+},{
+"rects": [
+  {
+   "y1": 2982.9,
+   "x2": 2861.7,
+   "x1": 1972.6,
+   "y2": 4316.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1300.jpg"
+},{
+"rects": [
+  {
+   "y1": 1152.0,
+   "x2": 4385.5,
+   "x1": 2832.8,
+   "y2": 3481.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1301.jpg"
+},{
+"rects": [
+  {
+   "y1": 5728.0,
+   "x2": 2247.6,
+   "x1": 1057.5,
+   "y2": 7513.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1302.jpg"
+},{
+"rects": [
+  {
+   "y1": 2164.6,
+   "x2": 4036.6,
+   "x1": 2628.6,
+   "y2": 4276.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1303.jpg"
+},{
+"rects": [
+  {
+   "y1": 2029.7,
+   "x2": 6354.3,
+   "x1": 4758.9,
+   "y2": 4422.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1304.jpg"
+},{
+"rects": [
+  {
+   "y1": 3747.4,
+   "x2": 2697.1,
+   "x1": 1371.4,
+   "y2": 5736.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1305.jpg"
+},{
+"rects": [
+  {
+   "y1": 4001.1,
+   "x2": 4626.3,
+   "x1": 1552.0,
+   "y2": 8612.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1306.jpg"
+},{
+"rects": [
+  {
+   "y1": 5754.5,
+   "x2": 3797.9,
+   "x1": 1963.9,
+   "y2": 8505.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1307.jpg"
+},{
+"rects": [
+  {
+   "y1":  861.7,
+   "x2": 6159.2,
+   "x1": 5563.4,
+   "y2": 1755.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1308.jpg"
+},{
+"rects": [
+  {
+   "y1": 3253.7,
+   "x2": 5412.6,
+   "x1": 4452.6,
+   "y2": 4693.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1309.jpg"
+},{
+"rects": [
+  {
+   "y1": 4433.1,
+   "x2": 3995.4,
+   "x1": 1405.7,
+   "y2": 8317.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1310.jpg"
+},{
+"rects": [
+  {
+   "y1": 5757.7,
+   "x2": 4185.9,
+   "x1": 2188.2,
+   "y2": 8754.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1311.jpg"
+},{
+"rects": [
+  {
+   "y1": 3099.4,
+   "x2": 3051.4,
+   "x1": 1913.1,
+   "y2": 4806.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1312.jpg"
+},{
+"rects": [
+  {
+   "y1":  246.9,
+   "x2": 6281.1,
+   "x1": 3284.6,
+   "y2": 4741.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1313.jpg"
+},{
+"rects": [
+  {
+   "y1": 3344.0,
+   "x2": 4129.5,
+   "x1": 2003.8,
+   "y2": 6532.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1314.jpg"
+},{
+"rects": [
+  {
+   "y1": 5849.1,
+   "x2": 6281.1,
+   "x1": 4169.1,
+   "y2": 9017.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1315.jpg"
+},{
+"rects": [
+  {
+   "y1": 3571.2,
+   "x2": 2554.5,
+   "x1": 1770.1,
+   "y2": 4747.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1316.jpg"
+},{
+"rects": [
+  {
+   "y1": 2973.3,
+   "x2": 2867.2,
+   "x1": 1250.7,
+   "y2": 5397.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1317.jpg"
+},{
+"rects": [
+  {
+   "y1": 5489.1,
+   "x2": 5346.7,
+   "x1": 2946.7,
+   "y2": 9089.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1318.jpg"
+},{
+"rects": [
+  {
+   "y1": 5196.0,
+   "x2": 2737.8,
+   "x1": 2355.6,
+   "y2": 5774.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1319.jpg"
+},{
+"rects": [
+  {
+   "y1": 1964.4,
+   "x2": 4995.6,
+   "x1": 4551.1,
+   "y2": 2637.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1320.jpg"
+},{
+"rects": [
+  {
+   "y1": 6617.8,
+   "x2": 5480.0,
+   "x1": 4000.0,
+   "y2": 8839.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1321.jpg"
+},{
+"rects": [
+  {
+   "y1": 1128.7,
+   "x2": 3386.7,
+   "x1": 2840.0,
+   "y2": 1948.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1322.jpg"
+},{
+"rects": [
+  {
+   "y1":  647.3,
+   "x2": 6392.7,
+   "x1": 4278.9,
+   "y2": 3818.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1323.jpg"
+},{
+"rects": [
+  {
+   "y1": 2208.0,
+   "x2": 2744.4,
+   "x1": 1757.0,
+   "y2": 3689.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1324.jpg"
+},{
+"rects": [
+  {
+   "y1": 4464.0,
+   "x2": 4304.0,
+   "x1": 2557.7,
+   "y2": 7083.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1325.jpg"
+},{
+"rects": [
+  {
+   "y1":  699.4,
+   "x2": 1842.3,
+   "x1": 1254.1,
+   "y2": 1581.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1326.jpg"
+},{
+"rects": [
+  {
+   "y1": 1874.3,
+   "x2": 5423.2,
+   "x1": 3427.0,
+   "y2": 4868.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1327.jpg"
+},{
+"rects": [
+  {
+   "y1":  594.3,
+   "x2":  403.8,
+   "x1":  109.7,
+   "y2": 1035.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1328.jpg"
+},{
+"rects": [
+  {
+   "y1": 2603.4,
+   "x2": 4032.0,
+   "x1": 2436.6,
+   "y2": 4996.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1329.jpg"
+},{
+"rects": [
+  {
+   "y1": 5469.3,
+   "x2": 3212.8,
+   "x1":  760.7,
+   "y2": 9147.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1330.jpg"
+},{
+"rects": [
+  {
+   "y1": 3667.2,
+   "x2": 5579.0,
+   "x1": 4633.6,
+   "y2": 5085.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1331.jpg"
+},{
+"rects": [
+  {
+   "y1": 1889.1,
+   "x2": 2141.7,
+   "x1":   86.9,
+   "y2": 4971.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1332.jpg"
+},{
+"rects": [
+  {
+   "y1": 7932.6,
+   "x2": 3258.9,
+   "x1": 2517.9,
+   "y2": 9044.2
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1333.jpg"
+},{
+"rects": [
+  {
+   "y1": 1141.9,
+   "x2": 2452.2,
+   "x1": 1589.9,
+   "y2": 2435.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1334.jpg"
+},{
+"rects": [
+  {
+   "y1":  101.1,
+   "x2": 2054.7,
+   "x1": 1600.0,
+   "y2":  783.2
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1335.jpg"
+},{
+"rects": [
+  {
+   "y1": 2324.2,
+   "x2": 1670.7,
+   "x1":  687.2,
+   "y2": 3799.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1336.jpg"
+},{
+"rects": [
+  {
+   "y1": 3806.3,
+   "x2": 3082.1,
+   "x1": 2790.2,
+   "y2": 4244.2
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1337.jpg"
+},{
+"rects": [
+  {
+   "y1": 6868.8,
+   "x2": 5592.2,
+   "x1": 3871.3,
+   "y2": 9449.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1338.jpg"
+},{
+"rects": [
+  {
+   "y1": 1862.4,
+   "x2": 1464.9,
+   "x1":  638.6,
+   "y2": 3102.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1339.jpg"
+},{
+"rects": [
+  {
+   "y1": 4721.1,
+   "x2": 2955.4,
+   "x1":  109.7,
+   "y2": 8989.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1340.jpg"
+},{
+"rects": [
+  {
+   "y1": 2982.9,
+   "x2": 5547.4,
+   "x1": 3753.1,
+   "y2": 5674.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1341.jpg"
+},{
+"rects": [
+  {
+   "y1": 7177.1,
+   "x2": 1117.0,
+   "x1":  254.5,
+   "y2": 8470.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1342.jpg"
+},{
+"rects": [
+  {
+   "y1": 4086.9,
+   "x2": 5730.7,
+   "x1": 3249.4,
+   "y2": 7808.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1343.jpg"
+},{
+"rects": [
+  {
+   "y1": 3069.3,
+   "x2": 5308.3,
+   "x1": 3269.5,
+   "y2": 6127.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1344.jpg"
+},{
+"rects": [
+  {
+   "y1": 3428.6,
+   "x2": 4102.9,
+   "x1": 2053.3,
+   "y2": 6502.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1345.jpg"
+},{
+"rects": [
+  {
+   "y1": 7205.7,
+   "x2": 5188.6,
+   "x1": 4415.2,
+   "y2": 8365.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1346.jpg"
+},{
+"rects": [
+  {
+   "y1": 7021.0,
+   "x2": 3555.6,
+   "x1": 2730.2,
+   "y2": 8259.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1347.jpg"
+},{
+"rects": [
+  {
+   "y1": 3232.0,
+   "x2": 4385.5,
+   "x1": 2212.6,
+   "y2": 6491.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1348.jpg"
+},{
+"rects": [
+  {
+   "y1": 5043.8,
+   "x2": 5818.4,
+   "x1": 5191.1,
+   "y2": 5984.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1349.jpg"
+},{
+"rects": [
+  {
+   "y1": 5812.1,
+   "x2": 4255.1,
+   "x1": 2709.9,
+   "y2": 8129.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1350.jpg"
+},{
+"rects": [
+  {
+   "y1": 5529.6,
+   "x2": 6120.2,
+   "x1": 4591.5,
+   "y2": 7822.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1351.jpg"
+},{
+"rects": [
+  {
+   "y1": 1306.3,
+   "x2": 3643.4,
+   "x1": 1602.3,
+   "y2": 4368.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1352.jpg"
+},{
+"rects": [
+  {
+   "y1": 5064.0,
+   "x2": 3885.7,
+   "x1": 2628.6,
+   "y2": 6949.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1353.jpg"
+},{
+"rects": [
+  {
+   "y1": 8690.3,
+   "x2": 3594.7,
+   "x1": 3139.0,
+   "y2": 9373.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1354.jpg"
+},{
+"rects": [
+  {
+   "y1": 2716.8,
+   "x2": 3185.1,
+   "x1": 2530.1,
+   "y2": 3699.2
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1355.jpg"
+},{
+"rects": [
+  {
+   "y1": 2960.0,
+   "x2": 4106.7,
+   "x1": 3765.3,
+   "y2": 3472.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1356.jpg"
+},{
+"rects": [
+  {
+   "y1": 3808.0,
+   "x2": 4424.0,
+   "x1": 1701.3,
+   "y2": 7892.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1357.jpg"
+},{
+"rects": [
+  {
+   "y1": 6434.7,
+   "x2": 5018.7,
+   "x1": 3761.8,
+   "y2": 8320.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1358.jpg"
+},{
+"rects": [
+  {
+   "y1": 3156.0,
+   "x2": 4370.7,
+   "x1": 2189.3,
+   "y2": 6428.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1359.jpg"
+},{
+"rects": [
+  {
+   "y1": 3464.2,
+   "x2": 4123.4,
+   "x1": 3278.6,
+   "y2": 4731.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1360.jpg"
+},{
+"rects": [
+  {
+   "y1":  491.4,
+   "x2": 2406.1,
+   "x1": 1593.9,
+   "y2": 1709.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1361.jpg"
+},{
+"rects": [
+  {
+   "y1": 2870.9,
+   "x2": 2921.1,
+   "x1": 1267.8,
+   "y2": 5350.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1362.jpg"
+},{
+"rects": [
+  {
+   "y1": 4491.4,
+   "x2": 4160.0,
+   "x1": 2442.7,
+   "y2": 7067.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1363.jpg"
+},{
+"rects": [
+  {
+   "y1": 7616.9,
+   "x2": 3450.5,
+   "x1": 2362.5,
+   "y2": 9248.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1364.jpg"
+},{
+"rects": [
+  {
+   "y1": 1780.0,
+   "x2": 5944.0,
+   "x1": 4178.7,
+   "y2": 4428.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1365.jpg"
+},{
+"rects": [
+  {
+   "y1": 4800.0,
+   "x2": 4580.3,
+   "x1": 4053.3,
+   "y2": 5590.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1366.jpg"
+},{
+"rects": [
+  {
+   "y1":  802.7,
+   "x2": 5239.1,
+   "x1": 4186.7,
+   "y2": 2381.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1367.jpg"
+},{
+"rects": [
+  {
+   "y1":   52.0,
+   "x2": 3002.7,
+   "x1": 1834.7,
+   "y2": 1804.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1368.jpg"
+},{
+"rects": [
+  {
+   "y1": 3533.3,
+   "x2": 4792.9,
+   "x1": 2791.1,
+   "y2": 6536.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1369.jpg"
+},{
+"rects": [
+  {
+   "y1": 1333.3,
+   "x2": 2294.4,
+   "x1": 1561.1,
+   "y2": 2433.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1370.jpg"
+},{
+"rects": [
+  {
+   "y1": 1512.5,
+   "x2": 4100.0,
+   "x1": 2700.0,
+   "y2": 3612.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1371.jpg"
+},{
+"rects": [
+  {
+   "y1": 5233.3,
+   "x2": 5438.9,
+   "x1": 4955.6,
+   "y2": 5958.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1372.jpg"
+},{
+"rects": [
+  {
+   "y1": 7340.0,
+   "x2": 5753.3,
+   "x1": 5406.7,
+   "y2": 7860.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1373.jpg"
+},{
+"rects": [
+  {
+   "y1": 3450.0,
+   "x2": 3741.7,
+   "x1": 2583.3,
+   "y2": 5187.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1374.jpg"
+},{
+"rects": [
+  {
+   "y1": 1537.5,
+   "x2": 4341.7,
+   "x1": 3266.7,
+   "y2": 3150.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1375.jpg"
+},{
+"rects": [
+  {
+   "y1": 2690.0,
+   "x2": 4513.3,
+   "x1": 4006.7,
+   "y2": 3450.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1376.jpg"
+},{
+"rects": [
+  {
+   "y1": 4733.3,
+   "x2": 4705.6,
+   "x1": 3738.9,
+   "y2": 6183.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1377.jpg"
+},{
+"rects": [
+  {
+   "y1": 5500.0,
+   "x2": 2433.3,
+   "x1":  858.3,
+   "y2": 7862.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1378.jpg"
+},{
+"rects": [
+  {
+   "y1": 4280.0,
+   "x2": 3040.0,
+   "x1": 2273.3,
+   "y2": 5430.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1379.jpg"
+},{
+"rects": [
+  {
+   "y1": 2968.4,
+   "x2": 3621.1,
+   "x1": 3115.8,
+   "y2": 3726.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1380.jpg"
+},{
+"rects": [
+  {
+   "y1": 1069.5,
+   "x2": 4957.2,
+   "x1": 4485.6,
+   "y2": 1776.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1381.jpg"
+},{
+"rects": [
+  {
+   "y1": 2804.2,
+   "x2": 2200.7,
+   "x1":  662.5,
+   "y2": 5111.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1382.jpg"
+},{
+"rects": [
+  {
+   "y1": 6252.6,
+   "x2": 5002.1,
+   "x1": 2972.6,
+   "y2": 9296.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1383.jpg"
+},{
+"rects": [
+  {
+   "y1": 2880.0,
+   "x2": 4277.9,
+   "x1": 2324.2,
+   "y2": 5810.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1384.jpg"
+},{
+"rects": [
+  {
+   "y1": 2372.6,
+   "x2": 5371.4,
+   "x1": 3801.9,
+   "y2": 4726.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1385.jpg"
+},{
+"rects": [
+  {
+   "y1": 4529.1,
+   "x2": 3803.4,
+   "x1": 3202.3,
+   "y2": 5430.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1386.jpg"
+},{
+"rects": [
+  {
+   "y1": 7482.5,
+   "x2": 2819.7,
+   "x1": 1616.5,
+   "y2": 9287.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1387.jpg"
+},{
+"rects": [
+  {
+   "y1":  678.9,
+   "x2": 6182.9,
+   "x1": 3926.9,
+   "y2": 4062.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1388.jpg"
+},{
+"rects": [
+  {
+   "y1": 3173.5,
+   "x2": 5096.2,
+   "x1": 2889.1,
+   "y2": 6484.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1389.jpg"
+},{
+"rects": [
+  {
+   "y1": 3780.0,
+   "x2": 2702.2,
+   "x1": 1031.1,
+   "y2": 6285.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1390.jpg"
+},{
+"rects": [
+  {
+   "y1": 5912.5,
+   "x2": 4655.6,
+   "x1": 4037.0,
+   "y2": 6837.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1391.jpg"
+},{
+"rects": [
+  {
+   "y1": 4408.3,
+   "x2": 2100.0,
+   "x1": 1759.3,
+   "y2": 4920.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1392.jpg"
+},{
+"rects": [
+  {
+   "y1": 6325.0,
+   "x2": 4505.6,
+   "x1": 2766.7,
+   "y2": 8931.2
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1393.jpg"
+},{
+"rects": [
+  {
+   "y1": 1272.0,
+   "x2": 4354.3,
+   "x1": 3046.9,
+   "y2": 3233.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1394.jpg"
+},{
+"rects": [
+  {
+   "y1": 2797.7,
+   "x2": 3172.6,
+   "x1": 1368.4,
+   "y2": 5504.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1395.jpg"
+},{
+"rects": [
+  {
+   "y1": 5880.0,
+   "x2": 6102.9,
+   "x1": 4934.9,
+   "y2": 7632.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1396.jpg"
+},{
+"rects": [
+  {
+   "y1": 2026.3,
+   "x2": 1579.4,
+   "x1":  571.4,
+   "y2": 3538.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1397.jpg"
+},{
+"rects": [
+  {
+   "y1": 4583.3,
+   "x2": 1795.7,
+   "x1": 1417.1,
+   "y2": 5151.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1398.jpg"
+},{
+"rects": [
+  {
+   "y1": 6634.3,
+   "x2": 6180.6,
+   "x1": 4765.7,
+   "y2": 8756.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1399.jpg"
+},{
+"rects": [
+  {
+   "y1": 3077.5,
+   "x2": 2947.7,
+   "x1": 1135.5,
+   "y2": 5795.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1400.jpg"
+},{
+"rects": [
+  {
+   "y1": 5708.6,
+   "x2": 3499.4,
+   "x1": 1024.0,
+   "y2": 9421.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1401.jpg"
+},{
+"rects": [
+  {
+   "y1": 2406.9,
+   "x2": 6125.7,
+   "x1": 3732.6,
+   "y2": 5996.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1402.jpg"
+},{
+"rects": [
+  {
+   "y1": 7112.2,
+   "x2": 3050.1,
+   "x1": 1971.2,
+   "y2": 8730.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1403.jpg"
+},{
+"rects": [
+  {
+   "y1": 1475.0,
+   "x2": 6127.8,
+   "x1": 4744.4,
+   "y2": 3550.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1404.jpg"
+},{
+"rects": [
+  {
+   "y1": 1600.0,
+   "x2": 3866.7,
+   "x1": 1686.7,
+   "y2": 4870.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1405.jpg"
+},{
+"rects": [
+  {
+   "y1": 3258.3,
+   "x2": 5777.8,
+   "x1": 4616.7,
+   "y2": 5000.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1406.jpg"
+},{
+"rects": [
+  {
+   "y1": 2160.0,
+   "x2": 4846.7,
+   "x1": 3673.3,
+   "y2": 3920.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1407.jpg"
+},{
+"rects": [
+  {
+   "y1": 4566.7,
+   "x2": 6044.4,
+   "x1": 4594.4,
+   "y2": 6741.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1408.jpg"
+},{
+"rects": [
+  {
+   "y1": 2133.3,
+   "x2": 1555.6,
+   "x1":  850.0,
+   "y2": 3191.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1409.jpg"
+},{
+"rects": [
+  {
+   "y1": 1520.0,
+   "x2": 4473.3,
+   "x1": 3133.3,
+   "y2": 3530.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1410.jpg"
+},{
+"rects": [
+  {
+   "y1": 1700.0,
+   "x2": 2133.3,
+   "x1":  440.0,
+   "y2": 4240.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1411.jpg"
+},{
+"rects": [
+  {
+   "y1": 5837.5,
+   "x2": 3233.3,
+   "x1": 1950.0,
+   "y2": 7762.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1412.jpg"
+},{
+"rects": [
+  {
+   "y1": 4950.0,
+   "x2": 4722.2,
+   "x1": 4183.3,
+   "y2": 5758.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1413.jpg"
+},{
+"rects": [
+  {
+   "y1": 1343.3,
+   "x2": 5514.4,
+   "x1": 4327.4,
+   "y2": 3123.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1414.jpg"
+},{
+"rects": [
+  {
+   "y1": 7975.8,
+   "x2": 5630.5,
+   "x1": 4691.5,
+   "y2": 9386.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1415.jpg"
+},{
+"rects": [
+  {
+   "y1": 1100.0,
+   "x2": 1866.7,
+   "x1":   25.0,
+   "y2": 3862.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1416.jpg"
+},{
+"rects": [
+  {
+   "y1": 3660.0,
+   "x2": 5966.7,
+   "x1": 4953.3,
+   "y2": 5180.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1417.jpg"
+},{
+"rects": [
+  {
+   "y1": 3620.0,
+   "x2": 3333.3,
+   "x1": 2706.7,
+   "y2": 4560.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1418.jpg"
+},{
+"rects": [
+  {
+   "y1": 3533.3,
+   "x2": 5238.9,
+   "x1": 4466.7,
+   "y2": 4691.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1419.jpg"
+},{
+"rects": [
+  {
+   "y1": 6108.3,
+   "x2": 4183.3,
+   "x1": 2700.0,
+   "y2": 8333.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1420.jpg"
+},{
+"rects": [
+  {
+   "y1": 6802.3,
+   "x2": 5715.8,
+   "x1": 4793.9,
+   "y2": 8185.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1421.jpg"
+},{
+"rects": [
+  {
+   "y1": 4608.0,
+   "x2": 3485.0,
+   "x1": 3154.3,
+   "y2": 5104.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1422.jpg"
+},{
+"rects": [
+  {
+   "y1": 2698.3,
+   "x2": 5718.9,
+   "x1": 4404.6,
+   "y2": 4669.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1423.jpg"
+},{
+"rects": [
+  {
+   "y1": 3420.3,
+   "x2": 5460.1,
+   "x1": 3774.2,
+   "y2": 5949.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1424.jpg"
+},{
+"rects": [
+  {
+   "y1": 5145.6,
+   "x2": 3805.3,
+   "x1": 1521.4,
+   "y2": 8571.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1425.jpg"
+},{
+"rects": [
+  {
+   "y1": 2043.4,
+   "x2": 5953.8,
+   "x1": 3971.7,
+   "y2": 5016.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1426.jpg"
+},{
+"rects": [
+  {
+   "y1": 3195.4,
+   "x2": 4088.7,
+   "x1": 3083.0,
+   "y2": 4704.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1427.jpg"
+},{
+"rects": [
+  {
+   "y1": 2427.4,
+   "x2": 4220.3,
+   "x1": 2285.7,
+   "y2": 5329.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1428.jpg"
+},{
+"rects": [
+  {
+   "y1": 1426.3,
+   "x2": 4704.0,
+   "x1": 3326.5,
+   "y2": 3492.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1429.jpg"
+},{
+"rects": [
+  {
+   "y1":  587.0,
+   "x2": 3691.9,
+   "x1": 2093.7,
+   "y2": 2984.2
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1430.jpg"
+},{
+"rects": [
+  {
+   "y1": 2010.0,
+   "x2": 1960.0,
+   "x1":    6.7,
+   "y2": 4940.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1431.jpg"
+},{
+"rects": [
+  {
+   "y1": 8460.0,
+   "x2": 3346.7,
+   "x1": 2620.0,
+   "y2": 9550.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1432.jpg"
+},{
+"rects": [
+  {
+   "y1": 6012.5,
+   "x2": 4425.0,
+   "x1": 2450.0,
+   "y2": 8975.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1433.jpg"
+},{
+"rects": [
+  {
+   "y1": 5630.0,
+   "x2": 5666.7,
+   "x1": 4273.3,
+   "y2": 7720.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1434.jpg"
+},{
+"rects": [
+  {
+   "y1": 3650.0,
+   "x2": 4566.7,
+   "x1": 2366.7,
+   "y2": 6950.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1435.jpg"
+},{
+"rects": [
+  {
+   "y1":  791.7,
+   "x2": 1116.7,
+   "x1":  283.3,
+   "y2": 2041.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1436.jpg"
+},{
+"rects": [
+  {
+   "y1": 5516.7,
+   "x2": 1488.9,
+   "x1":  672.2,
+   "y2": 6741.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1437.jpg"
+},{
+"rects": [
+  {
+   "y1": 7330.0,
+   "x2": 4746.7,
+   "x1": 3493.3,
+   "y2": 9210.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1438.jpg"
+},{
+"rects": [
+  {
+   "y1": 5030.0,
+   "x2": 1900.0,
+   "x1":   40.0,
+   "y2": 7820.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1439.jpg"
+},{
+"rects": [
+  {
+   "y1": 7230.0,
+   "x2": 3986.7,
+   "x1": 3013.3,
+   "y2": 8690.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1440.jpg"
+},{
+"rects": [
+  {
+   "y1": 6037.0,
+   "x2": 2816.0,
+   "x1": 1022.2,
+   "y2": 8727.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1441.jpg"
+},{
+"rects": [
+  {
+   "y1":  655.5,
+   "x2": 5363.2,
+   "x1": 3139.7,
+   "y2": 3990.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1442.jpg"
+},{
+"rects": [
+  {
+   "y1": 5329.4,
+   "x2": 5529.6,
+   "x1": 5167.5,
+   "y2": 5872.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1443.jpg"
+},{
+"rects": [
+  {
+   "y1": 3309.7,
+   "x2": 5283.0,
+   "x1": 4355.0,
+   "y2": 4701.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1444.jpg"
+},{
+"rects": [
+  {
+   "y1":  582.9,
+   "x2": 2592.0,
+   "x1": 2052.6,
+   "y2": 1392.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1445.jpg"
+},{
+"rects": [
+  {
+   "y1": 6795.4,
+   "x2": 5821.7,
+   "x1": 4761.1,
+   "y2": 8386.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1446.jpg"
+},{
+"rects": [
+  {
+   "y1": 7662.9,
+   "x2": 2784.0,
+   "x1": 1538.3,
+   "y2": 9531.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1447.jpg"
+},{
+"rects": [
+  {
+   "y1": 1379.7,
+   "x2": 2472.2,
+   "x1": 1296.5,
+   "y2": 3143.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1448.jpg"
+},{
+"rects": [
+  {
+   "y1": 2656.0,
+   "x2": 6165.3,
+   "x1": 4411.4,
+   "y2": 5286.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1449.jpg"
+},{
+"rects": [
+  {
+   "y1": 5129.1,
+   "x2": 6375.6,
+   "x1": 4640.0,
+   "y2": 7732.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1450.jpg"
+},{
+"rects": [
+  {
+   "y1": 1929.6,
+   "x2": 1710.1,
+   "x1": 1387.5,
+   "y2": 2414.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1451.jpg"
+},{
+"rects": [
+  {
+   "y1": 4588.0,
+   "x2": 2845.9,
+   "x1": 1241.6,
+   "y2": 6996.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1452.jpg"
+},{
+"rects": [
+  {
+   "y1": 2362.5,
+   "x2": 4283.3,
+   "x1": 3250.0,
+   "y2": 3912.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1453.jpg"
+},{
+"rects": [
+  {
+   "y1": 6200.0,
+   "x2": 3013.3,
+   "x1":  926.7,
+   "y2": 9330.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1454.jpg"
+},{
+"rects": [
+  {
+   "y1":  958.3,
+   "x2": 2766.7,
+   "x1":  661.1,
+   "y2": 4116.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1455.jpg"
+},{
+"rects": [
+  {
+   "y1": 4350.0,
+   "x2": 4783.3,
+   "x1": 3166.7,
+   "y2": 6775.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1456.jpg"
+},{
+"rects": [
+  {
+   "y1": 6083.3,
+   "x2": 3155.6,
+   "x1": 2672.2,
+   "y2": 6808.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1457.jpg"
+},{
+"rects": [
+  {
+   "y1": 1867.4,
+   "x2": 5586.3,
+   "x1": 4632.4,
+   "y2": 3298.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1458.jpg"
+},{
+"rects": [
+  {
+   "y1": 5074.3,
+   "x2": 5874.3,
+   "x1": 3773.7,
+   "y2": 8225.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1459.jpg"
+},{
+"rects": [
+  {
+   "y1": 2413.7,
+   "x2": 5624.7,
+   "x1": 4266.1,
+   "y2": 4451.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1460.jpg"
+},{
+"rects": [
+  {
+   "y1":  299.4,
+   "x2": 4857.9,
+   "x1": 3510.9,
+   "y2": 2320.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1461.jpg"
+},{
+"rects": [
+  {
+   "y1": 8523.4,
+   "x2": 5945.9,
+   "x1": 5624.4,
+   "y2": 9005.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1462.jpg"
+},{
+"rects": [
+  {
+   "y1": 5612.8,
+   "x2": 3916.8,
+   "x1": 2510.9,
+   "y2": 7721.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1463.jpg"
+},{
+"rects": [
+  {
+   "y1": 6858.7,
+   "x2": 5674.7,
+   "x1": 3886.2,
+   "y2": 9541.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1464.jpg"
+},{
+"rects": [
+  {
+   "y1": 4764.8,
+   "x2": 4902.4,
+   "x1": 3413.3,
+   "y2": 6998.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1465.jpg"
+},{
+"rects": [
+  {
+   "y1": 7136.0,
+   "x2":  792.9,
+   "x1":  497.8,
+   "y2": 7578.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1466.jpg"
+},{
+"rects": [
+  {
+   "y1": 4595.2,
+   "x2": 3756.8,
+   "x1": 1612.8,
+   "y2": 7811.2
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1467.jpg"
+},{
+"rects": [
+  {
+   "y1":  144.0,
+   "x2": 5469.9,
+   "x1": 2607.1,
+   "y2": 4437.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1468.jpg"
+},{
+"rects": [
+  {
+   "y1":  916.8,
+   "x2": 3224.7,
+   "x1": 1520.1,
+   "y2": 3472.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1469.jpg"
+},{
+"rects": [
+  {
+   "y1": 2916.8,
+   "x2": 6172.3,
+   "x1": 4262.8,
+   "y2": 5780.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1470.jpg"
+},{
+"rects": [
+  {
+   "y1": 5186.0,
+   "x2": 5566.1,
+   "x1": 4973.0,
+   "y2": 6078.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1471.jpg"
+},{
+"rects": [
+  {
+   "y1": 5028.0,
+   "x2": 5664.0,
+   "x1": 3754.7,
+   "y2": 7890.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1472.jpg"
+},{
+"rects": [
+  {
+   "y1": 4266.7,
+   "x2": 5811.1,
+   "x1": 4277.8,
+   "y2": 6566.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1473.jpg"
+},{
+"rects": [
+  {
+   "y1": 7860.0,
+   "x2": 3426.7,
+   "x1": 2440.0,
+   "y2": 9340.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1474.jpg"
+},{
+"rects": [
+  {
+   "y1": 4550.0,
+   "x2": 1786.7,
+   "x1":  580.0,
+   "y2": 6360.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1475.jpg"
+},{
+"rects": [
+  {
+   "y1": 6716.7,
+   "x2": 3516.7,
+   "x1": 1655.6,
+   "y2": 9508.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1476.jpg"
+},{
+"rects": [
+  {
+   "y1": 1316.7,
+   "x2": 3950.0,
+   "x1": 2911.1,
+   "y2": 2875.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1477.jpg"
+},{
+"rects": [
+  {
+   "y1": 2065.0,
+   "x2": 2448.9,
+   "x1":  168.9,
+   "y2": 5485.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1478.jpg"
+},{
+"rects": [
+  {
+   "y1": 2962.3,
+   "x2": 4758.9,
+   "x1": 2612.6,
+   "y2": 6181.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1479.jpg"
+},{
+"rects": [
+  {
+   "y1": 3476.6,
+   "x2": 2820.6,
+   "x1":   93.7,
+   "y2": 7566.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1480.jpg"
+},{
+"rects": [
+  {
+   "y1":  713.1,
+   "x2": 3260.3,
+   "x1": 2170.5,
+   "y2": 2347.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1481.jpg"
+},{
+"rects": [
+  {
+   "y1": 5427.4,
+   "x2": 5643.4,
+   "x1": 3899.4,
+   "y2": 8043.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1482.jpg"
+},{
+"rects": [
+  {
+   "y1": 4957.7,
+   "x2": 2578.3,
+   "x1":  953.1,
+   "y2": 7395.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1483.jpg"
+},{
+"rects": [
+  {
+   "y1":  946.5,
+   "x2": 2240.0,
+   "x1": 1009.6,
+   "y2": 2792.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1484.jpg"
+},{
+"rects": [
+  {
+   "y1": 2832.7,
+   "x2": 1753.2,
+   "x1":  914.9,
+   "y2": 4090.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1485.jpg"
+},{
+"rects": [
+  {
+   "y1": 3758.9,
+   "x2": 5354.4,
+   "x1": 2190.4,
+   "y2": 8504.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1486.jpg"
+},{
+"rects": [
+  {
+   "y1": 4462.0,
+   "x2": 5336.3,
+   "x1": 4496.2,
+   "y2": 5722.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1487.jpg"
+},{
+"rects": [
+  {
+   "y1": 5489.6,
+   "x2": 2853.0,
+   "x1": 1627.0,
+   "y2": 7328.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1488.jpg"
+},{
+"rects": [
+  {
+   "y1": 4465.6,
+   "x2": 6256.9,
+   "x1": 3494.0,
+   "y2": 8612.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1489.jpg"
+},{
+"rects": [
+  {
+   "y1":   75.0,
+   "x2":  813.3,
+   "x1":  293.3,
+   "y2":  855.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1490.jpg"
+},{
+"rects": [
+  {
+   "y1": 6308.6,
+   "x2": 5152.0,
+   "x1": 3259.4,
+   "y2": 9147.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1491.jpg"
+},{
+"rects": [
+  {
+   "y1": 4569.1,
+   "x2": 4310.9,
+   "x1": 3430.1,
+   "y2": 5890.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1492.jpg"
+},{
+"rects": [
+  {
+   "y1":  250.3,
+   "x2": 5478.9,
+   "x1": 3357.7,
+   "y2": 3432.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1493.jpg"
+},{
+"rects": [
+  {
+   "y1": 7114.3,
+   "x2": 1581.7,
+   "x1":  653.7,
+   "y2": 8506.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1494.jpg"
+},{
+"rects": [
+  {
+   "y1": 7161.6,
+   "x2": 4854.9,
+   "x1": 3629.7,
+   "y2": 8999.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1495.jpg"
+},{
+"rects": [
+  {
+   "y1": 5239.2,
+   "x2": 4827.3,
+   "x1": 3026.7,
+   "y2": 7941.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1496.jpg"
+},{
+"rects": [
+  {
+   "y1": 7461.0,
+   "x2": 1291.6,
+   "x1":  338.9,
+   "y2": 8890.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1497.jpg"
+},{
+"rects": [
+  {
+   "y1": 5520.0,
+   "x2": 2720.1,
+   "x1":  770.8,
+   "y2": 8443.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1498.jpg"
+},{
+"rects": [
+  {
+   "y1":  346.1,
+   "x2": 3093.6,
+   "x1": 1207.9,
+   "y2": 3174.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1499.jpg"
+},{
+"rects": [
+  {
+   "y1": 1926.8,
+   "x2": 5769.0,
+   "x1": 2825.9,
+   "y2": 6341.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1500.jpg"
+},{
+"rects": [
+  {
+   "y1": 4211.8,
+   "x2": 5863.7,
+   "x1": 2713.2,
+   "y2": 8937.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1501.jpg"
+},{
+"rects": [
+  {
+   "y1": 7522.3,
+   "x2": 2046.2,
+   "x1": 1334.1,
+   "y2": 8590.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1502.jpg"
+},{
+"rects": [
+  {
+   "y1": 3694.0,
+   "x2": 1849.7,
+   "x1":  111.8,
+   "y2": 6300.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1503.jpg"
+},{
+"rects": [
+  {
+   "y1":  202.3,
+   "x2": 6294.9,
+   "x1": 4388.6,
+   "y2": 3061.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1504.jpg"
+},{
+"rects": [
+  {
+   "y1":  816.0,
+   "x2": 5539.0,
+   "x1": 4169.1,
+   "y2": 2870.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1505.jpg"
+},{
+"rects": [
+  {
+   "y1":  898.3,
+   "x2": 3622.9,
+   "x1": 1033.1,
+   "y2": 4782.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1506.jpg"
+},{
+"rects": [
+  {
+   "y1": 4258.3,
+   "x2": 2800.0,
+   "x1":  370.3,
+   "y2": 7902.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1507.jpg"
+},{
+"rects": [
+  {
+   "y1": 6313.1,
+   "x2": 4024.4,
+   "x1": 2602.7,
+   "y2": 8445.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1508.jpg"
+},{
+"rects": [
+  {
+   "y1": 2542.0,
+   "x2": 3434.9,
+   "x1": 1323.2,
+   "y2": 5711.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1509.jpg"
+},{
+"rects": [
+  {
+   "y1":   90.1,
+   "x2": 5895.9,
+   "x1": 4716.7,
+   "y2": 1861.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1510.jpg"
+},{
+"rects": [
+  {
+   "y1": 1533.3,
+   "x2": 3860.1,
+   "x1": 1936.5,
+   "y2": 4418.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1511.jpg"
+},{
+"rects": [
+  {
+   "y1": 6942.2,
+   "x2": 2611.2,
+   "x1": 1349.5,
+   "y2": 8834.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1512.jpg"
+},{
+"rects": [
+  {
+   "y1":  134.4,
+   "x2": 5226.1,
+   "x1": 3050.1,
+   "y2": 3398.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1513.jpg"
+},{
+"rects": [
+  {
+   "y1": 1456.5,
+   "x2": 2797.7,
+   "x1":  654.6,
+   "y2": 4671.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1514.jpg"
+},{
+"rects": [
+  {
+   "y1": 3126.9,
+   "x2": 2829.7,
+   "x1": 1833.1,
+   "y2": 4621.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1515.jpg"
+},{
+"rects": [
+  {
+   "y1": 6784.0,
+   "x2": 5946.6,
+   "x1": 4564.6,
+   "y2": 8857.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1516.jpg"
+},{
+"rects": [
+  {
+   "y1": 7900.0,
+   "x2":  766.7,
+   "x1":  446.7,
+   "y2": 8380.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1517.jpg"
+},{
+"rects": [
+  {
+   "y1": 2170.0,
+   "x2": 3033.3,
+   "x1": 1866.7,
+   "y2": 3920.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1518.jpg"
+},{
+"rects": [
+  {
+   "y1":  770.0,
+   "x2": 2186.7,
+   "x1": 1560.0,
+   "y2": 1710.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1519.jpg"
+},{
+"rects": [
+  {
+   "y1": 5683.3,
+   "x2": 6255.6,
+   "x1": 4961.1,
+   "y2": 7625.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1520.jpg"
+},{
+"rects": [
+  {
+   "y1": 3625.0,
+   "x2": 6191.7,
+   "x1": 3350.0,
+   "y2": 7887.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1521.jpg"
+},{
+"rects": [
+  {
+   "y1": 6100.1,
+   "x2": 2485.0,
+   "x1":  629.0,
+   "y2": 8884.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1522.jpg"
+},{
+"rects": [
+  {
+   "y1": 4258.3,
+   "x2": 3840.0,
+   "x1": 1110.9,
+   "y2": 8352.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1523.jpg"
+},{
+"rects": [
+  {
+   "y1": 3341.7,
+   "x2": 5714.3,
+   "x1": 3766.9,
+   "y2": 6262.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1524.jpg"
+},{
+"rects": [
+  {
+   "y1": 3618.3,
+   "x2": 3155.8,
+   "x1": 2345.1,
+   "y2": 4834.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1525.jpg"
+},{
+"rects": [
+  {
+   "y1": 6757.7,
+   "x2": 3451.4,
+   "x1": 2304.0,
+   "y2": 8478.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1526.jpg"
+},{
+"rects": [
+  {
+   "y1": 5901.9,
+   "x2": 5727.7,
+   "x1": 4147.2,
+   "y2": 8273.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1527.jpg"
+},{
+"rects": [
+  {
+   "y1": 4720.7,
+   "x2": 5051.0,
+   "x1": 3105.9,
+   "y2": 7636.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1528.jpg"
+},{
+"rects": [
+  {
+   "y1": 3019.2,
+   "x2": 5152.4,
+   "x1": 3299.0,
+   "y2": 5799.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1529.jpg"
+},{
+"rects": [
+  {
+   "y1": 1514.7,
+   "x2": 1634.9,
+   "x1":  183.8,
+   "y2": 3697.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1530.jpg"
+},{
+"rects": [
+  {
+   "y1": 5324.4,
+   "x2": 6376.2,
+   "x1": 5037.6,
+   "y2": 7333.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1531.jpg"
+},{
+"rects": [
+  {
+   "y1": 3783.3,
+   "x2": 3583.3,
+   "x1": 1666.7,
+   "y2": 6658.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1532.jpg"
+},{
+"rects": [
+  {
+   "y1": 1820.0,
+   "x2": 4200.0,
+   "x1": 3746.7,
+   "y2": 2500.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1533.jpg"
+},{
+"rects": [
+  {
+   "y1": 2000.0,
+   "x2": 3641.7,
+   "x1": 2216.7,
+   "y2": 4137.5
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1534.jpg"
+},{
+"rects": [
+  {
+   "y1": 5633.3,
+   "x2": 1900.0,
+   "x1": 1327.8,
+   "y2": 6491.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1535.jpg"
+},{
+"rects": [
+  {
+   "y1": 1200.0,
+   "x2": 2716.7,
+   "x1": 2277.8,
+   "y2": 1858.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1536.jpg"
+},{
+"rects": [
+  {
+   "y1": 1077.9,
+   "x2": 2781.3,
+   "x1":  256.0,
+   "y2": 4865.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1537.jpg"
+},{
+"rects": [
+  {
+   "y1":  318.2,
+   "x2": 2662.4,
+   "x1":  782.6,
+   "y2": 3137.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1538.jpg"
+},{
+"rects": [
+  {
+   "y1":  386.3,
+   "x2": 3399.6,
+   "x1": 1287.6,
+   "y2": 3554.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1539.jpg"
+},{
+"rects": [
+  {
+   "y1": 3240.0,
+   "x2": 4665.1,
+   "x1": 2608.0,
+   "y2": 6325.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1540.jpg"
+},{
+"rects": [
+  {
+   "y1": 4880.0,
+   "x2": 4495.2,
+   "x1": 3155.8,
+   "y2": 6889.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1541.jpg"
+},{
+"rects": [
+  {
+   "y1": 5193.6,
+   "x2":  908.8,
+   "x1":  243.2,
+   "y2": 6192.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1542.jpg"
+},{
+"rects": [
+  {
+   "y1":  504.0,
+   "x2": 4672.0,
+   "x1": 2762.7,
+   "y2": 3368.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1543.jpg"
+},{
+"rects": [
+  {
+   "y1": 7880.0,
+   "x2": 3082.7,
+   "x1": 2597.3,
+   "y2": 8608.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1544.jpg"
+},{
+"rects": [
+  {
+   "y1": 4473.6,
+   "x2": 3289.6,
+   "x1":  780.8,
+   "y2": 8236.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1545.jpg"
+},{
+"rects": [
+  {
+   "y1": 3852.0,
+   "x2": 4528.0,
+   "x1": 2224.0,
+   "y2": 7308.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1546.jpg"
+},{
+"rects": [
+  {
+   "y1": 2554.3,
+   "x2": 5643.4,
+   "x1": 3542.9,
+   "y2": 5705.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1547.jpg"
+},{
+"rects": [
+  {
+   "y1":  315.4,
+   "x2": 1666.3,
+   "x1":  779.4,
+   "y2": 1645.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1548.jpg"
+},{
+"rects": [
+  {
+   "y1": 5222.4,
+   "x2": 6337.8,
+   "x1": 3929.6,
+   "y2": 8834.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1549.jpg"
+},{
+"rects": [
+  {
+   "y1": 5413.7,
+   "x2": 4598.9,
+   "x1": 2989.7,
+   "y2": 7827.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1550.jpg"
+},{
+"rects": [
+  {
+   "y1": 3234.3,
+   "x2": 4876.2,
+   "x1": 3681.5,
+   "y2": 5026.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1551.jpg"
+},{
+"rects": [
+  {
+   "y1": 1508.3,
+   "x2": 5744.4,
+   "x1": 4603.7,
+   "y2": 3220.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1552.jpg"
+},{
+"rects": [
+  {
+   "y1": 1725.3,
+   "x2": 4412.3,
+   "x1": 2203.4,
+   "y2": 5038.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1553.jpg"
+},{
+"rects": [
+  {
+   "y1": 5904.0,
+   "x2": 6305.5,
+   "x1": 4256.0,
+   "y2": 8978.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1554.jpg"
+},{
+"rects": [
+  {
+   "y1": 1604.6,
+   "x2": 3003.4,
+   "x1":  464.0,
+   "y2": 5413.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1555.jpg"
+},{
+"rects": [
+  {
+   "y1": 1666.3,
+   "x2": 5588.6,
+   "x1": 3414.9,
+   "y2": 4926.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1556.jpg"
+},{
+"rects": [
+  {
+   "y1": 3946.3,
+   "x2": 4720.0,
+   "x1": 3926.9,
+   "y2": 5136.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1557.jpg"
+},{
+"rects": [
+  {
+   "y1": 2409.1,
+   "x2": 6090.7,
+   "x1": 4861.0,
+   "y2": 4253.7
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1558.jpg"
+},{
+"rects": [
+  {
+   "y1": 4278.9,
+   "x2": 4722.3,
+   "x1": 2137.1,
+   "y2": 8156.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1559.jpg"
+},{
+"rects": [
+  {
+   "y1": 4313.1,
+   "x2": 1661.0,
+   "x1":  838.1,
+   "y2": 5547.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1560.jpg"
+},{
+"rects": [
+  {
+   "y1": 6953.1,
+   "x2": 2134.9,
+   "x1":  758.9,
+   "y2": 9017.1
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1561.jpg"
+},{
+"rects": [
+  {
+   "y1": 5570.7,
+   "x2": 3523.7,
+   "x1": 2102.9,
+   "y2": 7701.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1562.jpg"
+},{
+"rects": [
+  {
+   "y1": 6078.2,
+   "x2": 4090.5,
+   "x1": 2331.4,
+   "y2": 8716.8
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1563.jpg"
+},{
+"rects": [
+  {
+   "y1":  655.5,
+   "x2": 2517.9,
+   "x1":  267.0,
+   "y2": 4032.0
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1564.jpg"
+},{
+"rects": [
+  {
+   "y1": 4537.1,
+   "x2": 4169.1,
+   "x1": 2700.2,
+   "y2": 6740.6
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1565.jpg"
+},{
+"rects": [
+  {
+   "y1": 4496.0,
+   "x2": 6278.1,
+   "x1": 4321.5,
+   "y2": 7430.9
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1566.jpg"
+},{
+"rects": [
+  {
+   "y1": 4645.7,
+   "x2": 1961.1,
+   "x1":  139.4,
+   "y2": 7378.3
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1567.jpg"
+},{
+"rects": [
+  {
+   "y1": 3331.6,
+   "x2": 5305.7,
+   "x1": 2111.5,
+   "y2": 8123.4
+  }
+ ],
+ "image_path": "/home/sean/Desktop/lego_images_bounding_box/1568.jpg"
+}
+]
