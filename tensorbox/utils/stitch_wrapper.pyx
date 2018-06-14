@@ -1,54 +1,16 @@
 from libcpp.vector cimport vector
 from libcpp.set cimport set
-
-class PyRect(object):
-    def __init__(self, cx, cy, width, height, confidence):
-        self.cx = cx
-        self.cy = cy
-        self.width = width
-        self.height = height
-        self.confidence = confidence
-        self.true_confidence = confidence
-    def overlaps(self, other):
-        if abs(self.cx - other.cx) > (self.width + other.width) / 1.5:
-            return False
-        elif abs(self.cy - other.cy) > (self.height + other.height) / 2.0:
-            return False
-        else:
-            return True
-    def distance(self, other):
-        return sum(map(abs, [self.cx - other.cx, self.cy - other.cy,
-                       self.width - other.width, self.height - other.height]))
-    def intersection(self, other):
-        left = max(self.cx - self.width/2., other.cx - other.width/2.)
-        right = min(self.cx + self.width/2., other.cx + other.width/2.)
-        width = max(right - left, 0)
-        top = max(self.cy - self.height/2., other.cy - other.height/2.)
-        bottom = min(self.cy + self.height/2., other.cy + other.height/2.)
-        height = max(bottom - top, 0)
-        return width * height
-    def area(self):
-        return self.height * self.width
-    def union(self, other):
-        return self.area() + other.area() - self.intersection(other)
-    def iou(self, other):
-        return self.intersection(other) / self.union(other)
-    def __eq__(self, other):
-        return (self.cx == other.cx and 
-            self.cy == other.cy and
-            self.width == other.width and
-            self.height == other.height and
-            self.confidence == other.confidence)
-
+from rect import Rect as PyRect
 cdef extern from "stitch_rects.hpp":
     cdef cppclass Rect:
-        Rect(int cx, int cy, int width, int height, float confidence)
+        Rect(int cx, int cy, int width, int height, float confidence,  int classID)
         int cx_
         int cy_
         int width_
         int height_
         float confidence_
         float true_confidence_
+        int classID_
 
     cdef void filter_rects(vector[vector[vector[Rect] ] ]& all_rects,
                       vector[Rect]* stitched_rects,
@@ -83,7 +45,8 @@ def stitch_rects(all_rects, tau=0.25):
                         py_rect.cy,
                         py_rect.width,
                         py_rect.height,
-                        py_rect.confidence)
+                        py_rect.confidence,
+                        py_rect.classID)
                     )
 
     cdef vector[Rect] acc_rects;
@@ -119,7 +82,8 @@ def stitch_rects(all_rects, tau=0.25):
             acc_rects[i].cy_,
             acc_rects[i].width_,
             acc_rects[i].height_,
-            acc_rects[i].confidence_)
+            acc_rects[i].confidence_,
+            acc_rects[i].classID_)
         acc_rect.true_confidence = acc_rects[i].true_confidence_
         py_acc_rects.append(acc_rect)
     return py_acc_rects

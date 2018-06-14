@@ -1,77 +1,61 @@
 import numpy as np
 import random
-import json
 import os
 import cv2
 import itertools
 from scipy.misc import imread, imresize
 import tensorflow as tf
+from copy import deepcopy
 
-from data_utils import (annotation_jitter, annotation_to_h5)
+from data_utils import annotation_jitter, annotation_to_h5, Rotate90, Augmentations
 from utils.annolist import AnnotationLib as al
-#from rect import Rect
-#from utils.stitch_wrapper import PyRect as Rect
+from rect import Rect
 from utils import tf_concat
 
 
-class Rect(object):
-    def __init__(self, cx, cy, width, height, confidence):
-        self.cx = cx
-        self.cy = cy
-        self.width = width
-        self.height = height
-        self.confidence = confidence
-        self.true_confidence = confidence
-    def overlaps(self, other):
-        if abs(self.cx - other.cx) > (self.width + other.width) / 1.5:
-            return False
-        elif abs(self.cy - other.cy) > (self.height + other.height) / 2.0:
-            return False
-        else:
-            return True
-    def distance(self, other):
-        return sum(map(abs, [self.cx - other.cx, self.cy - other.cy,
-                       self.width - other.width, self.height - other.height]))
-    def intersection(self, other):
-        left = max(self.cx - self.width/2., other.cx - other.width/2.)
-        right = min(self.cx + self.width/2., other.cx + other.width/2.)
-        width = max(right - left, 0)
-        top = max(self.cy - self.height/2., other.cy - other.height/2.)
-        bottom = min(self.cy + self.height/2., other.cy + other.height/2.)
-        height = max(bottom - top, 0)
-        return width * height
-    def area(self):
-        return self.height * self.width
-    def union(self, other):
-        return self.area() + other.area() - self.intersection(other)
-    def iou(self, other):
-        return self.intersection(other) / self.union(other)
-    def __eq__(self, other):
-        return (self.cx == other.cx and 
-            self.cy == other.cy and
-            self.width == other.width and
-            self.height == other.height and
-            self.confidence == other.confidence)
+def preprocess_image(anno, H):
+    image = imread(anno.imageName)
+    # skip greyscale images
+    if len(image.shape) < 3:
+        return []
 
-def rescale_boxes(current_shape, anno, target_height, target_width, test=False):
+    # 4 channels images check
+    if image.shape[2] == 4:
+        image = image[:, :, :3]
+
+    if 'rotate90' in H['data'] and H['data']['rotate90']:
+        image, anno = Rotate90.do(image, anno)
+
+    if image.shape[0] != H["image_height"] or image.shape[1] != H["image_width"]:
+        anno = rescale_boxes(image.shape, anno, H["image_height"], H["image_width"])
+        image = imresize(image, (H["image_height"], H["image_width"]), interp='cubic')
+
+    result = [(image, anno)]
+    if 'augmentations' in H['data']:
+        new_res = []
+        for i, a in result:
+            augmented = Augmentations(H['data']).process(i, a)
+            new_res.append(augmented)
+        result = new_res
+    return result
+
+
+def rescale_boxes(current_shape, anno, target_height, target_width):
     x_scale = target_width / float(current_shape[1])
     y_scale = target_height / float(current_shape[0])
     for r in anno.rects:
-        if r.x1 >= r.x2:
-            if test:
-                r.x1, r.x2 = r.x2, r.x1
-            else:   
-                assert r.x1 < r.x2
+        if r.x1 == r.x2 or r.y1 == r.y2:
+            continue
+        # one of the annotations has negative width!
+        assert r.x1 < r.x2, 'Bad rect: %d %d %d %d in %s' % (r.x1, r.y1, r.x2, r.y2, anno.imageName)
         r.x1 *= x_scale
         r.x2 *= x_scale
-        if r.y1 >= r.y2:
-            if test:
-                r.y1, r.y2 = r.y2, r.y1
-            else:   
-                assert r.y1 < r.y2
+        # one of the annotations has negative height!
+        assert r.y1 < r.y2, 'Bad rect: %d %d %d %d in %s' % (r.x1, r.y1, r.x2, r.y2, anno.imageName)
         r.y1 *= y_scale
         r.y2 *= y_scale
     return anno
+
 
 def load_idl_tf(idlfile, H, jitter):
     """Take the idlfile and net configuration and create a generator
@@ -85,24 +69,14 @@ def load_idl_tf(idlfile, H, jitter):
             os.path.dirname(os.path.realpath(idlfile)), anno.imageName)
         annos.append(anno)
     random.seed(0)
+
     if H['data']['truncate_data']:
         annos = annos[:10]
     for epoch in itertools.count():
         random.shuffle(annos)
-        for anno in annos:
-            try:
-                if 'grayscale' in H and 'grayscale_prob' in H:
-                    I = imread(anno.imageName, mode = 'RGB' if random.random() < H['grayscale_prob'] else 'L')
-                    if len(I.shape) < 3:
-                        I = cv2.cvtColor(I, cv2.COLOR_GRAY2RGB)
-                else:
-                    if len(I.shape) < 3:
-                        continue
-                    I = imread(anno.imageName, mode = 'RGB')
-                if I.shape[0] != H["image_height"] or I.shape[1] != H["image_width"]:
-                    if epoch == 0:
-                        anno = rescale_boxes(I.shape, anno, H["image_height"], H["image_width"])
-                    I = imresize(I, (H["image_height"], H["image_width"]), interp='cubic')
+        for origin_anno in annos:
+            tiles = preprocess_image(deepcopy(origin_anno), H)
+            for I, anno in tiles:
                 if jitter:
                     jitter_scale_min=0.9
                     jitter_scale_max=1.1
@@ -114,15 +88,9 @@ def load_idl_tf(idlfile, H, jitter):
                                                 jitter_scale_max=jitter_scale_max,
                                                 jitter_offset=jitter_offset)
 
-                boxes, flags = annotation_to_h5(H,
-                                                anno,
-                                                H["grid_width"],
-                                                H["grid_height"],
-                                                H["rnn_len"])
+                boxes, flags = annotation_to_h5(H, anno)
 
                 yield {"image": I, "boxes": boxes, "flags": flags}
-            except Exception as exc:
-                print(exc)
 
 def make_sparse(n, d):
     v = np.zeros((d,), dtype=np.float32)
@@ -138,21 +106,19 @@ def load_data_gen(H, phase, jitter):
         output = {}
 
         rnn_len = H["rnn_len"]
-        flags = d['flags'][0, :, 0, 0:rnn_len, 0]
-        boxes = np.transpose(d['boxes'][0, :, :, 0:rnn_len, 0], (0, 2, 1))
+        flags = d['flags']
+        boxes = d['boxes']
         assert(flags.shape == (grid_size, rnn_len))
         assert(boxes.shape == (grid_size, rnn_len, 4))
 
         output['image'] = d['image']
         output['confs'] = np.array([[make_sparse(int(detection), d=H['num_classes']) for detection in cell] for cell in flags])
         output['boxes'] = boxes
-        output['flags'] = flags
 
         yield output
 
 def add_rectangles(H, orig_image, confidences, boxes, use_stitching=False, rnn_len=1, min_conf=0.1, show_removed=True, tau=0.25, show_suppressed=True):
     image = np.copy(orig_image[0])
-    num_cells = H["grid_height"] * H["grid_width"]
     boxes_r = np.reshape(boxes, (-1,
                                  H["grid_height"],
                                  H["grid_width"],
@@ -168,22 +134,20 @@ def add_rectangles(H, orig_image, confidences, boxes, use_stitching=False, rnn_l
     for n in range(rnn_len):
         for y in range(H["grid_height"]):
             for x in range(H["grid_width"]):
+                classID = np.argmax(confidences_r[0, y, x, n, 1:]) + 1
                 bbox = boxes_r[0, y, x, n, :]
                 abs_cx = int(bbox[0]) + cell_pix_size/2 + cell_pix_size * x
                 abs_cy = int(bbox[1]) + cell_pix_size/2 + cell_pix_size * y
                 w = bbox[2]
                 h = bbox[3]
-                conf = np.max(confidences_r[0, y, x, n, 1:])
-                all_rects[y][x].append(Rect(abs_cx,abs_cy,w,h,conf))
-#                all_rects[y][x].append(Rect((abs_cx,abs_cy,w,h)))
-
+                conf = confidences_r[0, y, x, n, classID]
+                all_rects[y][x].append(Rect(abs_cx, abs_cy, w, h, conf, classID))
     all_rects_r = [r for row in all_rects for cell in row for r in cell]
     if use_stitching:
         from stitch_wrapper import stitch_rects
         acc_rects = stitch_rects(all_rects, tau)
     else:
         acc_rects = all_rects_r
-
 
     if show_suppressed:
         pairs = [(all_rects_r, (255, 0, 0))]
@@ -196,27 +160,19 @@ def add_rectangles(H, orig_image, confidences, boxes, use_stitching=False, rnn_l
                 cv2.rectangle(image,
                     (rect.cx-int(rect.width/2), rect.cy-int(rect.height/2)),
                     (rect.cx+int(rect.width/2), rect.cy+int(rect.height/2)),
-#                    (rect.center[0]-int(rect.width/2), rect.center[1]-int(rect.height/2)),
-#                    (rect.center[0]+int(rect.width/2), rect.center[1]+int(rect.height/2)),
                     color,
-                    1)
-
-    cv2.putText(image,str(len(filter(lambda rect:rect.confidence > min_conf, acc_rects))), (50, 50), cv2.FONT_HERSHEY_SIMPLEX, 1,(255,255,255),2)
+                    2)
 
     rects = []
     for rect in acc_rects:
-        if rect.confidence > min_conf:
-            r = al.AnnoRect()
-            r.x1 = rect.cx - rect.width/2.
-            r.x2 = rect.cx + rect.width/2.
-            r.y1 = rect.cy - rect.height/2.
-            r.y2 = rect.cy + rect.height/2.
-#            r.x1 = rect.center[0] - rect.width/2.
-#            r.x2 = rect.center[0] + rect.width/2.
-#            r.y1 = rect.center[1] - rect.height/2.
-#            r.y2 = rect.center[1] + rect.height/2.
-            r.score = rect.confidence
-            rects.append(r)
+        r = al.AnnoRect()
+        r.x1 = rect.cx - rect.width/2.
+        r.x2 = rect.cx + rect.width/2.
+        r.y1 = rect.cy - rect.height/2.
+        r.y2 = rect.cy + rect.height/2.
+        r.score = rect.true_confidence
+        r.classID = rect.classID
+        rects.append(r)
 
     return image, rects
 

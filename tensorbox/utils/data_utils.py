@@ -1,16 +1,16 @@
-import os
 import cv2
-import re
-import sys
-import argparse
 import numpy as np
 import copy
-import json
 import annolist.AnnotationLib as al
-from xml.etree import ElementTree
-from scipy.misc import imread
+from imgaug import augmenters as iaa
+import imgaug as ia
+from scipy.ndimage.interpolation import rotate as imrotate
 
-def annotation_to_h5(H, a, cell_width, cell_height, max_len):
+
+def annotation_to_h5(H, a):
+    cell_width = H['grid_width']
+    cell_height = H['grid_height']
+    max_len = H['rnn_len']
     region_size = H['region_size']
     assert H['region_size'] == H['image_height'] / H['grid_height']
     assert H['region_size'] == H['image_width'] / H['grid_width']
@@ -23,8 +23,8 @@ def annotation_to_h5(H, a, cell_width, cell_height, max_len):
     for cidx, c in enumerate(cell_regions):
         box_list[cidx] = [r for r in a.rects if all(r.intersection(c))]
 
-    boxes = np.zeros((1, cells_per_image, 4, max_len, 1), dtype = np.float)
-    box_flags = np.zeros((1, cells_per_image, 1, max_len, 1), dtype = np.float)
+    boxes = np.zeros((cells_per_image, max_len, 4), dtype = np.float)
+    box_flags = np.zeros((cells_per_image, max_len), dtype = np.float)
 
     for cidx in xrange(cells_per_image):
         #assert(cur_num_boxes <= max_len)
@@ -47,10 +47,15 @@ def annotation_to_h5(H, a, cell_width, cell_height, max_len):
                 unsorted_boxes.append(np.array([ox, oy, width, height], dtype=np.float))
 
         for bidx, box in enumerate(sorted(unsorted_boxes, key=lambda x: x[0]**2 + x[1]**2)):
-            boxes[0, cidx, :, bidx, 0] = box
-            box_flags[0, cidx, 0, bidx, 0] = max(box_list[cidx][bidx].silhouetteID, 1)
+            boxes[cidx, bidx,  :] = box
+            if H['num_classes'] <= 2:
+                box_flags[cidx, bidx] = max(box_list[cidx][bidx].silhouetteID, 1)
+            else: # multiclass detection
+                # Note: class 0 reserved for empty boxes
+                box_flags[cidx, bidx] = box_list[cidx][bidx].classID 
 
     return boxes, box_flags
+
 
 def get_cell_grid(cell_width, cell_height, region_size):
 
@@ -69,6 +74,7 @@ def get_cell_grid(cell_width, cell_height, region_size):
 
 
     return cell_regions
+
 
 def annotation_jitter(I, a_in, min_box_width=20, jitter_scale_min=0.9, jitter_scale_max=1.1, jitter_offset=16, target_width=640, target_height=480):
     a = copy.deepcopy(a_in)
@@ -178,244 +184,84 @@ def annotation_jitter(I, a_in, min_box_width=20, jitter_scale_min=0.9, jitter_sc
 
     return I2, a
 
-def convert_sloth(filename):
-    with open(filename) as f:
-      annos = json.load(f)
-    new_annos = [
-        {
-          "image_path" : anno["filename"],
-          "rects" : [
-            {
-              'x1' : rect["x"],
-              'x2' : rect["x"] + rect["width"],
-              'y1' : rect["y"],
-              'y2' : rect["y"] + rect["height"],
-            } for rect in anno["annotations"]
-          ]
-        } for anno in annos
-    ]
-    with open("{}/{}".format(os.path.dirname(filename), "annotations.json"), 'w') as f:
-        json.dump(new_annos, f)
 
-def convert_to_sloth(filename):
-    with open(filename) as f:
-      annos = json.load(f)
-    new_annos = [
-        {
-          "filename" : anno["image_path"],
-          "annotations" : [
-            {
-              'x' : rect["x1"],
-              'y' : rect["y1"],
-              'width' : rect["x2"] - rect["x1"],
-              'height' : rect["y2"] - rect["y1"],
-            } for rect in anno["rects"]
-          ]
-        } for anno in annos
-    ]
-    with open("{}/{}".format(os.path.dirname(filename), "annotations_sloth.json"), 'w') as f:
-        json.dump(new_annos, f)
-
-def convert_pets2009(filename, version, dirname):
-    root = ElementTree.parse(filename).getroot()
-    res = [
-        {
-            "image_path" : "{}/frame_{:04d}.jpg".format(dirname, int(frame.attrib['number'])),
-            "rects" : [
-                {
-                    'x1' : float(obj[0].attrib['xc']) - float(obj[0].attrib['w']) / 2,
-                    'x2' : float(obj[0].attrib['xc']) + float(obj[0].attrib['w']) / 2,
-                    'y1' : float(obj[0].attrib['yc']) - float(obj[0].attrib['h']) / 2,
-                    'y2' : float(obj[0].attrib['yc']) + float(obj[0].attrib['h']) / 2,
-                } for obj in frame[0].findall('object')
-            ] 
-        } for frame in root.findall('frame') 
-    ]
-    with open("data/annotation_PETS_{}.json".format(version), "w") as f:
-        json.dump(res, f)
-
-
-def convert_tud_campus(filename, dirname):
-    root = ElementTree.parse(filename).getroot()
-    res = [
-        {
-            "image_path" : "{}/DaSide0811-seq6-{:03d}.png".format(dirname, int(frame.attrib['number'])),
-            "rects" : [
-                {
-                    'x1' : float(obj[0].attrib['xc']) - float(obj[0].attrib['w']) / 2,
-                    'x2' : float(obj[0].attrib['xc']) + float(obj[0].attrib['w']) / 2,
-                    'y1' : float(obj[0].attrib['yc']) - float(obj[0].attrib['h']) / 2,
-                    'y2' : float(obj[0].attrib['yc']) + float(obj[0].attrib['h']) / 2,
-                } for obj in frame[0].findall('object')
-            ] 
-        } for frame in root.findall('frame') 
-    ]
-    with open("data/annotation_TUD_CAMPUS.json", "w") as f:
-        json.dump(res, f)
-
-
-def convert_tud_crossing(filename, dirname):
-    root = ElementTree.parse(filename).getroot()
-    res = [
-        {
-            "image_path" : "{}/DaSide0811-seq7-{:03d}.png".format(dirname, int(frame.attrib['number'])),
-            "rects" : [
-                {
-                    'x1' : float(obj[0].attrib['xc']) - float(obj[0].attrib['w']) / 2,
-                    'x2' : float(obj[0].attrib['xc']) + float(obj[0].attrib['w']) / 2,
-                    'y1' : float(obj[0].attrib['yc']) - float(obj[0].attrib['h']) / 2,
-                    'y2' : float(obj[0].attrib['yc']) + float(obj[0].attrib['h']) / 2,
-                } for obj in frame[0].findall('object')
-            ] 
-        } for frame in root.findall('frame') 
-    ]
-    with open("data/annotation_TUD_CROSSING.json", "w") as f:
-        json.dump(res, f)
-
-def convert_kitty(filename, version, dirname):
-    res = []
-    with open(filename) as f:
-        for line in f:
-            frame_nmb, r, tp, z, c, v, x1, y1, x2, y2, a, b, c, d, e, f, g = line.split()
-            frame_nmb = int(frame_nmb)
-            while frame_nmb >= len(res):
-                res.append({
-                    "image_path": "{}/{:06d}.png".format(dirname, len(res)),
-                    "rects" : []
-                })
-            if tp == "Pedestrian":
-                res[frame_nmb]["rects"].append({
-                    'x1' : float(x1),
-                    'x2' : float(x2),
-                    'y1' : float(y1),
-                    'y2' : float(y2)
-                })
-    with open("data/annotation_KITTY_{}.json".format(version), 'w') as f:
-        json.dump(res, f)
-
-def convert_pets2017(filename, version, dirname, last):
-    res = []
-    with open(filename) as f:
-        for line in f:
-            frame_nmb, pd_nmb, x1, y1, w, h, a, b, c, d = line.split(",")
-            frame_nmb = int(frame_nmb)
-            while frame_nmb > len(res):
-                res.append({
-                    "image_path": "{}/{:06d}.jpg".format(dirname, len(res) + 1),
-                    "rects" : []
-                })
-            res[frame_nmb - 1]["rects"].append({
-                'x1' : float(x1),
-                'x2' : float(x1) + float(w),
-                'y1' : float(y1),
-                'y2' : float(y1) + float(h)
-            })
-    while(last > len(res)):
-        res.append({
-            "image_path": "{}/{:06d}.jpg".format(dirname, len(res) + 1),
-            "rects" : []
-        })
-    with open("data/annotation_PETS2017_{}.json".format(version), 'w') as f:
-        json.dump(res, f)
-
-def convert_berkley_mat(filename, datadir
-    ):
-    from scipy.io import loadmat
-    identity_ids, photoset_ids, owner_ids, photo_ids, head_boxes, train_idx, test_idx, val_idx, leftover_idx, test_split = loadmat(filename)['data'][0][0]
-    res = {}
-    for i in range(len(head_boxes)):
-        image_name = "{}_{}".format(int(photoset_ids[i][0][0]), int(photo_ids[i][0][0]))
-        bbox = head_boxes[i]
-        if i + 1 in train_idx:
-            prefix = "train"
-        elif i + 1 in test_idx:
-            prefix = "test"
-        elif i + 1 in val_idx:
-            prefix = "val"
-        else:
-            prefix = "leftover"
-        image_path = "{}/{}.jpg".format(prefix, image_name)
-        if image_path not in res:
-            res[image_path] = []
-        rect = {
-            "x1" : float(bbox[0]),
-            "x2" : float(bbox[0] + bbox[2]),
-            "y1" : float(bbox[1]),
-            "y2" : float(bbox[1] + bbox[3]),
+class Augmentations(object):
+    """
+    The class is intended to organise augmentation processes.
+    """
+    def __init__(self, hypes):
+        """Constructs instance of augmentations pipeline.
+        Args:
+            hypes (dict): Defines which augmentations to use.
+            process_type (string): Defines the process type we wish to apply augmentations.
+             Could be one of the following: train, predict_pre, predict_post.
+        """
+        # transforms factory
+        transforms = {
+            'rotate': iaa.Affine(rotate=(-5, 5)),
+            'flip_lr': iaa.Fliplr(0.5),
+            'blur': iaa.GaussianBlur(sigma=(0, 3.0))
         }
-        if rect not in res[image_path]:
-            res[image_path].append(rect)
-    res2 = []
-    for key, rects in res.iteritems():
-        res2.append(
-            {
-                "image_path": key,
-                "rects" : rects
-            }
-        )
-    with open("{}/annos.json".format(datadir), 'w') as f:
-        json.dump(res2, f)
+
+        # build pipeline using chosen transforms
+        self.pipeline = []
+        for hype, val in hypes.items():
+            if hype in transforms and transforms[hype]:
+                self.pipeline.append(transforms[hype])
+
+    def process(self, image, rects):
+        """Applies augmentation pipeline to images and bounding boxes.
+        Args:
+            image (object): The target image to rotate.
+            rects (list): List of bounding boxes.
+        Returns (tuple):
+            Augmented images and bounding boxes
+        """
+        # rects -> keypoints
+        keypoints = np.array(rects).reshape((-1, 2))
+        keypoints = [ia.Keypoint(kp[0], kp[1]) for kp in keypoints]
+
+        # transform images and keypoints
+        seq = iaa.Sequential(self.pipeline)
+        seq_det = seq.to_deterministic()
+        images_aug = seq_det.augment_images([image])
+        keypoints_aug = np.array(seq_det.augment_keypoints(keypoints)).reshape((-1, 2))
+
+        # keypoints -> rects
+        rects = [[min(k_pair[0].x, k_pair[1].x), min(k_pair[0].y, k_pair[1].y),
+                  max(k_pair[0].x, k_pair[1].x), max(k_pair[0].y, k_pair[1].y)] for k_pair in keypoints_aug]
+        return images_aug, rects
 
 
-def convert_berkley(textfile, annos, datadir):
-    with open(annos) as f:
-        annos = json.load(f)
-    annos2 = {}
-    for anno in annos:
-        annos2[anno["image_path"]] = anno["rects"]
-    prefixes = ['leftover', 'train', 'val', 'test']
-    for line in open(textfile):
-        photoset_id, photo_id, xmin, ymin, width, height, dentity_id, subset_id = map(int, line.split())
-        image_path = "{}/{}_{}.jpg".format(prefixes[subset_id], photoset_id, photo_id)
-        if image_path not in annos2:
-            annos2[image_path] = []
-        rect = {
-            "x1" : float(xmin),
-            "x2" : float(xmin + width),
-            "y1" : float(ymin),
-            "y2" : float(ymin + height),
-        }
-        if rect not in annos2[image_path]:
-            annos2[image_path].append(rect)
-    res = []
-    for key, rects in annos2.iteritems():
-        res.append(
-            {
-                "image_path": "{}/{}".format(datadir, key),
-                "rects" : rects
-            }
-        )
-    with open("{}/annos2.json".format(datadir), 'w') as f:
-        json.dump(res, f)
+class Rotate90(object):
+    @staticmethod
+    def do(image, anno=None):
+        """
+        Does the rotation for image and rectangles for 90 degrees counterclockwise.
+        Args:
+            image (Image): The target image to rotate.
+            anno (Annotation): The annotations to be rotated with the image.
+        Returns (tuple):
+            Rotated image and annotations for it.
+        """
+        w = image.shape[1]
+        new_image = imrotate(image, 90, reshape=True)
+        if anno is not None:
+            anno.rects = [al.AnnoRect(r.y1, w - r.x2, r.y2, w - r.x1) for r in anno.rects]
+        return new_image, anno
 
+    @staticmethod
+    def invert(width, rects):
+        """Inverts the rotation for 90 degrees.
+        Args:
+            width (int): width of rotated image.
+            rects (list): The list of rectangles on rotated image.
+        Returns (list):
+            The list of annotations for original image.
+        """
+        def inv(r):
+            rotated_back = al.AnnoRect(width - r.y2, r.x1, width - r.y1, r.x2)
+            rotated_back.score = r.score
+            return rotated_back
 
-def convert_hollywood(phase, datadir):
-    annos = []
-    for image_id in open("{}/Splits/{}.txt".format(datadir, phase)):
-        image_id = image_id.rstrip('\n')
-        image_path = "{}/JPEGImages/{}.jpeg".format(datadir, image_id)
-        xml_path = "{}/Annotations/{}.xml".format(datadir, image_id)
-        root = ElementTree.parse(xml_path).getroot()
-        annos.append({
-            "image_path" : image_path,
-            "rects" : [{
-                    'x1' : float(obj[1][0].text),
-                    'y1' : float(obj[1][1].text),
-                    'x2' : float(obj[1][2].text),
-                    'y2' : float(obj[1][3].text)
-                } for obj in root.findall('object') if obj.find("bndbox")] 
-        })
-    with open("{}/{}.json".format(datadir, phase), 'w') as f:
-        json.dump(annos, f)
-
-
-def merge_annotations(output_name, *files):
-    res = []
-    for json_anno in files:
-        with open(json_anno) as f:
-            anno = json.load(f)
-            res += anno
-    import random
-    random.shuffle(res)
-    with open(output_name, 'w') as f:
-        json.dump(res, f)
+        return [inv(r) for r in rects]

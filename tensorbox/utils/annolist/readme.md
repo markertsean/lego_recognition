@@ -4,9 +4,9 @@
 There are several data annotation formats allowed for TensorBox. The most simple is json-file format which presents the
 data structure well.
 
-### Currnet json-format
+### Original TensorBox
 
-TensorBox expects the list of objects each of which describes one annotations for one image.
+Original TensorBox expects the list of objects each of which describes one annotations for one image.
 
 ```json
 [image]
@@ -48,9 +48,9 @@ expects that `x1<x2` and `y1<y2`. Example:
 ]
 ```
 
-### Future extension
+### This fork extension
 
-In the comming future the following extension will take place:
+In this fork we suggest the following extension:
 ```json
 {
 "images": [image],

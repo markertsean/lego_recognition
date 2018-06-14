@@ -622,11 +622,23 @@ class TensorBox(object):
                 img = imresize(orig_img, (self.H["image_height"], self.H["image_width"]), interp='cubic')
                 feed = {x_in: img}
                 (np_pred_boxes, np_pred_confidences) = sess.run([pred_boxes, pred_confidences], feed_dict=feed)
+                                
                 pred_anno = al.Annotation()
                 pred_anno.imageName = true_anno.imageName
                 new_img, rects = add_rectangles(self.H, [img], np_pred_confidences, np_pred_boxes,
                                                 use_stitching=True, rnn_len=self.H['rnn_len'], min_conf=min_conf, tau=tau, show_suppressed=show_suppressed)
-
+                print 'tb model ',len(rects)
+#
+                pred_anno.rects = rects
+                pred_anno.imagePath = os.path.abspath(data_dir)
+                pred_anno = rescale_boxes((self.H["image_height"], self.H["image_width"]), pred_anno, orig_img.shape[0], orig_img.shape[1])
+                pred_annolist.append(pred_anno)
+                
+                imname = 'box_sample.jpg' 
+                misc.imsave(imname, new_img)
+                if i % 25 == 0:
+                    print(i)
+#
                 print pred_anno.imageName
                 for rect_i in range( 0, len( rects ) ):
                     rect_list.append({})
