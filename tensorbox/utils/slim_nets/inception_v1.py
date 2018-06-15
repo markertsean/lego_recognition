@@ -23,7 +23,18 @@ import tensorflow as tf
 slim = tf.contrib.slim
 trunc_normal = lambda stddev: tf.truncated_normal_initializer(0.0, stddev)
 
-from utils import tf_concat
+#from utils import tf_concat
+
+import tensorflow as tf
+from distutils.version import LooseVersion
+
+TENSORFLOW_VERSION = LooseVersion(tf.__version__)
+
+def tf_concat(axis, values, **kwargs):
+    if TENSORFLOW_VERSION >= LooseVersion('1.0'):
+        return tf.concat(values, axis, **kwargs)
+    else:
+        return tf.concat(axis, values, **kwargs)
 
 
 def inception_v1_base(inputs,

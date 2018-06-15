@@ -17,9 +17,12 @@ import numpy as np
 from PIL import Image, ImageDraw
 
 from train import build_forward
-from utils.annolist import AnnotationLib as al
-from utils.train_utils import add_rectangles, rescale_boxes
-from utils.data_utils import Rotate90
+#from utils.annolist import AnnotationLib as al
+#from utils.train_utils import add_rectangles, rescale_boxes
+#from utils.data_utils import Rotate90
+from annolist import AnnotationLib as al
+from train_utils import add_rectangles, rescale_boxes
+from data_utils import Rotate90
 
 if __package__ is None:
     import sys

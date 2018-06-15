@@ -3,7 +3,7 @@ import json
 import subprocess
 
 from tensorbox_model import TensorBox
-
+    
 _json_format = '[\n{\n"rects": [\n  {\n   "y1": 1729.0,\n   "x2":  963.0,\n   "x1":  184.0,\n   "y2": 2508.0\n  }\n ],\n "image_path": "%s"\n}\n]\n'
 
 def _generate_json( inp_file_path ):

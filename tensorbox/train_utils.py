@@ -8,25 +8,10 @@ import tensorflow as tf
 from copy import deepcopy
 
 from data_utils import annotation_jitter, annotation_to_h5, Rotate90, Augmentations
-#from utils.annolist import AnnotationLib as al
-from annolist import AnnotationLib as al
-from u_rect import u_Rect
-#from utils import tf_concat
-#import tf_concat
-
-
-
-import tensorflow as tf
-from distutils.version import LooseVersion
-
-TENSORFLOW_VERSION = LooseVersion(tf.__version__)
-
-def tf_concat(axis, values, **kwargs):
-    if TENSORFLOW_VERSION >= LooseVersion('1.0'):
-        return tf.concat(values, axis, **kwargs)
-    else:
-        return tf.concat(axis, values, **kwargs)
-
+from utils.annolist import AnnotationLib as al
+#import AnnotationLib as al
+from rect import Rect
+from utils import tf_concat
 
 
 def preprocess_image(anno, H):
@@ -157,7 +142,7 @@ def add_rectangles(H, orig_image, confidences, boxes, use_stitching=False, rnn_l
                 w = bbox[2]
                 h = bbox[3]
                 conf = confidences_r[0, y, x, n, classID]
-                all_rects[y][x].append(u_Rect(abs_cx, abs_cy, w, h, conf, classID))
+                all_rects[y][x].append(Rect(abs_cx, abs_cy, w, h, conf, classID))
     all_rects_r = [r for row in all_rects for cell in row for r in cell]
     if use_stitching:
         from stitch_wrapper import stitch_rects
@@ -187,7 +172,7 @@ def add_rectangles(H, orig_image, confidences, boxes, use_stitching=False, rnn_l
         r.y1 = rect.cy - rect.height/2.
         r.y2 = rect.cy + rect.height/2.
         r.score = rect.true_confidence
-#        r.classID = rect.classID
+        r.classID = rect.classID
         rects.append(r)
 
     return image, rects

@@ -26,8 +26,25 @@ from tensorflow.python.ops import array_ops
 random.seed(0)
 np.random.seed(0)
 
-from utils import train_utils, googlenet_load, tf_concat
+import train_utils
+import googlenet_load
+#import tf_concat
+#import utils.train_utils as train_utils
+#from utils import train_utils, googlenet_load, tf_concat
 
+import tensorflow as tf
+from distutils.version import LooseVersion
+
+TENSORFLOW_VERSION = LooseVersion(tf.__version__)
+
+def tf_concat(axis, values, **kwargs):
+    if TENSORFLOW_VERSION >= LooseVersion('1.0'):
+        return tf.concat(values, axis, **kwargs)
+    else:
+        return tf.concat(axis, values, **kwargs)
+
+    
+    
 @ops.RegisterGradient("Hungarian")
 def _hungarian_grad(op, *args):
     return map(array_ops.zeros_like, op.inputs)
