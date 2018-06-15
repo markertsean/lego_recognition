@@ -8,10 +8,21 @@ import tensorflow as tf
 from copy import deepcopy
 
 from data_utils import annotation_jitter, annotation_to_h5, Rotate90, Augmentations
-from utils.annolist import AnnotationLib as al
-#import AnnotationLib as al
+#from utils.annolist import AnnotationLib as al
+import AnnotationLib as al
 from rect import Rect
-from utils import tf_concat
+#from utils import tf_concat
+import tensorflow as tf
+from distutils.version import LooseVersion
+
+TENSORFLOW_VERSION = LooseVersion(tf.__version__)
+
+def tf_concat(axis, values, **kwargs):
+    if TENSORFLOW_VERSION >= LooseVersion('1.0'):
+        return tf.concat(values, axis, **kwargs)
+    else:
+        return tf.concat(axis, values, **kwargs)
+
 
 
 def preprocess_image(anno, H):

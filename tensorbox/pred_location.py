@@ -20,7 +20,8 @@ from train import build_forward
 #from utils.annolist import AnnotationLib as al
 #from utils.train_utils import add_rectangles, rescale_boxes
 #from utils.data_utils import Rotate90
-from annolist import AnnotationLib as al
+#from annolist import AnnotationLib as al
+import AnnotationLib as al
 from train_utils import add_rectangles, rescale_boxes
 from data_utils import Rotate90
 
