@@ -31,7 +31,7 @@ def get_white_images_labels(
     
     # Output list of image paths
     img_list = []
-    for label in label_list[:2]:
+    for label in label_list:
         
         # Directory containing image
         img_dir = inp_dir + label + '/'
