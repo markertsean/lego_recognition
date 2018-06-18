@@ -384,7 +384,8 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 tf.logging.set_verbosity(tf.logging.ERROR)
 
-_weights_full_path = '/home/sean/Insight/other_tensorbox/TensorBox/lego_train/overfeat_rezoom_2018_06_14_09.20/save.ckpt-1500'
+#_weights_full_path = '/home/sean/Insight/other_tensorbox/TensorBox/lego_train/overfeat_rezoom_2018_06_14_09.20/save.ckpt-1500'
+_weights_full_path = '/home/sean/Insight/other_tensorbox/TensorBox/lego_dirty/overfeat_rezoom_2018_06_17_23.32/save.ckpt-15000'
 _hypes_full_path   = '/home/sean/Insight/legos/tensorbox/hypes/hypes.json'
 
 

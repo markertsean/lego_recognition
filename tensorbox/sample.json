@@ -1,0 +1,24 @@
+[
+{
+"rects": [
+  {
+   "y1": 100.0,
+   "x2":  150.0,
+   "x1":  100.0,
+   "y2": 150.0
+  }
+ ],
+ "image_path": "/home/sean/Insight/legos/tensorbox/sample_lego_brick_2.jpg"
+},
+{
+"rects": [
+  {
+   "y1": 200.0,
+   "x2":  250.0,
+   "x1":  200.0,
+   "y2": 250.0
+  }
+ ],
+ "image_path": "/home/sean/Insight/legos/tensorbox/sample_lego_brick_2.jpg"
+}
+]

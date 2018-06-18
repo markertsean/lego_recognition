@@ -10,7 +10,7 @@ from copy import deepcopy
 from data_utils import annotation_jitter, annotation_to_h5, Rotate90, Augmentations
 #from utils.annolist import AnnotationLib as al
 import AnnotationLib as al
-from rect import Rect
+from u_rect import Rect
 #from utils import tf_concat
 import tensorflow as tf
 from distutils.version import LooseVersion
@@ -183,7 +183,7 @@ def add_rectangles(H, orig_image, confidences, boxes, use_stitching=False, rnn_l
         r.y1 = rect.cy - rect.height/2.
         r.y2 = rect.cy + rect.height/2.
         r.score = rect.true_confidence
-        r.classID = rect.classID
+#        r.classID = rect.classID
         rects.append(r)
 
     return image, rects

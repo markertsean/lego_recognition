@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import copy
 import annolist.AnnotationLib as al
+import AnnotationLib as al
 from imgaug import augmenters as iaa
 import imgaug as ia
 from scipy.ndimage.interpolation import rotate as imrotate

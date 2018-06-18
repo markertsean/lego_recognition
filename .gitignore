@@ -2,3 +2,5 @@
 *.pyc
 *.ipynb_checkpoints/
 test_dir/
+scraping/*/
+*.jpg
