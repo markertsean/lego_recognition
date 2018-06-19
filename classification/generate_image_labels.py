@@ -1,5 +1,7 @@
 import pandas as pd
 
+import generate_image_lists as glists
+
 _easy_labels = [ 
                'angular_brick_1x1', 'arch_1x3', 'brick_1x1', 'brick_1x2', 'brick_1x3', 'brick_1x4', 'brick_1x6', 'brick_1x8', 
                'brick_2x2', 'brick_2x3', 'brick_2x4', 'brick_2x6', 'plate_1x1', 'plate_1x10', 'plate_1x2', 'plate_1x3', 'plate_1x4', 
@@ -126,7 +128,7 @@ def gen_long_label(
                                                       ]
                                           ]
             # Reset all long indexes
-            for col in  [ col for col in exp_df.columns.values if ('long' in col) ]:
+            for col in  [ col for col in out_df.columns.values if ('long' in col) ]:
                 out_df.loc[ind,col] = 0
             out_df.loc[ind,'long_'+str(true_length)] = 1
     
@@ -150,7 +152,7 @@ def gen_all_labels(
 def gen_white_labels():
     
     # Get the images with a white background, and their labels
-    img_list, img_labels = gil.get_white_images_labels()
+    img_list, img_labels = glists.get_white_images_labels()
     
     # Create df with image paths
     my_frame = pd.DataFrame()
@@ -160,14 +162,14 @@ def gen_white_labels():
     hl_list = []
     for img in img_list:
         hl_list.append( img_labels[img] )
-    my_frame['human_label'] = hl_list
+    my_frame['label'] = hl_list
 
     return gen_all_labels( my_frame, img_labels )
 
 def gen_dirty_labels():
     
     # Get the images with a white background, and their labels
-    img_list, img_labels = gil.get_white_images_labels()
+    img_list, img_labels = glists.get_white_images_labels()
     
     # Create df with image paths
     my_frame = pd.DataFrame()
@@ -177,6 +179,6 @@ def gen_dirty_labels():
     hl_list = []
     for img in img_list:
         hl_list.append( img_labels[img] )
-    my_frame['human_label'] = hl_list
+    my_frame['label'] = hl_list
 
     return gen_all_labels( my_frame, img_labels )

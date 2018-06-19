@@ -2,6 +2,7 @@ from PIL import Image
 from PIL import ImageFilter
 
 import numpy as np
+import pandas as pd
 
 import os
 
@@ -120,6 +121,8 @@ def process_image(
                     pool_stride    = 2     , # Stride when pooling
                     pool_grid_size = 2     , # Grid size for pooling
                     pool_method    = 'max' , # Method for pooling: max, min, avg, med
+                    ret_pil_img    = False , # Return a PIL image instead of array
+                    conv_greyscale = True  , # Convert input image to greyscale
                  ):
     
     
@@ -140,8 +143,10 @@ def process_image(
     else:
         raise TypeError('inp_image must be path to image or Pillow Image object')
 
-    # Convert image to greyscale
-    processed_img = raw_img.convert( 'L' )
+    processed_img = raw_img
+    if ( conv_greyscale ):
+        # Convert image to greyscale
+        processed_img = raw_img.convert( 'L' )
 
     
     # If user is resizing image, do that here
@@ -185,5 +190,21 @@ def h_flip_array( inp_array ):
 
 # Rotates in 90 deg increments
 def rotate_array( inp_array, deg ):
-    rot = (deg // 90)
-    return np.rot90( inp_array, rot )
+    return np.rot90( inp_array, deg )
+
+
+# Gets 2d arrays out of the pixels in the df
+def arr_list_from_pix_df(
+                            inp_df,
+                            inp_size
+                        ):
+    
+    pixel_cols = [ col for col in inp_df.columns.values if ('pixel_'     in col ) ]
+
+    img_list = []
+    
+    for ind in inp_df.index.values:
+        arr_1d = inp_df.loc[ind,pixel_cols].values
+        img_list.append( np.array( arr_1d ).reshape(inp_size[0],inp_size[1]) )
+        
+    return img_list
