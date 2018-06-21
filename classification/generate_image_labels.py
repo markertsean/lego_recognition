@@ -169,7 +169,7 @@ def gen_white_labels():
 def gen_dirty_labels():
     
     # Get the images with a white background, and their labels
-    img_list, img_labels = glists.get_white_images_labels()
+    img_list, img_labels = glists.get_dirty_images_labels()
     
     # Create df with image paths
     my_frame = pd.DataFrame()
