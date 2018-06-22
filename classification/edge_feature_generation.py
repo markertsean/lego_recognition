@@ -110,7 +110,7 @@ def color_select(
     common_colors = get_modes( center_arr, n_final )        
     mode_list = []
     for i in range( 0, len(common_colors) ):
-        mode_list.append( [int(val) for val in common_colors[i].strip('[').strip(']').replace('  ',' ').split(' ')] )
+        mode_list.append( [int(val) for val in common_colors[i].strip('[').strip(']').replace('  ',' ').split(' ') if (val != '') ] )
     mode_list = np.array( mode_list ) * val_mod
     mode_arr = np.array( mode_list )
         
@@ -214,7 +214,6 @@ def locate_edges(
                     cutoff  = 75,
                 ):
     
-    display=True
     # Change to image
     inp_img  = Image.fromarray( inp_arr, 'RGB' )
 
@@ -307,7 +306,7 @@ def get_img_edge_data(
                         tolerance      = 20  ,
                         n_mode_iter    = 30  ,
                         center_size    =  0.1,
-                        edge_cutoff    = 75  ,
+                        edge_cutoff    = 50  ,
                         display        = False,
                         square         = False,
                         edge_smooth    = False,
