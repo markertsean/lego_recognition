@@ -58,10 +58,11 @@ def get_modes(
                 n_final=5,
              ):
     count_dict = {}
+    
     for     i in range( 0, inp_arr.shape[0] ):
         for j in range( 0, inp_arr.shape[1] ):
             
-            my_key = inp_arr[i,j]
+            my_key = str(inp_arr[i,j,:])
             if ( my_key in count_dict.keys() ):
                 count_dict[ my_key ] = count_dict[ my_key ] + 1
             else:
@@ -75,13 +76,7 @@ def get_modes(
 #        print "%s: %s" % (key, value)
 
     n_return = len(ret_list)//2
-    if (n_return < 5):
-        try:
-            return ret_list[-5:]
-        except:
-            return ret_list
-    else:
-        return ret_list[-n_return:]
+    return ret_list[-n_final:]
     
     
 # Pull out the color of the lego
@@ -90,85 +85,59 @@ def get_modes(
 def color_select( 
                     img_arr,
                     val_mod   = 7,
-                    n_final   = 5,
-                    tolerance = 5,
+                    n_final   = 20,
+                    tolerance = 20,
+                    center_bound = 0.1,
                     display        = False,
                 ):
     inp_arr = img_arr.copy() // val_mod
 
-    i = 0
-    while ( i < 10 ):
+    center_x_1 = int( img_arr.shape[0]//2 - center_bound * img_arr.shape[0] )
+    center_x_2 = int( img_arr.shape[0]//2 + center_bound * img_arr.shape[0] )
+    center_y_1 = int( img_arr.shape[1]//2 - center_bound * img_arr.shape[1] )
+    center_y_2 = int( img_arr.shape[1]//2 + center_bound * img_arr.shape[1] )
+    
 
-        i = i + 1
-
-        mode_list = []
-        # For each channel, get mode of 
-        #  center color. Should be brick color
-        for color in range( 0, 3 ):
-            mode_list.append( get_modes( inp_arr[:,:,color], n_final=n_final ) )
-
-
-        color_mask = np.ones( inp_arr.shape[:2], dtype=bool )
-
-        for color in range( 0, 3 ):
-
-            color_channel_mask = np.zeros( inp_arr.shape[:2], dtype=bool )
-
-            for mode in mode_list[color]:
-                color_channel_mask = color_channel_mask |  (
-                                                             ( inp_arr[:,:,color] == mode ) 
-                                                           )
-            color_mask = color_mask & color_channel_mask
-
-        masked_arr = inp_arr.copy()
-        masked_arr[~color_mask,0] = 255 // val_mod
-        masked_arr[~color_mask,1] = 255 // val_mod
-        masked_arr[~color_mask,2] = 255 // val_mod
-        inp_arr = masked_arr
-        #
-        if( display ):
-            foo = np.where( color_channel_mask, 1, 0 )
-            plt.imshow( foo )
-            plt.show()
-
-            plt.imshow( masked_arr )
-            plt.show()
-
-        if (len(mode_list[0])<=n_final):
-            break
-
-    # Bring masked arr back to normal
-    for i in range( 0, 3 ):
-        masked_arr[:,:,i] = masked_arr[:,:,i] * val_mod
-
-
-    inp_arr = img_arr.copy()
-
-    mode_list = []
     # For each channel, get mode of 
     #  center color. Should be brick color
-    for color in range( 0, 3 ):
-        mode_list.append( get_modes( inp_arr[:,:,color], n_final=n_final ) )
+    center_arr = inp_arr[
+        center_x_1:center_x_2,
+        center_y_1:center_y_2,
+        :
+    ]
 
-    color_mask = np.ones( inp_arr.shape[:2], dtype=bool )
-    for color in range( 0, 3 ):
+    # Get the modes of color in a much lower resolution
+    common_colors = get_modes( center_arr, n_final )        
+    mode_list = []
+    for i in range( 0, len(common_colors) ):
+        mode_list.append( [int(val) for val in common_colors[i].strip('[').strip(']').replace('  ',' ').split(' ')] )
+    mode_list = np.array( mode_list ) * val_mod
+    mode_arr = np.array( mode_list )
+        
+    # Get mask of the pixels in all of the possible common
+    # color combinations
+    color_mask = np.zeros( inp_arr.shape[:2], dtype=bool )
+    for     i in range( 0, mode_arr.shape[0] ):
+        color_channel_mask = np.ones( inp_arr.shape[:2], dtype=bool )
+        for j in range( 0, 3 ): 
+            this_channel = (
+                                    ( inp_arr[:,:,j]*val_mod >= (mode_arr[i,j]-tolerance) ) & 
+                                    ( inp_arr[:,:,j]*val_mod <= (mode_arr[i,j]+tolerance) ) 
+                            )
+            color_channel_mask = color_channel_mask & this_channel        
+        color_mask = color_mask | color_channel_mask
 
-        color_channel_mask = np.zeros( inp_arr.shape[:2], dtype=bool )
-
-        for mode in mode_list[color]:
-            color_channel_mask = color_channel_mask |  (
-                                                         ( inp_arr[:,:,color] >= mode - tolerance ) &
-                                                         ( inp_arr[:,:,color] <= mode + tolerance ) 
-                                                       )
-        color_mask = color_mask & color_channel_mask
-
-    masked_arr = inp_arr.copy()
+    masked_arr = img_arr.copy()
     masked_arr[~color_mask,0] = 255
     masked_arr[~color_mask,1] = 255
     masked_arr[~color_mask,2] = 255
-
+    
     #
     if( display ):
+        foo = np.where( color_mask, 1, 0 )
+        plt.imshow( foo )
+        plt.show()
+
         plt.imshow( masked_arr )
         plt.show()
     
@@ -244,6 +213,7 @@ def locate_edges(
                     smooth  = False,
                 ):
     
+    display=True
     # Change to image
     inp_img  = Image.fromarray( inp_arr, 'RGB' )
 
@@ -331,8 +301,8 @@ def get_img_edge_data(
                         size           = [516,516],
                         blur           =  5  ,
                         n_color_groups =  6  ,
-                        tolerance      = 50  ,
-                        n_mode_iter    =  5  ,
+                        tolerance      = 20  ,
+                        n_mode_iter    = 30  ,
                         center_size    =  0.1,
                         display        = False,
                         square         = False,
@@ -349,6 +319,7 @@ def get_img_edge_data(
                                                 pp_img_arr,
                                                 val_mod        = n_color_groups  ,
                                                 tolerance      = tolerance       ,
+                                                center_bound   = center_size     ,
                                                 n_final        = n_mode_iter     ,
                                                 display        = display         ,
                                          )
