@@ -211,6 +211,7 @@ def locate_edges(
                     square  = False,
                     display = False,
                     smooth  = False,
+                    cutoff  = 75,
                 ):
     
     display=True
@@ -232,6 +233,8 @@ def locate_edges(
     
     # Convert to np array
     edge_arr = arr_from_pil( edge_img )
+
+    edge_arr[ edge_arr > cutoff] = 0
 
     # Average pixel values
     if ( square ):
@@ -304,6 +307,7 @@ def get_img_edge_data(
                         tolerance      = 20  ,
                         n_mode_iter    = 30  ,
                         center_size    =  0.1,
+                        edge_cutoff    = 75  ,
                         display        = False,
                         square         = False,
                         edge_smooth    = False,
@@ -342,6 +346,7 @@ def get_img_edge_data(
                                 rot_arr, 
                                 square=square,
                                 smooth=edge_smooth,
+                                cutoff=edge_cutoff,
                                 display=display
                            )
 
