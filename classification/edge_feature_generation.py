@@ -205,11 +205,195 @@ def color_select(
         plt.imshow( foo )
         plt.show()
         
+    masked_arr = smoothed_masked_arr.copy()
+    masked_arr[~color_mask,0] = 255
+    masked_arr[~color_mask,1] = 255
+    masked_arr[~color_mask,2] = 255
+    
+    
+    # Blur again
+    smoothed_masked_img = Image.fromarray( masked_arr, 'RGB' )
+
+    smoothed_masked_img = smoothed_masked_img.filter( 
+                                            ImageFilter.Kernel( 
+                                                [ 5  ,
+                                                  5 ], 
+                                                np.ones(5**2) 
+                                            ) 
+                                        )
+
+    
+    # Repeat masking, to find where really close to the color
+    smoothed_masked_arr = arr_from_pil( smoothed_masked_img )
+    
+    # Find where original colors within some tolerance of mode
+    # If we cant find anything, 
+    mask_mult = 0
+    while ( mask_mult < 10 ):
+        mask_mult = mask_mult + 1
+        color_mask = (
+                        ( smoothed_masked_arr[:,:,0] > ( mode_list[0] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,0] < ( mode_list[0] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,1] > ( mode_list[1] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,1] < ( mode_list[1] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,2] > ( mode_list[2] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,2] < ( mode_list[2] + tolerance * mask_mult ) ) 
+                     )
+
+        mask_sum = np.sum( mask_mult )
+        if ( mask_sum > 1 ):
+            break
+    
+    if( display ):
+        foo = np.where( color_mask, smoothed_masked_arr[:,:,0], 0 )
+        plt.imshow( foo )
+        plt.show()
+        
+    masked_arr = smoothed_masked_arr.copy()
+    masked_arr[~color_mask,0] = 255
+    masked_arr[~color_mask,1] = 255
+    masked_arr[~color_mask,2] = 255
+    
+    
+    # Blur again
+    smoothed_masked_img = Image.fromarray( masked_arr, 'RGB' )
+
+    smoothed_masked_img = smoothed_masked_img.filter( 
+                                            ImageFilter.Kernel( 
+                                                [ 5  ,
+                                                  5 ], 
+                                                np.ones(5**2) 
+                                            ) 
+                                        )
+
+    
+    # Repeat masking, to find where really close to the color
+    smoothed_masked_arr = arr_from_pil( smoothed_masked_img )
+    
+    # Find where original colors within some tolerance of mode
+    # If we cant find anything, 
+    mask_mult = 0
+    while ( mask_mult < 10 ):
+        mask_mult = mask_mult + 1
+        color_mask = (
+                        ( smoothed_masked_arr[:,:,0] > ( mode_list[0] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,0] < ( mode_list[0] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,1] > ( mode_list[1] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,1] < ( mode_list[1] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,2] > ( mode_list[2] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,2] < ( mode_list[2] + tolerance * mask_mult ) ) 
+                     )
+
+        mask_sum = np.sum( mask_mult )
+        if ( mask_sum > 1 ):
+            break
+    
+    if( display ):
+        foo = np.where( color_mask, smoothed_masked_arr[:,:,0], 0 )
+        plt.imshow( foo )
+        plt.show()
+
+    masked_arr = smoothed_masked_arr.copy()
+    masked_arr[~color_mask,0] = 255
+    masked_arr[~color_mask,1] = 255
+    masked_arr[~color_mask,2] = 255
+    
+    
+    # Blur again
+    smoothed_masked_img = Image.fromarray( masked_arr, 'RGB' )
+
+    smoothed_masked_img = smoothed_masked_img.filter( 
+                                            ImageFilter.Kernel( 
+                                                [ 5  ,
+                                                  5 ], 
+                                                np.ones(5**2) 
+                                            ) 
+                                        )
+
+    
+    # Repeat masking, to find where really close to the color
+    smoothed_masked_arr = arr_from_pil( smoothed_masked_img )
+    
+    # Find where original colors within some tolerance of mode
+    # If we cant find anything, 
+    mask_mult = 0
+    while ( mask_mult < 10 ):
+        mask_mult = mask_mult + 1
+        color_mask = (
+                        ( smoothed_masked_arr[:,:,0] > ( mode_list[0] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,0] < ( mode_list[0] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,1] > ( mode_list[1] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,1] < ( mode_list[1] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,2] > ( mode_list[2] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,2] < ( mode_list[2] + tolerance * mask_mult ) ) 
+                     )
+
+        mask_sum = np.sum( mask_mult )
+        if ( mask_sum > 1 ):
+            break
+    
+    if( display ):
+        foo = np.where( color_mask, smoothed_masked_arr[:,:,0], 0 )
+        plt.imshow( foo )
+        plt.show()
+        
+    masked_arr = smoothed_masked_arr.copy()
+    masked_arr[~color_mask,0] = 255
+    masked_arr[~color_mask,1] = 255
+    masked_arr[~color_mask,2] = 255
+    
+    
+    # Blur again
+    smoothed_masked_img = Image.fromarray( masked_arr, 'RGB' )
+
+    smoothed_masked_img = smoothed_masked_img.filter( 
+                                            ImageFilter.Kernel( 
+                                                [ 5  ,
+                                                  5 ], 
+                                                np.ones(5**2) 
+                                            ) 
+                                        )
+
+    
+    # Repeat masking, to find where really close to the color
+    smoothed_masked_arr = arr_from_pil( smoothed_masked_img )
+    
+    # Find where original colors within some tolerance of mode
+    # If we cant find anything, 
+    mask_mult = 0
+    while ( mask_mult < 10 ):
+        mask_mult = mask_mult + 1
+        color_mask = (
+                        ( smoothed_masked_arr[:,:,0] > ( mode_list[0] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,0] < ( mode_list[0] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,1] > ( mode_list[1] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,1] < ( mode_list[1] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,2] > ( mode_list[2] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,2] < ( mode_list[2] + tolerance * mask_mult ) ) 
+                     )
+
+        mask_sum = np.sum( mask_mult )
+        if ( mask_sum > 1 ):
+            break
+    
+    if( display ):
+        foo = np.where( color_mask, smoothed_masked_arr[:,:,0], 0 )
+        plt.imshow( foo )
+        plt.show()
+        
     masked_arr = inp_arr.copy()
     masked_arr[~color_mask,0] = 255
     masked_arr[~color_mask,1] = 255
     masked_arr[~color_mask,2] = 255
 
+    # Boundaries are noisy as fuck, get rid of that
+    bound = 5
+    for i in range(0,3):
+        masked_arr[:bound,:] = 255
+        masked_arr[-bound:,:] = 255
+        masked_arr[:,:bound] = 255
+        masked_arr[:,-bound:] = 255
+    
     return color_mask, masked_arr
 
 # Returns slope of lego
@@ -381,13 +565,13 @@ def get_img_edge_data(
 
     
     # Get indexes containing lego
-    color_mask = color_select( 
-                                    pp_img_arr,
-                                    n_color_groups = n_color_groups  ,
-                                    tolerance      = tolerance       ,
-                                    center_size    = center_size     ,
-                                    display        = display         ,
-                             )
+    color_mask, masked_arr = color_select( 
+                                                pp_img_arr,
+                                                n_color_groups = n_color_groups  ,
+                                                tolerance      = tolerance       ,
+                                                center_size    = center_size     ,
+                                                display        = display         ,
+                                         )
 
     # Inclination, and axis intercept, of lego image
     slope, intercept = lego_orientation( 
@@ -396,7 +580,7 @@ def get_img_edge_data(
     
     # Rotate so lego horizontal
     rot_arr = reorient_lego( 
-                                pp_img_arr, 
+                                masked_arr, 
                                 slope, 
                                 intercept, 
                                 display = display,
