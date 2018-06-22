@@ -22,14 +22,15 @@ import edge_feature_generation as efg
 sys.path.append("/home/sean/Insight/legos/tensorbox")
 import pred_location as pl
 
+_DIR = '/home/sean/Insight/legos/classification/'
 
-with open('data/height_logistic_clf.pkl','r') as f:
+with open(_DIR+'data/height_logistic_clf.pkl','r') as f:
     _LOGISTIC_HEIGHT_CLF = pkl.load( f )
-with open('data/short_logistic_clf.pkl','r') as f:
+with open(_DIR+'data/short_logistic_clf.pkl','r') as f:
     _LOGISTIC_SHORT_CLF  = pkl.load( f )
-with open('data/long_logistic_clf.pkl','r') as f:
+with open(_DIR+'data/long_logistic_clf.pkl','r') as f:
     _LOGISTIC_LONG_CLF   = pkl.load( f )
-with open('data/row_col_pca.pkl'      ,'r') as f:
+with open(_DIR+'data/row_col_pca.pkl'      ,'r') as f:
     _RC_PCA              = pkl.load( f )
     
 _SHORT_NUMS = [1,2,4,6,8]
@@ -188,9 +189,9 @@ def get_img_bbox(
         # Expand to the box to really make sure we have the lego
         # But make sure we don't go out of the box
         x_1 = max( x_1 + width / 2 * ( 1 - box_scale ),             0 )
-        x_2 = min( x_2 - width / 2 * ( 1 - box_scale ), img.size[0]-1 )
+        x_2 = min( x_2 - width / 2 * ( 1 - box_scale ), inp_img.size[0]-1 )
         y_1 = max( y_1 + width / 2 * ( 1 - box_scale ),             0 ) 
-        y_2 = min( y_2 - width / 2 * ( 1 - box_scale ), img.size[1]-1 )
+        y_2 = min( y_2 - width / 2 * ( 1 - box_scale ), inp_img.size[1]-1 )
 
         # Repopulate dictionary
         fixed_rect_dict_list.append(
@@ -265,7 +266,7 @@ def generate_prediction_string(
                                 inp_file_name
                               ):
     
-    cropped_arr_list = crop_legos( file_name, box_scale=1.1 )
+    cropped_arr_list = crop_legos( inp_file_name, box_scale=1.1 )
     
     block_list = []
     
