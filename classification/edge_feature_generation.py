@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 
 def arr_from_pil( inp_image ):
     channels = np.array( inp_image )
-    r_ch = channels[:,:,0].reshape( inp_image.size[0], inp_image.size[1] )
-    g_ch = channels[:,:,1].reshape( inp_image.size[0], inp_image.size[1] )
-    b_ch = channels[:,:,2].reshape( inp_image.size[0], inp_image.size[1] )
+    r_ch = channels[:,:,0].reshape( inp_image.size[1], inp_image.size[0] )
+    g_ch = channels[:,:,1].reshape( inp_image.size[1], inp_image.size[0] )
+    b_ch = channels[:,:,2].reshape( inp_image.size[1], inp_image.size[0] )
     
     return np.swapaxes( np.swapaxes( np.array([r_ch,g_ch,b_ch]), 0, 2 ), 0, 1 )
 
@@ -30,6 +30,8 @@ def resize_blur(
         raw_img = Image.open( inp_image )        
     elif isinstance( inp_image, Image.Image ):
         raw_img = inp_image
+    elif isinstance( inp_image, np.ndarray ):
+        raw_img = Image.fromarray( inp_image, 'RGB' )
     else:
         raise TypeError('inp_image must be path to image or Pillow Image object')
 
@@ -157,7 +159,58 @@ def color_select(
         plt.show()
         plt.imshow( foo )
         plt.show()
-    return color_mask
+        
+    # Mask the array, to try to remove background noise
+    masked_arr = inp_arr.copy()
+    masked_arr[~color_mask,0] = 255
+    masked_arr[~color_mask,1] = 255
+    masked_arr[~color_mask,2] = 255
+        
+    
+    # Blur again
+    smoothed_masked_img = Image.fromarray( masked_arr, 'RGB' )
+
+    smoothed_masked_img = smoothed_masked_img.filter( 
+                                            ImageFilter.Kernel( 
+                                                [ 5  ,
+                                                  5 ], 
+                                                np.ones(5**2) 
+                                            ) 
+                                        )
+
+    
+    # Repeat masking, to find where really close to the color
+    smoothed_masked_arr = arr_from_pil( smoothed_masked_img )
+    
+    # Find where original colors within some tolerance of mode
+    # If we cant find anything, 
+    mask_mult = 0
+    while ( mask_mult < 10 ):
+        mask_mult = mask_mult + 1
+        color_mask = (
+                        ( smoothed_masked_arr[:,:,0] > ( mode_list[0] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,0] < ( mode_list[0] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,1] > ( mode_list[1] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,1] < ( mode_list[1] + tolerance * mask_mult ) ) &
+                        ( smoothed_masked_arr[:,:,2] > ( mode_list[2] - tolerance * mask_mult ) ) & 
+                        ( smoothed_masked_arr[:,:,2] < ( mode_list[2] + tolerance * mask_mult ) ) 
+                     )
+
+        mask_sum = np.sum( mask_mult )
+        if ( mask_sum > 1 ):
+            break
+    
+    if( display ):
+        foo = np.where( color_mask, smoothed_masked_arr[:,:,0], 0 )
+        plt.imshow( foo )
+        plt.show()
+        
+    masked_arr = inp_arr.copy()
+    masked_arr[~color_mask,0] = 255
+    masked_arr[~color_mask,1] = 255
+    masked_arr[~color_mask,2] = 255
+
+    return color_mask, masked_arr
 
 # Returns slope of lego
 # Note this doesnt match picture, as y axis flipped
