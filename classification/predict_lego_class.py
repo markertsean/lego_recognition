@@ -150,9 +150,7 @@ def generate_feature_array(
                           ):
     row_col_arr = np.concatenate( ( row_arr, col_arr ) , axis=0 )
     rc_pca_vals = _RC_PCA.transform( row_col_arr.reshape(1,-1) )
-    
-    print rc_pca_vals.shape
-    
+        
     return np.concatenate( ( np.array([rc_ratio]).reshape(1,-1), rc_pca_vals ) , axis=1 )
 
 
