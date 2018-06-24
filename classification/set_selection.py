@@ -34,6 +34,9 @@ _USEABLE_BLOCKS = [
                     'brick_2x6' ,
                   ]
 
+set_df  = pd.read_csv('/home/sean/Insight/legos/classification/data/lego_set_parts.csv'      ).drop(['Unnamed: 0'],axis=1)
+part_df = pd.read_csv('/home/sean/Insight/legos/classification/data/individual_set_parts.csv').drop(['Unnamed: 0'],axis=1)
+
 def select_valid_sets(
                         inp_dict,
                      ):
@@ -79,29 +82,39 @@ def return_rec_set(
     
 def get_needed_parts(
                         rec_set,
-                        all_part_df,
                         part_dict,
                     ):
+    
+    all_part_df = part_df
+    
     set_id = rec_set['set_id']
     
     set_part_df = all_part_df[ all_part_df['set_id'] == set_id ]
     
-    # Get list of all the bricks in the set, and all the plates
-    brick_list  = [ block for block in set_part_df['part_name'].unique() if ( ('Brick' in block) and ( len(block) < 11 ) ) ]
-    plate_list  = [ block for block in set_part_df['part_name'].unique() if ( ('Plate' in block) and ( len(block) < 11 ) ) ]
-    other_list  = [ block for block in set_part_df['part_name'].unique() if ( 
-                                                                            ( block not in brick_list ) and 
-                                                                            ( block not in plate_list ) ) ]
+    set_part_list = set_part_df['part_name'].unique()
     
+    # Get list of all the bricks in the set, and all the plates
+    brick_list  = [ block for block in part_dict.keys() if ( 
+                                                             ('brick' in block) and 
+                                                             (block[0].upper() + block[1:].replace('_',' ').replace('x','X') in set_part_list ) and 
+                                                             ( len(block) < 11 ) ) ]
+    plate_list  = [ block for block in part_dict.keys() if ( 
+                                                             ('plate' in block) and 
+                                                             (block[0].upper() + block[1:].replace('_',' ').replace('x','X') in set_part_list ) and 
+                                                             ( len(block) < 11 ) ) ]
+    other_list  = [ block for block in set_part_df['part_name'].unique() if ( 
+                                                                            ( block.replace(' ','_').lower() not in brick_list ) and 
+                                                                            ( block.replace(' ','_').lower() not in plate_list ) ) ]
     parts_needed = {}
     parts_have   = {}
+    
     
     for part in other_list:
         parts_needed[part] = set_part_df.loc[ set_part_df['part_name']==part ]['quantity'].values[0]
         
     for part_list in [brick_list,plate_list]:
         for part in part_list:
-            parts_have[part] = set_part_df.loc[ set_part_df['part_name']==part ]['quantity'].values[0]
-    
-    print parts_needed
-    print parts_have
+            read_part = part[0].upper() + part[1:].replace('_',' ').replace('x','X')
+            parts_have[read_part] = set_part_df.loc[ set_part_df['part_name']==read_part ]['quantity'].values[0]
+            
+    return parts_have, parts_needed

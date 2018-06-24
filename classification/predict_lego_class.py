@@ -280,7 +280,7 @@ def generate_prediction_string(
         long_str   = get_short_predict ( feature_arr )[0].split('_')[1]
         short_str  = get_long_predict  ( feature_arr )[0].split('_')[1]
         
-        full_str = short_str+'x'+long_str+' '+height_str
+        full_str = height_str[0].upper()+height_str[1:]+' '+short_str+'X'+long_str
         
         block_list.append( full_str )
     return block_list
