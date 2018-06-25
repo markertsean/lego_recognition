@@ -36,6 +36,7 @@ _USEABLE_BLOCKS = [
 
 set_df  = pd.read_csv('/home/sean/Insight/legos/classification/data/lego_set_parts.csv'      ).drop(['Unnamed: 0'],axis=1)
 part_df = pd.read_csv('/home/sean/Insight/legos/classification/data/individual_set_parts.csv').drop(['Unnamed: 0'],axis=1)
+info_df = pd.read_csv('/home/sean/Insight/legos/classification/data/set_name_url.csv'        ).drop(['Unnamed: 0'],axis=1)
 
 def select_valid_sets(
                         inp_dict,
@@ -77,7 +78,11 @@ def return_rec_set(
                   ):
     
     ind = inp_df.index.values[0]
-    return inp_df.loc[ind]
+    out_df = inp_df.loc[ind].copy()
+    new_ind = info_df['set_id'] == out_df['set_id']
+    out_df['set_name'] = info_df.loc[ new_ind, 'set_title'].values[0]
+    out_df['set_url' ] = info_df.loc[ new_ind, 'set_url'  ].values[0]
+    return out_df
     
     
 def get_needed_parts(
