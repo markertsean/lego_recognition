@@ -251,12 +251,13 @@ def locate_edges(
 def get_edge_features(
                         inp_arr,
                         display = False,
+                        edge_buffer = 1,
                      ):
     
     # Get the sum of rows and columns
     # Ignore very edges
-    inp_arr_row = np.sum( inp_arr[1:-1,1:-1], axis=1 )
-    inp_arr_col = np.sum( inp_arr[1:-1,1:-1], axis=0 )
+    inp_arr_row = np.sum( inp_arr[edge_buffer:-edge_buffer,edge_buffer:-edge_buffer], axis=1 )
+    inp_arr_col = np.sum( inp_arr[edge_buffer:-edge_buffer,edge_buffer:-edge_buffer], axis=0 )
 
     # Normalizations
     row_norm    = np.average( inp_arr_row )
@@ -307,10 +308,13 @@ def get_img_edge_data(
                         n_mode_iter    = 30  ,
                         center_size    =  0.1,
                         edge_cutoff    = 50  ,
+                        edge_buffer    =  1  ,
                         display        = False,
                         square         = False,
                         edge_smooth    = False,
                         display_orientation=False,
+                        rot_img        = True,
+                        ret_arr        = False,
                      ):
     
     # Smooth the image
@@ -327,18 +331,22 @@ def get_img_edge_data(
                                                 display        = display         ,
                                          )
 
-    # Inclination, and axis intercept, of lego image
-    slope, intercept = lego_orientation( 
-                                            color_mask,
-                                       )
-    
-    # Rotate so lego horizontal
-    rot_arr = reorient_lego( 
-                                masked_arr, 
-                                slope, 
-                                intercept, 
-                                display = (display or display_orientation),
-                          )
+    if ( rot_img ):
+        # Inclination, and axis intercept, of lego image
+        slope, intercept = lego_orientation( 
+                                                color_mask,
+                                           )
+
+        # Rotate so lego horizontal
+        rot_arr = reorient_lego( 
+                                    masked_arr, 
+                                    slope, 
+                                    intercept, 
+                                    display = (display or display_orientation),
+                              )
+
+    else:
+        rot_arr = masked_arr
 
     # Get the edges
     edge_arr = locate_edges( 
@@ -348,10 +356,14 @@ def get_img_edge_data(
                                 cutoff=edge_cutoff,
                                 display=display
                            )
+    
+    if ( ret_arr ):
+        return edge_arr
 
     # Get the edge features out
     r_c, row_vals, col_vals = get_edge_features( 
                                                     edge_arr,
+                                                    edge_buffer=edge_buffer,
                                                     display=display,
                                                ) 
     

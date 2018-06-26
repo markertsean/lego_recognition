@@ -182,3 +182,21 @@ def gen_dirty_labels():
     my_frame['label'] = hl_list
 
     return gen_all_labels( my_frame, img_labels )
+
+
+def gen_retrain_labels():
+    
+    # Get the images with a white background, and their labels
+    img_list, img_labels = glists.get_retrain_images_labels()
+    
+    # Create df with image paths
+    my_frame = pd.DataFrame()
+    my_frame['img_path'] = img_list
+    
+    # Get human readable labels
+    hl_list = []
+    for img in img_list:
+        hl_list.append( img_labels[img] )
+    my_frame['label'] = hl_list
+
+    return gen_all_labels( my_frame, img_labels )

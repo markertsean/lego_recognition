@@ -64,3 +64,12 @@ def get_dirty_images_labels():
                                     inp_dir = '/home/sean/Desktop/lego_images_bounding_box_dirty/',
                                     dirty   = True
                                   )
+
+# For noisy images, need to do the same
+#  as white images, but only for rescale
+#  not for mult
+def get_retrain_images_labels():
+    return get_white_images_labels(
+                                    inp_dir = '/home/sean/Desktop/lego_dirty_close/',
+                                    dirty   = True
+                                  )
