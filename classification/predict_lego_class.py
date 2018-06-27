@@ -277,8 +277,8 @@ def generate_prediction_string(
         feature_arr = generate_feature_array( rc_ratio, row_avg, col_avg )
         
         height_str = get_height_predict( feature_arr )[0].split('_')[1]
-        long_str   = get_short_predict ( feature_arr )[0].split('_')[1]
-        short_str  = get_long_predict  ( feature_arr )[0].split('_')[1]
+        short_str  = get_short_predict ( feature_arr )[0].split('_')[1]
+        long_str   = get_long_predict  ( feature_arr )[0].split('_')[1]
         
         full_str = height_str[0].upper()+height_str[1:]+' '+short_str+'X'+long_str
         
